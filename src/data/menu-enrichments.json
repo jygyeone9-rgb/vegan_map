@@ -7,7 +7,13 @@
       "sourceName": "베러초이스 공식몰",
       "checkedAt": "2026-10-17",
       "channel": "online",
-      "note": "공식몰 상품 1개 기준 · 배송비 별도 · 옵션과 매장 가격은 다를 수 있음"
+      "note": "공식몰 상품 1개 기준 · 배송비 별도 · 옵션과 매장 가격은 다를 수 있음",
+      "sourceKind": "official",
+      "qualifier": "exact",
+      "restaurantId": "seoul-287",
+      "restaurantName": "베러초이스",
+      "sourceAddress": "서울 성동구 연무장5길 9-13 LOOOP 매장 내",
+      "publishedMenuName": "앙금빵"
     },
     "photoReferenceUrl": "https://betterchoice.kr/goods/goods_view.php?goodsNo=1000000042",
     "photoReferenceLabel": "공식 상품 사진 보기",
@@ -25,7 +31,13 @@
       "sourceName": "베러초이스 공식몰",
       "checkedAt": "2026-10-17",
       "channel": "online",
-      "note": "공식몰 상품 1개 기준 · 배송비 별도 · 옵션과 매장 가격은 다를 수 있음"
+      "note": "공식몰 상품 1개 기준 · 배송비 별도 · 옵션과 매장 가격은 다를 수 있음",
+      "sourceKind": "official",
+      "qualifier": "exact",
+      "restaurantId": "seoul-287",
+      "restaurantName": "베러초이스",
+      "sourceAddress": "서울 성동구 연무장5길 9-13 LOOOP 매장 내",
+      "publishedMenuName": "옥수슈 크림 파운드"
     },
     "photoReferenceUrl": "https://betterchoice.kr/goods/goods_view.php?goodsNo=1000000023",
     "photoReferenceLabel": "공식 상품 사진 보기",
@@ -43,13 +55,427 @@
       "sourceName": "베러초이스 공식몰",
       "checkedAt": "2026-10-17",
       "channel": "online",
-      "note": "공식몰 상품 1개 기준 · 배송비 별도 · 옵션과 매장 가격은 다를 수 있음"
+      "note": "공식몰 상품 1개 기준 · 배송비 별도 · 옵션과 매장 가격은 다를 수 있음",
+      "sourceKind": "official",
+      "qualifier": "exact",
+      "restaurantId": "seoul-287",
+      "restaurantName": "베러초이스",
+      "sourceAddress": "서울 성동구 연무장5길 9-13 LOOOP 매장 내",
+      "publishedMenuName": "애플 시나몬 파운드"
     },
     "photoReferenceUrl": "https://betterchoice.kr/goods/goods_view.php?goodsNo=1000000049",
     "photoReferenceLabel": "공식 상품 사진 보기",
     "descriptionUpdate": {
       "text": "공식몰에서 비건 제품으로 소개하는 애플 시나몬 파운드입니다. 구성과 옵션은 상품 페이지에서 확인해 주세요.",
       "sourceUrl": "https://betterchoice.kr/goods/goods_view.php?goodsNo=1000000049",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-279-m03",
+    "price": 5500,
+    "priceVerification": {
+      "sourceUrl": "https://www.tabling.co.kr/place/68ecb32b36ac0da802902589",
+      "sourceName": "테이블링",
+      "sourceKind": "platform",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "qualifier": "exact",
+      "restaurantId": "seoul-279",
+      "restaurantName": "글루닉",
+      "sourceAddress": "서울특별시 성동구 서울숲2길 16-12 1층",
+      "publishedMenuName": "비건 오트밀 크럼블파이 GF ,VG",
+      "note": "외부 플랫폼 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요"
+    },
+    "photoReferenceUrl": "https://www.tabling.co.kr/place/68ecb32b36ac0da802902589",
+    "photoReferenceLabel": "메뉴 사진·등록 정보 보기",
+    "descriptionUpdate": {
+      "text": "오트밀 크럼블 파이입니다. 등록 메뉴에 비건(VG)으로 표시되어 있습니다.",
+      "sourceUrl": "https://www.tabling.co.kr/place/68ecb32b36ac0da802902589",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-281-m01",
+    "price": 10500,
+    "priceVerification": {
+      "sourceUrl": "https://www.daangn.com/kr/local-profile/%EB%A5%B4%EB%B2%A0%EC%A7%80%EC%99%95-92ca67dksao3/",
+      "sourceName": "당근 업체 프로필",
+      "sourceKind": "platform",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "qualifier": "from",
+      "restaurantId": "seoul-281",
+      "restaurantName": "르베지왕 성수공간",
+      "sourceAddress": "서울 성동구 연무장1길 15-1 1층",
+      "publishedMenuName": "템버볼 (템페 버섯볼 포케)",
+      "note": "외부 플랫폼 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요 · 프로필에 표시된 시작 가격 · 다른 자료와 가격 차이 있음"
+    },
+    "photoReferenceUrl": "",
+    "photoReferenceLabel": "",
+    "descriptionUpdate": {
+      "text": "템페와 버섯을 곁들이는 포케입니다. 등록 자료의 ‘텝버볼’을 현재 프로필의 ‘템버볼’에 대응했습니다. 드레싱과 토핑은 주문 전에 확인해 주세요.",
+      "sourceUrl": "https://www.daangn.com/kr/local-profile/%EB%A5%B4%EB%B2%A0%EC%A7%80%EC%99%95-92ca67dksao3/",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-281-m02",
+    "price": 11900,
+    "priceVerification": {
+      "sourceUrl": "https://www.daangn.com/kr/local-profile/%EB%A5%B4%EB%B2%A0%EC%A7%80%EC%99%95-92ca67dksao3/",
+      "sourceName": "당근 업체 프로필",
+      "sourceKind": "platform",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "qualifier": "from",
+      "restaurantId": "seoul-281",
+      "restaurantName": "르베지왕 성수공간",
+      "sourceAddress": "서울 성동구 연무장1길 15-1 1층",
+      "publishedMenuName": "두아볼 (두부 아보카도볼 포케)",
+      "note": "외부 플랫폼 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요 · 프로필에 표시된 시작 가격"
+    },
+    "photoReferenceUrl": "",
+    "photoReferenceLabel": "",
+    "descriptionUpdate": {
+      "text": "두부와 아보카도를 곁들이는 포케입니다. 드레싱·믹서와 추가 토핑의 재료는 별도 확인이 필요합니다.",
+      "sourceUrl": "https://www.daangn.com/kr/local-profile/%EB%A5%B4%EB%B2%A0%EC%A7%80%EC%99%95-92ca67dksao3/",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-283-m01",
+    "price": 13000,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=OwowaNj2BwVX",
+      "sourceName": "다이닝코드",
+      "sourceKind": "platform",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "qualifier": "exact",
+      "restaurantId": "seoul-283",
+      "restaurantName": "리프레쉬먼트",
+      "sourceAddress": "서울특별시 성동구 상원길 77 상가동 1층 refreshment",
+      "publishedMenuName": "비빔밥",
+      "note": "외부 플랫폼 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요 · 다른 플랫폼의 12,000원 표기와 차이 있어 재확인 필요"
+    },
+    "photoReferenceUrl": "https://www.tabling.co.kr/place/677cd32766de5f06988b0b9d",
+    "photoReferenceLabel": "메뉴 사진·등록 정보 보기",
+    "descriptionUpdate": {
+      "text": "보리밥과 채소를 곁들이는 비빔밥입니다. 장아찌와 간장 소스의 세부 재료는 매장에 확인해 주세요.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=OwowaNj2BwVX",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-283-m02",
+    "price": 12000,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=OwowaNj2BwVX",
+      "sourceName": "다이닝코드",
+      "sourceKind": "platform",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "qualifier": "exact",
+      "restaurantId": "seoul-283",
+      "restaurantName": "리프레쉬먼트",
+      "sourceAddress": "서울특별시 성동구 상원길 77 상가동 1층 refreshment",
+      "publishedMenuName": "허머스 샐러드",
+      "note": "외부 플랫폼 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요"
+    },
+    "photoReferenceUrl": "https://www.tabling.co.kr/place/677cd32766de5f06988b0b9d",
+    "photoReferenceLabel": "메뉴 사진·등록 정보 보기",
+    "descriptionUpdate": {
+      "text": "병아리콩으로 만든 허머스와 채소, 빵을 곁들이는 샐러드입니다. 빵과 소스의 전체 재료는 별도 확인이 필요합니다.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=OwowaNj2BwVX",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-288-m01",
+    "price": 4500,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=CMPEXqW0UFUi",
+      "sourceName": "다이닝코드",
+      "sourceKind": "platform",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "qualifier": "exact",
+      "restaurantId": "seoul-288",
+      "restaurantName": "본노엘 성수점",
+      "sourceAddress": "서울특별시 성동구 상원길 64 1층",
+      "publishedMenuName": "[비건]플레인 치아바타",
+      "note": "외부 플랫폼 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요"
+    },
+    "photoReferenceUrl": "",
+    "photoReferenceLabel": "",
+    "descriptionUpdate": {
+      "text": "등록 메뉴에 비건으로 표시된 플레인 치아바타입니다. 다른 치즈 치아바타와 구분해 주문해 주세요.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=CMPEXqW0UFUi",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-288-m02",
+    "price": 2500,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=CMPEXqW0UFUi",
+      "sourceName": "다이닝코드",
+      "sourceKind": "platform",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "qualifier": "exact",
+      "restaurantId": "seoul-288",
+      "restaurantName": "본노엘 성수점",
+      "sourceAddress": "서울특별시 성동구 상원길 64 1층",
+      "publishedMenuName": "[비건]바게트",
+      "note": "외부 플랫폼 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요"
+    },
+    "photoReferenceUrl": "",
+    "photoReferenceLabel": "",
+    "descriptionUpdate": {
+      "text": "등록 메뉴에 비건으로 표시된 기본 바게트입니다. 앙버터·초코·산딸기 바게트와는 별개 메뉴입니다.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=CMPEXqW0UFUi",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-291-m01",
+    "price": 8800,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/4MsguS/%EC%9D%BC%ED%98%B8%EB%B9%B5",
+      "sourceName": "뽈레",
+      "sourceKind": "platform",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "qualifier": "exact",
+      "restaurantId": "seoul-291",
+      "restaurantName": "일호빵",
+      "sourceAddress": "서울특별시 성동구 둘레15길 11 1층",
+      "publishedMenuName": "무화과크렌베리깜삐뉴",
+      "note": "외부 플랫폼 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요"
+    },
+    "photoReferenceUrl": "",
+    "photoReferenceLabel": "",
+    "descriptionUpdate": {
+      "text": "무화과와 크랜베리를 넣은 깜빠뉴입니다. 당일 생산·판매 여부와 세부 재료는 매장에 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/4MsguS/%EC%9D%BC%ED%98%B8%EB%B9%B5",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-291-m02",
+    "price": 4400,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=GTO5k4LmTzkG",
+      "sourceName": "다이닝코드",
+      "sourceKind": "platform",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "qualifier": "exact",
+      "restaurantId": "seoul-291",
+      "restaurantName": "일호빵",
+      "sourceAddress": "서울특별시 성동구 둘레15길 11 1층",
+      "publishedMenuName": "플레인 바게뜨",
+      "note": "외부 플랫폼 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요"
+    },
+    "photoReferenceUrl": "",
+    "photoReferenceLabel": "",
+    "descriptionUpdate": {
+      "text": "기본 바게트입니다. 기존 등록명의 ‘플래인 바게트’와 현재 메뉴의 ‘플레인 바게뜨’를 대응했습니다.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=GTO5k4LmTzkG",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-291-m03",
+    "price": 5500,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/4MsguS/%EC%9D%BC%ED%98%B8%EB%B9%B5",
+      "sourceName": "뽈레",
+      "sourceKind": "platform",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "qualifier": "exact",
+      "restaurantId": "seoul-291",
+      "restaurantName": "일호빵",
+      "sourceAddress": "서울특별시 성동구 둘레15길 11 1층",
+      "publishedMenuName": "올리브치즈 바타르",
+      "note": "외부 플랫폼 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요"
+    },
+    "photoReferenceUrl": "",
+    "photoReferenceLabel": "",
+    "descriptionUpdate": {
+      "text": "올리브와 치즈를 넣은 바타르입니다. 치즈가 유제품인지 식물성인지 확인되지 않았습니다. 기존 비건 분류와 현재 제품이 일치하는지 주문 전 매장에 재확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/4MsguS/%EC%9D%BC%ED%98%B8%EB%B9%B5",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-292-m01",
+    "price": 15000,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=TCSLQAPsxqrb",
+      "sourceName": "다이닝코드",
+      "sourceKind": "platform",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "qualifier": "exact",
+      "restaurantId": "seoul-292",
+      "restaurantName": "채육식당 성수점",
+      "sourceAddress": "서울특별시 성동구 아차산로15길 52 삼환디지털벤처타워 1층",
+      "publishedMenuName": "콩고기 제육 정식",
+      "note": "외부 플랫폼 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요"
+    },
+    "photoReferenceUrl": "https://chaeyuk.com/bbs/content.php?co_id=menu",
+    "photoReferenceLabel": "브랜드 메뉴 사진 보기 (지점별 구성 상이)",
+    "descriptionUpdate": {
+      "text": "콩고기를 사용하는 정식 메뉴입니다. 비건 주문 시 계란후라이 제외를 요청하고, 반찬·국의 육수와 양념도 매장에 확인해 주세요.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=TCSLQAPsxqrb",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-292-m02",
+    "price": 15000,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=TCSLQAPsxqrb",
+      "sourceName": "다이닝코드",
+      "sourceKind": "platform",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "qualifier": "exact",
+      "restaurantId": "seoul-292",
+      "restaurantName": "채육식당 성수점",
+      "sourceAddress": "서울특별시 성동구 아차산로15길 52 삼환디지털벤처타워 1층",
+      "publishedMenuName": "콩고기 갈비 제육 정식",
+      "note": "외부 플랫폼 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요"
+    },
+    "photoReferenceUrl": "https://chaeyuk.com/bbs/content.php?co_id=menu",
+    "photoReferenceLabel": "브랜드 메뉴 사진 보기 (지점별 구성 상이)",
+    "descriptionUpdate": {
+      "text": "콩고기를 사용하는 정식 메뉴입니다. 비건 주문 시 계란후라이 제외를 요청하고, 반찬·국의 육수와 양념도 매장에 확인해 주세요.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=TCSLQAPsxqrb",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-300-m01",
+    "price": 15000,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=fLVxVlAUf1VO",
+      "sourceName": "다이닝코드",
+      "sourceKind": "platform",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "qualifier": "exact",
+      "restaurantId": "seoul-300",
+      "restaurantName": "채육식당 군자점",
+      "sourceAddress": "서울특별시 광진구 천호대로 512 1층",
+      "publishedMenuName": "콩고기 제육 정식",
+      "note": "외부 플랫폼 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요"
+    },
+    "photoReferenceUrl": "https://chaeyuk.com/bbs/content.php?co_id=menu",
+    "photoReferenceLabel": "브랜드 메뉴 사진 보기 (지점별 구성 상이)",
+    "descriptionUpdate": {
+      "text": "콩고기를 사용하는 정식 메뉴입니다. 비건 주문 시 계란후라이 제외를 요청하고, 반찬·국의 육수와 양념도 매장에 확인해 주세요.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=fLVxVlAUf1VO",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-300-m02",
+    "price": 15000,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=fLVxVlAUf1VO",
+      "sourceName": "다이닝코드",
+      "sourceKind": "platform",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "qualifier": "exact",
+      "restaurantId": "seoul-300",
+      "restaurantName": "채육식당 군자점",
+      "sourceAddress": "서울특별시 광진구 천호대로 512 1층",
+      "publishedMenuName": "콩고기 갈비 제육 정식",
+      "note": "외부 플랫폼 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요"
+    },
+    "photoReferenceUrl": "https://chaeyuk.com/bbs/content.php?co_id=menu",
+    "photoReferenceLabel": "브랜드 메뉴 사진 보기 (지점별 구성 상이)",
+    "descriptionUpdate": {
+      "text": "콩고기를 사용하는 정식 메뉴입니다. 비건 주문 시 계란후라이 제외를 요청하고, 반찬·국의 육수와 양념도 매장에 확인해 주세요.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=fLVxVlAUf1VO",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-295-m01",
+    "price": 12000,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=x4lhuSymFkNx",
+      "sourceName": "다이닝코드",
+      "sourceKind": "platform",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "qualifier": "exact",
+      "restaurantId": "seoul-295",
+      "restaurantName": "푸드갤러리빈",
+      "sourceAddress": "서울특별시 성동구 왕십리로6길 19-7 1층",
+      "publishedMenuName": "쌈장두부비빔밥",
+      "note": "외부 플랫폼 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요"
+    },
+    "photoReferenceUrl": "",
+    "photoReferenceLabel": "",
+    "descriptionUpdate": {
+      "text": "두부에 쌈장을 곁들이는 비빔밥입니다. 쌈장·곁들임·육수의 동물성 재료 포함 여부는 별도 확인이 필요합니다.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=x4lhuSymFkNx",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-299-m01",
+    "price": 14000,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=az98pzez7TGk",
+      "sourceName": "다이닝코드",
+      "sourceKind": "platform",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "qualifier": "exact",
+      "restaurantId": "seoul-299",
+      "restaurantName": "슬로우브레드 오고",
+      "sourceAddress": "서울특별시 광진구 자양로26길 95 1층 102호",
+      "publishedMenuName": "무화과 호밀빵 (Rye & Fig)",
+      "note": "외부 플랫폼 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요"
+    },
+    "photoReferenceUrl": "",
+    "photoReferenceLabel": "",
+    "descriptionUpdate": {
+      "text": "무화과를 넣은 호밀 발효빵입니다. 등록 메뉴에서는 비건 사워도우로 소개합니다.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=az98pzez7TGk",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-299-m02",
+    "price": 9000,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=az98pzez7TGk",
+      "sourceName": "다이닝코드",
+      "sourceKind": "platform",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "qualifier": "exact",
+      "restaurantId": "seoul-299",
+      "restaurantName": "슬로우브레드 오고",
+      "sourceAddress": "서울특별시 광진구 자양로26길 95 1층 102호",
+      "publishedMenuName": "통밀 시골빵",
+      "note": "외부 플랫폼 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요"
+    },
+    "photoReferenceUrl": "",
+    "photoReferenceLabel": "",
+    "descriptionUpdate": {
+      "text": "통밀을 사용한 식사용 깜빠뉴입니다. 등록 메뉴에서는 비건 사워도우로 소개합니다. 통밀 100% 제품과 구분해 주세요.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=az98pzez7TGk",
       "checkedAt": "2026-10-17"
     }
   }

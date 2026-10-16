@@ -85,7 +85,14 @@ for (const update of updates) {
   const v = update.priceVerification;
   assert.ok(v && safeUrl(v.sourceUrl) && date(v.checkedAt) && v.sourceName && v.note);
   assert.ok(['online', 'store'].includes(v.channel));
-  assert.ok(safeUrl(update.photoReferenceUrl));
+  assert.ok(['official', 'platform'].includes(v.sourceKind));
+  assert.ok(['exact', 'from'].includes(v.qualifier));
+  const base = menus.find(m => m.id === update.id);
+  const venue = restaurants.find(r => r.id === base.restaurantId);
+  assert.equal(v.restaurantId, venue.id, 'Price evidence must match the branch');
+  assert.equal(v.restaurantName, venue.name, 'Price branch name mismatch');
+  assert.ok(v.sourceAddress && v.publishedMenuName, 'Source address and actual published menu name required');
+  assert.ok(!update.photoReferenceUrl || (safeUrl(update.photoReferenceUrl) && update.photoReferenceLabel));
   assert.ok(update.descriptionUpdate.text && safeUrl(update.descriptionUpdate.sourceUrl) && date(update.descriptionUpdate.checkedAt));
   assert.ok(Object.keys(update).every(k => ['id','price','priceVerification','descriptionUpdate','photoReferenceUrl','photoReferenceLabel'].includes(k)), 'Enrichment cannot override ingredient or photo consent evidence');
 }
