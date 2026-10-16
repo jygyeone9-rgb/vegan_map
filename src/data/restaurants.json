@@ -1,0 +1,26 @@
+[
+  {
+    "id": "sample-01", "isSample": true, "name": "샘플 비건 키친", "branch": "왕십리 예시점",
+    "district": "성동구", "neighborhood": "왕십리·행당", "stations": ["왕십리역", "한양대역"], "nearHanyang": true,
+    "address": "실제 주소 미등록", "lat": 37.5618, "lng": 127.0386, "category": "한식", "venueType": "pending",
+    "hours": "확인 중", "closedDays": "확인 중", "description": "한양대학교 인근에서 시작하는 한 끼 지도의 화면 확인용 장소입니다. 실제 영업하는 식당이 아닙니다.",
+    "verification": {"status": "pending", "method": "조사 전", "checkedAt": null, "sourceUrl": ""},
+    "links": {"naver": "", "google": "", "website": "", "instagram": ""}
+  },
+  {
+    "id": "sample-02", "isSample": true, "name": "샘플 플랜트 카페", "branch": "건대 예시점",
+    "district": "광진구", "neighborhood": "건대입구", "stations": ["건대입구역"], "nearHanyang": false,
+    "address": "실제 주소 미등록", "lat": 37.5408, "lng": 127.0693, "category": "카페·베이커리", "venueType": "pending",
+    "hours": "확인 중", "closedDays": "확인 중", "description": "음료와 베이커리를 메뉴별로 기록하기 위한 가상 카페입니다. 우유, 버터, 달걀과 토핑을 각각 확인합니다.",
+    "verification": {"status": "pending", "method": "조사 전", "checkedAt": null, "sourceUrl": ""},
+    "links": {"naver": "", "google": "", "website": "", "instagram": ""}
+  },
+  {
+    "id": "sample-03", "isSample": true, "name": "샘플 그린 테이블", "branch": "을지로 예시점",
+    "district": "중구", "neighborhood": "을지로", "stations": ["을지로3가역"], "nearHanyang": false,
+    "address": "실제 주소 미등록", "lat": 37.5662, "lng": 126.9911, "category": "양식", "venueType": "pending",
+    "hours": "확인 중", "closedDays": "확인 중", "description": "일반 식당의 채식 메뉴를 기록하기 위한 가상 장소입니다. 식당의 운영 형태와 메뉴별 재료는 별도로 확인합니다.",
+    "verification": {"status": "pending", "method": "조사 전", "checkedAt": null, "sourceUrl": ""},
+    "links": {"naver": "", "google": "", "website": "", "instagram": ""}
+  }
+]
