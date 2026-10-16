@@ -1,61 +1,36 @@
-# 조사·검수·공개 운영 가이드
+# 데이터 등록과 검수
 
-## 파일 역할
-- `src/data/restaurants.json`: 식당의 고유 ID, 지점, 위치, 영업 정보, 공식 지점 링크.
-- `src/data/menus.json`: `restaurantId`로 식당과 연결되는 메뉴. 가격, 재료, 채식 유형, 확인 근거, 교차접촉, 주문 유의사항.
-- `src/data/interviews.json`: 식당별 인터뷰. 공개 동의와 상태를 통과한 내용만 화면에 표시.
-- `src/config.js`: 실제 Google Forms 접수 주소와 캠페인 안내·QR 이미지.
+## 식당과 메뉴는 별도로 관리
+`restaurants.json`은 식당 위치·연락처·운영 형태, `menus.json`은 개별 메뉴 이름·유형·재료·가격을 저장합니다. 식당 ID와 메뉴의 `restaurantId`로 연결합니다. `handbook-source.json`은 원본 출처를, `scripts/handbook-locations.json`은 좌표 대조 근거를 기록합니다.
 
-현재 3곳·4개 메뉴는 기존 프로토타입의 가상 데이터입니다. 실제 자료로 오인하지 않도록 `isSample: true`, 빈 채식 유형, `pending` 상태를 사용합니다. 가짜 가격·검증일·인터뷰는 입력하지 않습니다.
+PDF에서 옮긴 항목은 `verification.status: documented`, 확인일은 `null`입니다. 조사 기준 월(2025-10)과 자료를 앱에 옮긴 시점, 업체에 다시 확인한 날짜는 다른 개념입니다. 월만 알려진 조사일에 임의의 일자를 만들지 않습니다.
 
-## 조사표 권장 열
-식당 ID / 식당명 / 지점 / 자치구 / 동네 / 주소 / 위도 / 경도 / 지하철역 / 음식 종류 / 운영 형태 / 영업시간 / 휴무일 / 메뉴 ID / 메뉴명 / 가격(KRW) / 재료 / 채식 유형 / 육수·소스·조미료 확인 내용 / 교차접촉 / 주문 유의사항 / 공식 출처 URL / 확인 방법 / 확인일 / 검수 상태 / 사진 공개 동의.
+## 유형과 근거
+- `documentedDietType`: PDF가 명시한 유형. `sourceTag`는 V/L/O/LO 중 하나이고 페이지·식당 번호와 함께 저장합니다.
+- `dietTypes`: 운영진이 재료를 개별 재확인한 유형. `verified`와 근거·확인일·재료가 갖춰져야 화면에 표시됩니다.
+- `pending`: 자료나 재료 확인 중. 필터에서 확정 유형으로 검색되지 않습니다.
+- `recheck`: 변경·오류 가능성이 있어 재확인이 필요함. 과거 태그를 그대로 확정 표시하지 않습니다.
 
-Google Sheets는 내부 조사표로 사용합니다. 공개 시트를 직접 읽거나 제보를 자동 반영하지 않습니다. 운영진이 확인한 항목을 JSON으로 옮긴 뒤 `npm test`로 검수합니다. 개인정보와 비공개 인터뷰 원문은 저장소에 넣지 않습니다.
+`vegan`은 동물성 식품 제외(꿀·젤라틴도 확인), `lacto`는 유제품 허용, `ovo`는 달걀 허용, `lacto-ovo`는 둘 모두 허용, `pesco`는 생선·해산물 허용·육류 제외입니다. 개인별 기준 차이를 고려합니다. 태그는 자동 추론하거나 다른 허용 식단으로 자동 확장하지 않습니다. PDF는 페스코를 분류하지 않아 현재 페스코 데이터는 없습니다.
 
-## 검증 규칙
-`verification.status`: `pending`(확인 중), `verified`(확인 완료), `recheck`(재확인).
-`verification.method`: 공식 메뉴판, 업체 직접 답변 등 확인 방법.
-`verification.checkedAt`: YYYY-MM-DD 또는 미확인 시 null.
-`verification.sourceUrl`: HTTPS 근거 링크. 직접 답변은 동의받아 게시한 공개 확인 요약에 연결하고 개인 연락처를 올리지 않습니다.
-`verification.ingredientNotes`: 메뉴의 육수·소스·조미료를 포함한 확인 결과.
+실제 재확인 완료로 바꾸려면 `verification.status`를 `verified`로 설정하고 `checkedAt`(YYYY-MM-DD), `method`, HTTPS `sourceUrl`, `ingredientNotes`, `ingredients`를 입력합니다. 모든 재료·육수·소스·조미료를 확인한 뒤 해당 `dietTypes`만 부여합니다. 확인 근거는 동의받아 공개한 업체 답변 요약 또는 공식 메뉴 자료에 연결합니다. 개인 연락처나 비공개 답변 원문은 저장소에 올리지 않습니다.
 
-메뉴 확인 완료에는 확인일·방법·출처·재료 목록이 모두 필요합니다. `dietTypes`는 검수자가 재료를 보고 명시적으로 지정합니다. 메뉴명으로 자동 추론하거나 상위 식단 유형을 자동 추가하지 않습니다. 검색은 지정된 태그의 일치 여부를 사용합니다.
+## 식당 운영 형태
+`specialist`는 PDF의 **채식 전문**, `options`는 **채식 가능**입니다. 메뉴가 한 개 비건이거나 PDF가 채식 전문이라 해도 식당 전체를 `vegan`으로 바꾸지 않습니다. `vegan`은 별도의 개별 확인 근거가 필요합니다. 자료의 운영 형태와 실제 최신 운영 형태가 다르면 원자료 근거를 남기고 새 확인일과 상태를 기록합니다.
 
-- `vegan`: 동물성 식품 없음(꿀·젤라틴 등도 확인).
-- `lacto`: 유제품 허용, 달걀·육류·생선 제외.
-- `ovo`: 달걀 허용, 유제품·육류·생선 제외.
-- `lacto-ovo`: 유제품·달걀 허용, 육류·생선 제외.
-- `pesco`: 생선·해산물 허용, 육류 제외. 개인 기준 차이를 명시.
+## 가격·판매·위치
+가격은 원 단위 정수, 미확인은 `null`. 가격 미확인 메뉴는 가격 필터에서 제외됩니다. 현재 판매 여부는 `available: null`, 재확인 후 판매 중은 `true`, 중단은 `false`입니다. `crossContact`는 `unknown`/`possible`/`none`이며 재료 유형과 독립적으로 기록합니다.
 
-`crossContact`: `unknown`(미확인), `possible`(가능성 있음), `none`(업체가 없다고 안내). 재료의 비건 여부와 별도로 기록하며 알레르기 안전 보증으로 사용하지 않습니다.
-가격은 원 단위 정수, 미확인은 `null`입니다. 가격 필터는 미확인 메뉴를 제외합니다. 판매 중단 메뉴는 `available: false`. 식당 운영 형태(`venueType`)는 `vegan`, `options`, `pending`으로 구분합니다. 특정 메뉴가 비건이어도 식당 전체를 비건 전문점으로 분류하지 않습니다.
+`address`는 PDF 주소, `location.address`는 지도 좌표 출처의 주소입니다. 다르면 `location.status: address-differs`와 설명을 유지해 사용자가 알 수 있게 합니다. 동명 업체는 이름만으로 좌표를 복사하지 말고 주소·전화번호도 대조합니다.
 
-## 인터뷰 형식
-```json
-{
-  "id": "interview-001",
-  "restaurantId": "실제-식당-id",
-  "status": "draft",
-  "consent": false,
-  "date": null,
-  "interviewer": "담당자 공개명",
-  "title": "인터뷰 제목",
-  "summary": "핵심 요약",
-  "photoUrl": "",
-  "photoAlt": "",
-  "photoConsent": false,
-  "questions": [{"question": "비건 메뉴를 시작한 계기는?", "answer": "실제 답변"}]
-}
-```
-실제 답변·날짜·공개 동의를 확보한 뒤 `status: published`, `consent: true`로 전환합니다. 메뉴·인터뷰 사진도 URL, 대체 텍스트, 공개 동의가 필요합니다.
+한양대 인접 권역은 성동구 중 왕십리·행당·성수 주소 권역이며 도보 거리나 이동 시간을 뜻하지 않습니다. 가까운 역과 한식/양식 등 세부 업종은 PDF에 없어 추측하지 않았습니다. 지하철역 배열을 추가하면 역 필터가 자동으로 활성화됩니다. 현재 업종은 음식점과 카페·베이커리 구분입니다.
 
-## 공개 전 확인
-1. 샘플을 실제 조사 데이터로 교체하고 주소·좌표·지점 일치를 확인.
-2. 육수·소스·조미료와 교차접촉을 구분하여 기록.
-3. 네이버·Google 링크는 검색 결과가 아닌 정확한 지점 링크로 등록.
-4. Forms에서 제보 항목 및 필요한 개인정보 안내를 구성하고 `reportFormUrl` 연결.
-5. 캠페인 URL과 동일한 목적지의 QR 이미지를 준비해 설정. 외부 QR 생성 서비스로 이용자 데이터를 전송하지 않음.
-6. `npm test`, `npm run build` 통과 후 검수된 변경을 커밋.
+## 사진
+사진이 없으면 `photoUrl: ""`로 두세요. 빈 사진 자리 없이 메뉴 설명을 보여줍니다. 사진 등록 시 `photoUrl`, `photoAlt`, `photoSourceUrl`, `photoCredit`, `photoConsent: true`를 함께 입력합니다. 메뉴와 지점의 일치, 사용 가능한 자료인지 확인하세요. 사진 URL 또는 원출처가 HTTPS가 아니거나 동의가 없으면 표시하지 않습니다. 사진을 불러오지 못해도 설명은 유지합니다.
 
-접속·참여·제보 집계는 아직 연결하지 않았습니다. 정적 페이지에서 가짜 수치나 탄소 감축량을 만들지 않습니다. 업데이트 주기와 재확인 담당자를 정해 운영하세요.
+## 인터뷰와 제보
+`interviews.json`의 항목에는 `id`, `restaurantId`, `status`, `consent`, `date`, `interviewer`, `title`, `summary`, `questions`(question/answer 배열)을 기록합니다. `published`, `consent: true`, 실제 인터뷰 날짜를 갖춘 항목만 공개됩니다. 인터뷰 사진에도 공개 동의와 대체 텍스트가 필요합니다.
+
+Google Sheets 조사표에는 식당 ID·지점·주소·좌표·메뉴 ID·메뉴명·가격·재료·유형·확인 방법·출처·확인일·교차접촉·검수 상태를 기록하세요. 내부 조사표에서 검수한 값을 JSON에 반영합니다. `src/config.js`에 실제 Forms URL을 연결하며 제보는 검수 후 수동 반영합니다.
+
+반영 전 `npm test`, `npm run build`를 실행합니다. PDF 재추출은 자료 가져오기용이며, 수동으로 최신화한 내용을 덮어쓰지 않도록 변경을 먼저 보존하고 차이를 검토하세요.

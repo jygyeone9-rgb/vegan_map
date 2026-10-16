@@ -1,0 +1,4767 @@
+{
+  "1": {
+    "name": "7.8 2호점",
+    "lat": 37.57607978,
+    "lng": 126.989538946,
+    "neighborhood": "운니동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0272",
+      "address": "서울특별시 종로구 율곡로6길 27-5",
+      "status": "matched"
+    }
+  },
+  "2": {
+    "name": "SOUPER 광화문점",
+    "lat": 37.573077009,
+    "lng": 126.971018415,
+    "neighborhood": "내수동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0260",
+      "address": "서울특별시 종로구 경희궁2길 9-3 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/souper_official"
+  },
+  "3": {
+    "name": "꽃밥에피다",
+    "lat": 37.57527551,
+    "lng": 126.984015029,
+    "neighborhood": "관훈동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0118",
+      "address": "서울특별시 종로구 인사동16길 3-6",
+      "status": "matched"
+    },
+    "website": "https://www.goodbab.co.kr/"
+  },
+  "4": {
+    "name": "꽃밥에피다 북촌 친환경 그로서란트",
+    "lat": 37.580350391,
+    "lng": 126.984819993,
+    "neighborhood": "가회동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0103",
+      "address": "서울특별시 종로구 북촌로 39 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/flowerrice_official/"
+  },
+  "5": {
+    "name": "널담은공간 경복궁점",
+    "lat": 37.578060253,
+    "lng": 126.979846788,
+    "neighborhood": "사간동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0161",
+      "address": "서울특별시 종로구 삼청로 24",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/nuldam_space/"
+  },
+  "6": {
+    "name": "데케드",
+    "lat": 37.579269552,
+    "lng": 126.969630312,
+    "neighborhood": "누하동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0256",
+      "address": "서울특별시 종로구 자하문로7길 43 1층 101호,102호(누하동)",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/dekad.kafeteria/"
+  },
+  "7": {
+    "name": "루시드 서울",
+    "lat": 37.575668814,
+    "lng": 126.989494819,
+    "neighborhood": "운니동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0133",
+      "address": "서울특별시 종로구 삼일대로32길 45 1층 101호",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/lucyd_seoul"
+  },
+  "8": {
+    "name": "마나님 레시피",
+    "lat": 37.578856012,
+    "lng": 126.983089025,
+    "neighborhood": "안국동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0168",
+      "address": "서울특별시 종로구 윤보선길 65",
+      "status": "matched"
+    }
+  },
+  "9": {
+    "name": "마루 자연식 김밥",
+    "lat": 37.573553779,
+    "lng": 126.984864787,
+    "neighborhood": "관훈동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0025",
+      "address": "서울특별시 종로구 인사동길 35-4 105호",
+      "status": "matched"
+    }
+  },
+  "10": {
+    "name": "마지",
+    "lat": 37.577628323,
+    "lng": 126.970809583,
+    "neighborhood": "체부동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0010",
+      "address": "서울특별시 종로구 자하문로5길 19",
+      "status": "matched"
+    }
+  },
+  "11": {
+    "name": "발우공양",
+    "lat": 37.573867775,
+    "lng": 126.983184369,
+    "neighborhood": "견지동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0061",
+      "address": "서울특별시 종로구 우정국로 56, 템플스테이 통합정보센터 5층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/balwoogongyang_official/?hl=ko"
+  },
+  "12": {
+    "name": "보사우러스 광화문",
+    "lat": 37.57273912,
+    "lng": 126.973280588,
+    "neighborhood": "내수동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0277",
+      "address": "서울특별시 종로구 새문안로3길 30 대우빌딩 복합동1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/bo_saurus"
+  },
+  "13": {
+    "name": "비건카페 달냥",
+    "lat": 37.589523029,
+    "lng": 126.999110688,
+    "neighborhood": "명륜1가",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0149",
+      "address": "서울특별시 종로구 혜화로 45 2층 비건카페 달냥",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/dalyang_vegancafe/"
+  },
+  "14": {
+    "name": "사직동 그 가게",
+    "lat": 37.577124676,
+    "lng": 126.967834469,
+    "neighborhood": "필운동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0212",
+      "address": "서울특별시 종로구 사직로9길 18",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/rogpashop/"
+  },
+  "15": {
+    "name": "산촌",
+    "lat": 37.573797049,
+    "lng": 126.986260137,
+    "neighborhood": "관훈동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0011",
+      "address": "서울특별시 종로구 인사동길 30-13",
+      "status": "matched"
+    },
+    "website": "https://www.sanchon.com/"
+  },
+  "16": {
+    "name": "소이로움",
+    "lat": 37.579683635,
+    "lng": 126.968599431,
+    "neighborhood": "누하동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0008",
+      "address": "서울특별시 종로구 필운대로 41",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/so_iroum/"
+  },
+  "17": {
+    "name": "시래기담은",
+    "lat": 37.581593822,
+    "lng": 126.980977506,
+    "neighborhood": "팔판동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0108",
+      "address": "서울특별시 종로구 삼청로 65-2 시래기담은",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/siraegidameun"
+  },
+  "18": {
+    "name": "앞으로의빵집",
+    "lat": 37.574693879,
+    "lng": 126.989349883,
+    "neighborhood": "익선동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0012",
+      "address": "서울특별시 종로구 삼일대로32가길 29-1",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/apbbang/"
+  },
+  "19": {
+    "name": "애쉬빌 베이커리 카페",
+    "lat": 37.57902712,
+    "lng": 126.984678029,
+    "neighborhood": "재동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0088",
+      "address": "서울특별시 종로구 북촌로5길 5-5 유니온빌딩 지하1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/ashville_café"
+  },
+  "20": {
+    "name": "오세계향",
+    "lat": 37.574684589,
+    "lng": 126.985259063,
+    "neighborhood": "관훈동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0009",
+      "address": "서울특별시 종로구 인사동12길 14-5",
+      "status": "matched"
+    },
+    "website": "https://www.go5.co.kr/"
+  },
+  "21": {
+    "name": "이도림 블로트커피 X 베이크 서촌 본점",
+    "lat": 37.579932828,
+    "lng": 126.971079057,
+    "neighborhood": "통인동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0124",
+      "address": "서울특별시 종로구 자하문로 43 이도림 서촌 본점",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/leedorim.seoul/"
+  },
+  "22": {
+    "name": "인사도담",
+    "lat": 37.575115787,
+    "lng": 126.984140698,
+    "neighborhood": "관훈동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0134",
+      "address": "서울특별시 종로구 인사동16길 5-1 1층",
+      "status": "matched"
+    },
+    "website": "https://blog.naver.com/taekdaeri"
+  },
+  "23": {
+    "name": "인사동 청춘수제비",
+    "lat": 37.574628988,
+    "lng": 126.985345223,
+    "neighborhood": "관훈동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0157",
+      "address": "서울특별시 종로구 인사동12길 14-7",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/soup.cheongchun"
+  },
+  "24": {
+    "name": "큔",
+    "lat": 37.584697641,
+    "lng": 126.972269662,
+    "neighborhood": "궁정동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0013",
+      "address": "서울특별시 종로구 자하문로26길 17-2, 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/grocery_cafe_qyun/"
+  },
+  "25": {
+    "name": "탭샵바 청계천삼일빌딩",
+    "lat": 37.568601712,
+    "lng": 126.987166835,
+    "neighborhood": "관철동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0288",
+      "address": "서울특별시 종로구 청계천로 85 삼일빌딩 지하1층 탭샵바 청계점",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/tap.shop.bar/"
+  },
+  "26": {
+    "name": "한과채",
+    "lat": 37.574343814,
+    "lng": 126.985715687,
+    "neighborhood": "관훈동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0026",
+      "address": "서울특별시 종로구 인사동10길 13",
+      "status": "matched"
+    }
+  },
+  "27": {
+    "name": "히말라야 종각점",
+    "lat": 37.569767509,
+    "lng": 126.984085543,
+    "neighborhood": "관철동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0144",
+      "address": "서울특별시 종로구 종로8길 5 2층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/_himalaya.official"
+  },
+  "28": {
+    "name": "국민빵집 용산 용리단길",
+    "lat": 37.532675597,
+    "lng": 126.97466638,
+    "neighborhood": "한강로1가",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0166",
+      "address": "서울특별시 용산구 한강대로62다길 27 1층",
+      "status": "matched"
+    }
+  },
+  "29": {
+    "name": "굿니스클럽",
+    "lat": 37.54498423,
+    "lng": 126.984936462,
+    "neighborhood": "용산동2가",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0062",
+      "address": "서울특별시 용산구 신흥로 99-9 지층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/goodnessclub.seoul/?hl=ko"
+  },
+  "30": {
+    "name": "노노샵",
+    "lat": 37.531130674,
+    "lng": 126.995765648,
+    "neighborhood": "이태원동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0085",
+      "address": "서울특별시 용산구 보광로 90 202호",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/nonoshopseoul/"
+  },
+  "31": {
+    "name": "닥터로빈 한남점",
+    "lat": 37.53361753,
+    "lng": 127.008723589,
+    "neighborhood": "한남동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0261",
+      "address": "서울특별시 용산구 독서당로 70 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/drrobbin_korea/"
+  },
+  "32": {
+    "name": "더로열푸드앤드링크",
+    "lat": 37.547193995,
+    "lng": 126.983942157,
+    "neighborhood": "후암동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0129",
+      "address": "서울특별시 용산구 신흥로20길 37",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/theroyalfad"
+  },
+  "33": {
+    "name": "리틀갱스터",
+    "lat": 37.539495929,
+    "lng": 126.957227102,
+    "neighborhood": "도원동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0051",
+      "address": "서울특별시 용산구새창로12갈11-3 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/littlegangster_vegan/"
+  },
+  "34": {
+    "name": "마다밀",
+    "lat": 37.525160073,
+    "lng": 126.961775294,
+    "neighborhood": "한강로3가",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0193",
+      "address": "서울특별시 용산구 한강대로7길 30-10 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/madameal__/"
+  },
+  "35": {
+    "name": "몽크스부처(이태원)",
+    "lat": 37.53544556,
+    "lng": 126.999225013,
+    "neighborhood": "한남동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0015",
+      "address": "서울특별시 용산구 이태원로 228-1",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/monksbutcher_itaewon/"
+  },
+  "36": {
+    "name": "무쉬",
+    "lat": 37.532059034,
+    "lng": 126.972615926,
+    "neighborhood": "한강로2가",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0255",
+      "address": "서울특별시 용산구 한강대로52길 25-5 요한빌딩 2층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/bar.musch"
+  },
+  "37": {
+    "name": "미들레인",
+    "lat": 37.526022727,
+    "lng": 126.962252681,
+    "neighborhood": "한강로3가",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0195",
+      "address": "서울특별시 용산구 한강대로15길 31-20 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/middle_ln"
+  },
+  "38": {
+    "name": "바비",
+    "lat": 37.554178736,
+    "lng": 126.966320784,
+    "neighborhood": "서계동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0213",
+      "address": "서울특별시 용산구 만리재로 180-1 3층, 4층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/bobby_seoul"
+  },
+  "39": {
+    "name": "바이두부",
+    "lat": 37.546074824,
+    "lng": 126.98519815,
+    "neighborhood": "용산동2가",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0016",
+      "address": "서울특별시 용산구 소월로20길 10",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/bytofu_hbc"
+  },
+  "40": {
+    "name": "베제투스",
+    "lat": 37.543698622,
+    "lng": 126.987264177,
+    "neighborhood": "용산동2가",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0035",
+      "address": "서울특별시 용산구 신흥로 59",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/vegetuskr"
+  },
+  "41": {
+    "name": "베지위켄드",
+    "lat": 37.534486858,
+    "lng": 127.008194955,
+    "neighborhood": "한남동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0036",
+      "address": "서울특별시 용산구 한남대로 60, 1층 디101, 디102호",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/veggieweekend/"
+  },
+  "42": {
+    "name": "비비스베지",
+    "lat": 37.540852092,
+    "lng": 126.99199474,
+    "neighborhood": "이태원동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0078",
+      "address": "서울특별시 용산구 회나무로13가길 42 . 1층",
+      "status": "matched"
+    }
+  },
+  "43": {
+    "name": "빵어니스타 이태원점",
+    "lat": 37.533005018,
+    "lng": 126.994126036,
+    "neighborhood": "이태원동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0084",
+      "address": "서울특별시 용산구 보광로55길 3 1층, 2층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/panhonesta"
+  },
+  "44": {
+    "name": "사라바나 바반",
+    "lat": 37.535159493,
+    "lng": 126.994289735,
+    "neighborhood": "이태원동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0273",
+      "address": "서울특별시 용산구 이태원로27가길 18 2층",
+      "status": "matched"
+    }
+  },
+  "45": {
+    "name": "아르켓 카페 아이파크몰 용산점",
+    "lat": 37.529831634,
+    "lng": 126.964852227,
+    "neighborhood": "한강로3가",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0227",
+      "address": "서울특별시 용산구 한강대로23길 55 아이파크몰 패션파크 3층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/arketofficial"
+  },
+  "46": {
+    "name": "알트에이 이태원점",
+    "lat": 37.532453897,
+    "lng": 126.994474,
+    "neighborhood": "이태원동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0102",
+      "address": "서울특별시 용산구 보광로 109 1층 알트에이 이태원점",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/alt.a_official/"
+  },
+  "47": {
+    "name": "조선보울 서울역점",
+    "lat": 37.55340571,
+    "lng": 126.974298992,
+    "neighborhood": "동자동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0143",
+      "address": "서울특별시 용산구 후암로 101 1층, 조선보울(CHOSUNBOWL)",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/chosunbowl.official/?hl=ko"
+  },
+  "48": {
+    "name": "카무플라주",
+    "lat": 37.533635699,
+    "lng": 126.993565837,
+    "neighborhood": "이태원동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0021",
+      "address": "서울특별시 용산구 이태원로26길 19, 2층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/camouflage_iteawon/?hl=ko"
+  },
+  "49": {
+    "name": "카페 라메라",
+    "lat": 37.538180091,
+    "lng": 126.964843227,
+    "neighborhood": "원효로2가",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0250",
+      "address": "서울특별시 용산구 백범로 324 1층 라메라",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/cafe.lamera"
+  },
+  "50": {
+    "name": "타",
+    "lat": 37.537212106,
+    "lng": 126.98848726,
+    "neighborhood": "이태원동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0270",
+      "address": "서울특별시 용산구 녹사평대로46길 28 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/Ta.eatery/"
+  },
+  "51": {
+    "name": "플랜튜드 아이파크몰 용산점",
+    "lat": 37.529831634,
+    "lng": 126.964852227,
+    "neighborhood": "한강로3가",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0112",
+      "address": "서울특별시 용산구 한강대로23길 55 용산역 아이파크몰 테이스트파크 7층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/plantude.official"
+  },
+  "52": {
+    "name": "플랜트 이태원점",
+    "lat": 37.533121762,
+    "lng": 126.994234696,
+    "neighborhood": "이태원동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0017",
+      "address": "서울특별시 용산구 보광로 117",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/plantcafeseoul/"
+  },
+  "53": {
+    "name": "강가",
+    "lat": 37.568414372,
+    "lng": 126.978283948,
+    "neighborhood": "태평로1가",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0071",
+      "address": "서울특별시 중구 세종대로 136 서울특별시파이낸스센터",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/ganga.official/"
+  },
+  "54": {
+    "name": "고사리 익스프레스",
+    "lat": 37.566270087,
+    "lng": 127.020009087,
+    "neighborhood": "황학동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0046",
+      "address": "서울특별시 중구 퇴계로85길 12-10 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/gosariexpress"
+  },
+  "55": {
+    "name": "구르카 인도레스토랑",
+    "lat": 37.563068077,
+    "lng": 126.985185555,
+    "neighborhood": "명동2가",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0068",
+      "address": "서울특별시 중구 명동10길 16-1 지상 5층 구르카",
+      "status": "matched"
+    }
+  },
+  "56": {
+    "name": "그라운드125",
+    "lat": 37.55611335,
+    "lng": 127.010321134,
+    "neighborhood": "신당동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0076",
+      "address": "서울특별시 중구 동호로14길 7 비에스빌딩 2층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/ground125_"
+  },
+  "57": {
+    "name": "넬보스코 남촌빵집",
+    "lat": 37.558697747,
+    "lng": 126.979681177,
+    "neighborhood": "회현동1가",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0075",
+      "address": "서울특별시 중구 퇴계로8길 16 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/nelbosco.official/"
+  },
+  "58": {
+    "name": "더버튼스",
+    "lat": 37.558894703,
+    "lng": 126.983309538,
+    "neighborhood": "회현동2가",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0203",
+      "address": "서울특별시 중구 소공로 36-5 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/thebuttonskr"
+  },
+  "59": {
+    "name": "르베지왕 을지공간",
+    "lat": 37.566800781,
+    "lng": 126.981883166,
+    "neighborhood": "다동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0293",
+      "address": "서울특별시 중구 남대문로9길 10 2층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/levegiwang"
+  },
+  "60": {
+    "name": "목멱산방",
+    "lat": 37.55811319,
+    "lng": 126.986887421,
+    "neighborhood": "남산동2가",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0065",
+      "address": "서울특별시 중구 퇴계로20길 71 1층 목멱산방",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/m_horaeng/"
+  },
+  "61": {
+    "name": "브레라",
+    "lat": 37.548384462,
+    "lng": 127.006943832,
+    "neighborhood": "신당동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0067",
+      "address": "서울특별시 중구 동호로17길 295 대명빌딩2층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/brera.kr_/"
+  },
+  "62": {
+    "name": "블루서울",
+    "lat": 37.565100812,
+    "lng": 126.994119868,
+    "neighborhood": "인현동1가",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0070",
+      "address": "서울 중구 충무로4길 21 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/blu.seoul"
+  },
+  "63": {
+    "name": "비건키친",
+    "lat": 37.559263496,
+    "lng": 126.985975114,
+    "neighborhood": "남산동2가",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0047",
+      "address": "서울특별시 중구 퇴계로20길 21 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/vegankitchen.kr/"
+  },
+  "64": {
+    "name": "빠르크 정동점",
+    "lat": 37.563254268,
+    "lng": 126.972033135,
+    "neighborhood": "정동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0077",
+      "address": "서울특별시 중구 서소문로 89-20 1동 1층 105호",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/parcseoul"
+  },
+  "65": {
+    "name": "아그라(센터원점)",
+    "lat": 37.56734358,
+    "lng": 126.985144677,
+    "neighborhood": "수하동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0072",
+      "address": "서울특별시 중구 을지로5길 26 미래에셋빌딩 지하2층",
+      "status": "matched"
+    }
+  },
+  "66": {
+    "name": "어쩌다농부 충무로점",
+    "lat": 37.562625453,
+    "lng": 126.991243913,
+    "neighborhood": "충무로3가",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0064",
+      "address": "서울특별시 중구 퇴계로27길 33 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/oopsfarmer/?hl=ko"
+  },
+  "67": {
+    "name": "어쩌다농부 팬트리 소공점",
+    "lat": 37.563554237,
+    "lng": 126.980081659,
+    "neighborhood": "소공동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0274",
+      "address": "서울특별시 중구 소공로 96 1층 어쩌다농부 팬트리 소공점",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/oopsfarmer/?hl=ko"
+  },
+  "68": {
+    "name": "오베흐트",
+    "lat": 37.55811583,
+    "lng": 126.981085431,
+    "neighborhood": "회현동1가",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0014",
+      "address": "서울특별시 중구 퇴계로10길 34",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/overte_donuts/"
+  },
+  "69": {
+    "name": "온더무브",
+    "lat": 37.567113201,
+    "lng": 126.997689359,
+    "neighborhood": "을지로4가",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0004",
+      "address": "서울특별시 중구 창경궁로5길 5 을지공간 건물 3, 5층",
+      "status": "matched"
+    }
+  },
+  "70": {
+    "name": "죠티인도레스토랑",
+    "lat": 37.561315721,
+    "lng": 126.997938326,
+    "neighborhood": "충무로5가",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0066",
+      "address": "서울특별시 중구 서애로 12-4 고려빌딩",
+      "status": "matched"
+    }
+  },
+  "71": {
+    "name": "지금 여기가 맨 앞",
+    "lat": 37.565694084,
+    "lng": 126.995242574,
+    "neighborhood": "인현동1가",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0022",
+      "address": "서울 중구 을지로20길 16 3층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/veryfront_seoul"
+  },
+  "72": {
+    "name": "코코너즘",
+    "lat": 37.560349091,
+    "lng": 126.995061855,
+    "neighborhood": "필동2가",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0001",
+      "address": "서울특별시 중구 퇴계로36길 32 코코너즘",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/coconuzm/?hl=ko"
+  },
+  "73": {
+    "name": "탭샵바 동대문두타점",
+    "lat": 37.568834573,
+    "lng": 127.008711728,
+    "neighborhood": "을지로6가",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0286",
+      "address": "서울특별시 중구 장충단로 275 두타몰 B2 탭샵바",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/tap.shop.bar/"
+  },
+  "74": {
+    "name": "페이퍼파스타by을지로그랑블루",
+    "lat": 37.563868532,
+    "lng": 126.993797764,
+    "neighborhood": "인현동1가",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0074",
+      "address": "서울특별시 중구 마른내로4길 10 . 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/euljiro.grandbleu"
+  },
+  "75": {
+    "name": "프레스커피바",
+    "lat": 37.562416048,
+    "lng": 126.993655468,
+    "neighborhood": "충무로4가",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0205",
+      "address": "서울특별시 중구 충무로2길 8 프레스커피바",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/press_coffee_bar"
+  },
+  "76": {
+    "name": "홍밀밀",
+    "lat": 37.563279513,
+    "lng": 126.987307039,
+    "neighborhood": "명동2가",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0069",
+      "address": "서울특별시 중구 명동길 74 명동성당 가톨릭회관 신관 B-105호",
+      "status": "matched"
+    }
+  },
+  "77": {
+    "name": "히든젬",
+    "lat": 37.558436379,
+    "lng": 126.984564962,
+    "neighborhood": "남산동2가",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0003",
+      "address": "서울특별시 중구 소공로6길 28 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/hiddengem.chocolaterie/?hl=ko"
+  },
+  "78": {
+    "name": "다온브레드",
+    "lat": 37.637435635,
+    "lng": 126.934543505,
+    "neighborhood": "진관동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0242",
+      "address": "서울특별시 은평구 연서로 455 은평뉴타운 제각말푸르지오 529동 상가1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/daonbread"
+  },
+  "79": {
+    "name": "비건디저트 소소당",
+    "lat": 37.614555785,
+    "lng": 126.921579157,
+    "neighborhood": "대조동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0187",
+      "address": "서울특별시 은평구 통일로73길 27 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/soso__dang"
+  },
+  "80": {
+    "name": "비건베이커리 로썸",
+    "lat": 37.613371979,
+    "lng": 126.918168592,
+    "neighborhood": "대조동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0188",
+      "address": "서울특별시 은평구 연서로18길 3-25 102호",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/rawsome_bakery/"
+  },
+  "81": {
+    "name": "비건생활연구소",
+    "lat": 37.608668125,
+    "lng": 126.933735903,
+    "neighborhood": "녹번동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0154",
+      "address": "서울특별시 은평구 통일로 684",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/veganlifekorea/"
+  },
+  "82": {
+    "name": "솔드아웃 베이커리",
+    "lat": 37.617002805,
+    "lng": 126.921647626,
+    "neighborhood": "대조동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0174",
+      "address": "서울특별시 은평구 연서로26길 15-17 1층 솔드아웃베이커리",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/soldout_baker"
+  },
+  "83": {
+    "name": "전환마을부엌 밥풀꽃",
+    "lat": 37.610685846,
+    "lng": 126.916088147,
+    "neighborhood": "구산동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0018",
+      "address": "서울특별시 은평구 연서로15길 8, 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/babpulkkot"
+  },
+  "84": {
+    "name": "포키 in 연신내 비건베이커리디저트",
+    "lat": 37.620673206,
+    "lng": 126.91371483,
+    "neighborhood": "갈현동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0152",
+      "address": "서울특별시 은평구 갈현로31길 22 1층 포키",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/foki_bakery"
+  },
+  "85": {
+    "name": "플루프",
+    "lat": 37.592706308,
+    "lng": 126.916917142,
+    "neighborhood": "응암동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0191",
+      "address": "서울특별시 은평구 가좌로10길 22 101호",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/tinykitchen_plouf"
+  },
+  "86": {
+    "name": "히꾸",
+    "lat": 37.60391446,
+    "lng": 126.913704417,
+    "neighborhood": "역촌동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0146",
+      "address": "서울특별시 은평구 연서로5길 15 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/noisette.seoul"
+  },
+  "87": {
+    "name": "titch",
+    "lat": 37.578561451,
+    "lng": 126.933549327,
+    "neighborhood": "연희동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0190",
+      "address": "서울특별시 서대문구 홍제천로 186 1층 titch",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/shop.titch"
+  },
+  "88": {
+    "name": "그레인서울",
+    "lat": 37.566306269,
+    "lng": 126.927440356,
+    "neighborhood": "연희동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0189",
+      "address": "서울특별시 서대문구 연희로11가길 53 2층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/grain_seoul"
+  },
+  "89": {
+    "name": "듀공 이대점",
+    "lat": 37.558254273,
+    "lng": 126.94512167,
+    "neighborhood": "대현동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0231",
+      "address": "서울특별시 서대문구 이화여대5길 9 101호",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/dugong.soycafe/"
+  },
+  "90": {
+    "name": "베리베리솔티",
+    "lat": 37.559456157,
+    "lng": 126.944372474,
+    "neighborhood": "대현동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0239",
+      "address": "서울특별시 서대문구 이화여대길 72-5 3층 301호",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/very_very_salty"
+  },
+  "91": {
+    "name": "베지나랑 신촌",
+    "lat": 37.558866267,
+    "lng": 126.943015237,
+    "neighborhood": "대현동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0269",
+      "address": "서울특별시 서대문구 신촌역로 22-5 2층 49호",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/vegenarang_sinchon/?hl=ko"
+  },
+  "92": {
+    "name": "베지스",
+    "lat": 37.576838402,
+    "lng": 126.931211835,
+    "neighborhood": "연희동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0081",
+      "address": "서울특별시 서대문구 홍연길 87 1층(연희동)",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/veggies.kitchen.and.bar"
+  },
+  "93": {
+    "name": "비건 베이커리 구떼",
+    "lat": 37.581938405,
+    "lng": 126.925064793,
+    "neighborhood": "홍은동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0151",
+      "address": "서울특별시 서대문구 명지대2길 13 1층 구떼 (GOUTER)",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/gouter_begin_vegan"
+  },
+  "94": {
+    "name": "비아37 신촌본점",
+    "lat": 37.558941424,
+    "lng": 126.944181021,
+    "neighborhood": "대현동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0130",
+      "address": "서울특별시 서대문구 이화여대길 77-1 비아37 신촌본점",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/via37"
+  },
+  "95": {
+    "name": "사워도우 랩",
+    "lat": 37.557432003,
+    "lng": 126.931000473,
+    "neighborhood": "창천동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0170",
+      "address": "서울특별시 서대문구 신촌로 39 1층 사워도우랩",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/sourdough__lab/"
+  },
+  "96": {
+    "name": "아민 이화",
+    "lat": 37.559444801,
+    "lng": 126.944736174,
+    "neighborhood": "대현동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0117",
+      "address": "서울특별시 서대문구 이화여대길 52-31",
+      "status": "matched"
+    },
+    "website": "https://app.catchtable.co.kr/ct/shop/we.salad.you_0"
+  },
+  "97": {
+    "name": "엄마식탁",
+    "lat": 37.566637045,
+    "lng": 126.928813468,
+    "neighborhood": "연희동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0141",
+      "address": "서울특별시 서대문구 연희맛로 17-21 엄마식탁",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/mothers.table"
+  },
+  "98": {
+    "name": "위어도우",
+    "lat": 37.574614171,
+    "lng": 126.927427147,
+    "neighborhood": "연희동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0104",
+      "address": "서울특별시 서대문구 증가로 80 2층 201호",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/weirdough.friends"
+  },
+  "99": {
+    "name": "이상미통밀빵",
+    "lat": 37.596914043,
+    "lng": 126.948916426,
+    "neighborhood": "홍제동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0111",
+      "address": "서울특별시 서대문구 간호대로2길 5",
+      "status": "matched"
+    },
+    "website": "https://blog.naver.com/yedamine"
+  },
+  "100": {
+    "name": "지구집",
+    "lat": 37.578509683,
+    "lng": 126.929668437,
+    "neighborhood": "홍은동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0164",
+      "address": "서울특별시 서대문구 증가로6길 82-23 안쪽 골목, 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/jigucurry"
+  },
+  "101": {
+    "name": "카페 블랙번즈 신촌점",
+    "lat": 37.558371079,
+    "lng": 126.934561754,
+    "neighborhood": "창천동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0145",
+      "address": "서울특별시 서대문구 연세로7안길 42 2층 블랙번즈",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/blackburns_main"
+  },
+  "102": {
+    "name": "콩댝콩댝",
+    "lat": 37.558866267,
+    "lng": 126.943015237,
+    "neighborhood": "대현동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0300",
+      "address": "서울특별시 서대문구 신촌역로 22-5 2층 51호",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/kongdyakongdyak/?hl=ko"
+  },
+  "103": {
+    "name": "현재",
+    "lat": 37.564523193,
+    "lng": 126.959247956,
+    "neighborhood": "충정로3가",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0116",
+      "address": "서울특별시 서대문구 경기대로9길 90 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/hyunjae_bob"
+  },
+  "104": {
+    "name": "395빵집",
+    "lat": 37.54968067,
+    "lng": 126.916537785,
+    "neighborhood": "서교동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0142",
+      "address": "서울특별시 마포구 양화로8길 25-3 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/backstube_395"
+  },
+  "105": {
+    "name": "갱스카페",
+    "lat": 37.56052876,
+    "lng": 126.922930518,
+    "neighborhood": "연남동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0233",
+      "address": "서울특별시 마포구 월드컵북로6길 97 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/guins.cafe"
+  },
+  "106": {
+    "name": "고드니 망원",
+    "lat": 37.55666014,
+    "lng": 126.904773165,
+    "neighborhood": "망원동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0285",
+      "address": "서울특별시 마포구 포은로 108 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/godny_café"
+  },
+  "107": {
+    "name": "그랭블레",
+    "lat": 37.556212273,
+    "lng": 126.912488748,
+    "neighborhood": "서교동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0226",
+      "address": "서울특별시 마포구 월드컵로14길 36",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/grainble__bk"
+  },
+  "108": {
+    "name": "까페 빈틈 M",
+    "lat": 37.557754109,
+    "lng": 126.90531417,
+    "neighborhood": "망원동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0172",
+      "address": "서울특별시 마포구 망원로7길 3-6",
+      "status": "matched"
+    }
+  },
+  "109": {
+    "name": "더브레드블루",
+    "lat": 37.555159536,
+    "lng": 126.932780506,
+    "neighborhood": "노고산동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0019",
+      "address": "서울특별시 마포구 신촌로12다길 3",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/thebreadblue_official/"
+  },
+  "110": {
+    "name": "두두리두팡",
+    "lat": 37.556906708,
+    "lng": 126.907919848,
+    "neighborhood": "망원동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0087",
+      "address": "서울특별시 마포구 월드컵로23길 19 1층 두두리두팡",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/duduri_dupang/"
+  },
+  "111": {
+    "name": "마나올라나",
+    "lat": 37.565121541,
+    "lng": 126.923115872,
+    "neighborhood": "연남동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0262",
+      "address": "서울특별시 마포구 성미산로 153-16 1층 마나올라나",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/cafe_manaolana"
+  },
+  "112": {
+    "name": "모닐이네하우스 글루텐프리 공방카페",
+    "lat": 37.548552975,
+    "lng": 126.917403927,
+    "neighborhood": "합정동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0148",
+      "address": "서울특별시 마포구 양화로6길 60 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/mapause_vegan"
+  },
+  "113": {
+    "name": "밀랑스",
+    "lat": 37.555415061,
+    "lng": 126.946341167,
+    "neighborhood": "대흥동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0241",
+      "address": "서울특별시 마포구 대흥로28길 5",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/__mealans__"
+  },
+  "114": {
+    "name": "베이스 이즈 나이스",
+    "lat": 37.539636242,
+    "lng": 126.949096752,
+    "neighborhood": "도화동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0038",
+      "address": "서울특별시 마포구 도화2길 20",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/baseisnice_seoul"
+  },
+  "115": {
+    "name": "베지 스튜디오",
+    "lat": 37.545487047,
+    "lng": 126.946616516,
+    "neighborhood": "공덕동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0092",
+      "address": "서울특별시 마포구 백범로 152 202동 1층 13호",
+      "status": "matched"
+    }
+  },
+  "116": {
+    "name": "블랙루머 다이오트 홍대점",
+    "lat": 37.548236395,
+    "lng": 126.919822726,
+    "neighborhood": "합정동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0267",
+      "address": "서울특별시 마포구 양화로6길 102 1층 101호 블랙루머 홍대점",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/black_rumor_hd"
+  },
+  "117": {
+    "name": "비건다움 제과점",
+    "lat": 37.569154669,
+    "lng": 126.913251869,
+    "neighborhood": "중동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0086",
+      "address": "서울특별시 마포구 성암로 28 Agate 상가 104호",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/vegandaum"
+  },
+  "118": {
+    "name": "비밥",
+    "lat": 37.555438959,
+    "lng": 126.924589348,
+    "neighborhood": "서교동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0106",
+      "address": "서울특별시 마포구 홍익로2길 43 1층 4호",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/bebab.korea/"
+  },
+  "119": {
+    "name": "사운드키친",
+    "lat": 37.545949259,
+    "lng": 126.945094704,
+    "neighborhood": "염리동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0266",
+      "address": "서울특별시 마포구 백범로24길 11 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/_sound.k"
+  },
+  "120": {
+    "name": "성미산알루",
+    "lat": 37.559270568,
+    "lng": 126.907811582,
+    "neighborhood": "성산동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0158",
+      "address": "서울특별시 마포구 성미산로1길 29 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/lunaimo2524"
+  },
+  "121": {
+    "name": "성산커피클럽",
+    "lat": 37.560454957,
+    "lng": 126.915823825,
+    "neighborhood": "성산동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0215",
+      "address": "서울특별시 마포구 월드컵북로 75 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/sungsancoffeeclub"
+  },
+  "122": {
+    "name": "셰발레리",
+    "lat": 37.552066862,
+    "lng": 126.906964351,
+    "neighborhood": "합정동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0027",
+      "address": "서울특별시 마포구 포은로 52",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/chezvalerie.vegan"
+  },
+  "123": {
+    "name": "슬금슬금",
+    "lat": 37.560454957,
+    "lng": 126.915823825,
+    "neighborhood": "성산동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0063",
+      "address": "서울특별시 마포구 월드컵북로 75 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/slgm.slgm/?hl=ko"
+  },
+  "124": {
+    "name": "슬런치 팩토리",
+    "lat": 37.565095726,
+    "lng": 126.924136078,
+    "neighborhood": "연남동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0039",
+      "address": "서울특별시 마포구 성미산로 161-6",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/slunch_factory"
+  },
+  "125": {
+    "name": "시칠리 블루스",
+    "lat": 37.554372731,
+    "lng": 126.904098728,
+    "neighborhood": "망원동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0253",
+      "address": "서울특별시 마포구 망원로6길 59 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/sicilyblues"
+  },
+  "126": {
+    "name": "써니보울",
+    "lat": 37.555746336,
+    "lng": 126.947467864,
+    "neighborhood": "염리동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0020",
+      "address": "서울특별시 마포구 숭문16길 18, 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/sunny.bowl/?hl=ko"
+  },
+  "127": {
+    "name": "써니하우스",
+    "lat": 37.54586182,
+    "lng": 126.922416699,
+    "neighborhood": "상수동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0214",
+      "address": "서울특별시 마포구 와우산로1길 8 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/sunnyhousekr"
+  },
+  "128": {
+    "name": "아날로그가든",
+    "lat": 37.5553759,
+    "lng": 126.9180504,
+    "neighborhood": "서교동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "OpenStreetMap",
+      "url": "https://www.openstreetmap.org/node/5253331921",
+      "address": "서울 마포구 동교로 145 1층 아날로그가든",
+      "status": "matched",
+      "note": "주소와 상호를 대조한 OSM 장소 좌표 · © OpenStreetMap contributors"
+    },
+    "instagram": "https://www.instagram.com/analoggarden/"
+  },
+  "129": {
+    "name": "어라운드그린",
+    "lat": 37.5526891167656,
+    "lng": 126.90726917789,
+    "neighborhood": "합정동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "Placeview 네이버 지도 위치",
+      "url": "https://placeview.co.kr/id/MTEzMjYwNjY4NyAg",
+      "address": "서울 마포구 동교로 44-1 2층(합정동)",
+      "status": "matched"
+    }
+  },
+  "130": {
+    "name": "업투미",
+    "lat": 37.564764829,
+    "lng": 126.924712305,
+    "neighborhood": "연남동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0196",
+      "address": "서울특별시 마포구 성미산로 165-6 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/up_to_me_official"
+  },
+  "131": {
+    "name": "옷셉 by 페스토 페스토 망원",
+    "lat": 37.554780502,
+    "lng": 126.903352624,
+    "neighborhood": "망원동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0163",
+      "address": "서울특별시 마포구 희우정로16길 23-6 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/pesto_pesto_"
+  },
+  "132": {
+    "name": "우삼촌카레 망원점",
+    "lat": 37.559225402,
+    "lng": 126.903082393,
+    "neighborhood": "망원동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0167",
+      "address": "서울특별시 마포구 포은로 139 1층 101호",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/uncle_woo_curry"
+  },
+  "133": {
+    "name": "우삼촌카레 홍대점",
+    "lat": 37.550466852,
+    "lng": 126.919603342,
+    "neighborhood": "서교동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0131",
+      "address": "서울특별시 마포구 잔다리로3안길 24 1층 우삼촌카레",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/uncle_woo_curry"
+  },
+  "134": {
+    "name": "유알티",
+    "lat": 37.557764246,
+    "lng": 126.916154922,
+    "neighborhood": "서교동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0120",
+      "address": "서울특별시 마포구 월드컵북로7길 34 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/urt_seogyo?igsh=MW85dzRwZzFwcnFreQ%3D%3D&utm_source=qr"
+  },
+  "135": {
+    "name": "음무아 연남점",
+    "lat": 37.562513336,
+    "lng": 126.926094188,
+    "neighborhood": "연남동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0298",
+      "address": "서울특별시 마포구 성미산로 190-11 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/um.muah?igsh=bmJ1dWVoYWhuajB1"
+  },
+  "136": {
+    "name": "잇다프로젝트 연남",
+    "lat": 37.564462448,
+    "lng": 126.925656488,
+    "neighborhood": "연남동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0297",
+      "address": "서울특별시 마포구 성미산로31길 14 어쩌다집 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/itdaproject"
+  },
+  "137": {
+    "name": "점점점점점점",
+    "lat": 37.577235848,
+    "lng": 126.896210089,
+    "neighborhood": "상암동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0028",
+      "address": "서울특별시 마포구 성암로15길 36, 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/jum.jum.jum.jum.jum.jum/"
+  },
+  "138": {
+    "name": "죠티레스토랑",
+    "lat": 37.554955251,
+    "lng": 126.937973149,
+    "neighborhood": "노고산동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0278",
+      "address": "서울특별시 마포구 신촌로20길 6 3층",
+      "status": "matched"
+    }
+  },
+  "139": {
+    "name": "줄리아스케이크룸",
+    "lat": 37.54857074,
+    "lng": 126.938829521,
+    "neighborhood": "신수동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0080",
+      "address": "서울특별시 마포구 광성로6길 30 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/julias_cakeroom/"
+  },
+  "140": {
+    "name": "지구제과",
+    "lat": 37.565497949,
+    "lng": 126.922197149,
+    "neighborhood": "연남동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0109",
+      "address": "서울특별시 마포구 성미산로29길 30-3 1층 3호 지구제과",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/jigu_bakery"
+  },
+  "141": {
+    "name": "카멜스 키친",
+    "lat": 37.55218863,
+    "lng": 126.906894132,
+    "neighborhood": "합정동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0042",
+      "address": "서울특별시 마포구 포은로 52-1, 2호",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/camel__kitchen/"
+  },
+  "142": {
+    "name": "커피볶는김대리",
+    "lat": 37.55836626,
+    "lng": 126.919770046,
+    "neighborhood": "연남동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0224",
+      "address": "서울특별시 마포구 월드컵북로6길 21 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/yeonnam_mrkim"
+  },
+  "143": {
+    "name": "클로벨리",
+    "lat": 37.557333548,
+    "lng": 126.904174361,
+    "neighborhood": "망원동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0138",
+      "address": "서울특별시 마포구 망원로 67 2층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/clovelly_brunch/?igsh=MWpyYjB0YXFudWo0aA%3D%3D"
+  },
+  "144": {
+    "name": "탭샵바 합정점",
+    "lat": 37.552019371,
+    "lng": 126.916677047,
+    "neighborhood": "서교동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0263",
+      "address": "서울특별시 마포구 양화로 81 H스퀘어 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/tap.shop.bar/"
+  },
+  "145": {
+    "name": "평형",
+    "lat": 37.555609536,
+    "lng": 126.904607968,
+    "neighborhood": "망원동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0122",
+      "address": "서울특별시 마포구 포은로5길 6 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/_equil"
+  },
+  "146": {
+    "name": "포어피크 베이커리",
+    "lat": 37.554958782,
+    "lng": 126.959275022,
+    "neighborhood": "아현동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0110",
+      "address": "서울특별시 마포구 마포대로28라길 8 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/forepeakbakery"
+  },
+  "147": {
+    "name": "포포브레드",
+    "lat": 37.554570511,
+    "lng": 126.917104794,
+    "neighborhood": "서교동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0030",
+      "address": "서울특별시 마포구 동교로18길 13, 세원빌딩 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/forfourbread"
+  },
+  "148": {
+    "name": "풀 발효부엌",
+    "lat": 37.55502515,
+    "lng": 126.905043313,
+    "neighborhood": "망원동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0029",
+      "address": "서울특별시 마포구 포은로 89, 2층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/abcpul"
+  },
+  "149": {
+    "name": "황금룡",
+    "lat": 37.555110163071866,
+    "lng": 126.90529996151935,
+    "neighborhood": "망원동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "뽈레 네이버 지도 위치",
+      "url": "https://polle.com/place/4xnTZO/황금룡",
+      "address": "서울 마포구 포은로 90 1층",
+      "status": "matched"
+    }
+  },
+  "150": {
+    "name": "러빗박스 강동본점",
+    "lat": 37.549590665,
+    "lng": 127.125816619,
+    "neighborhood": "암사동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0228",
+      "address": "서울특별시 강동구 올림픽로93길 24 1층 102호",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/loveit.box_dessert"
+  },
+  "151": {
+    "name": "샐러그리티 강동본점",
+    "lat": 37.5365759,
+    "lng": 127.132193608,
+    "neighborhood": "천호동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0202",
+      "address": "서울특별시 강동구 천호대로 1077 상가동 103동101호",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/salagreety_poke/"
+  },
+  "152": {
+    "name": "카페브리틀",
+    "lat": 37.527383636,
+    "lng": 127.130319491,
+    "neighborhood": "성내동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0236",
+      "address": "서울특별시 강동구 성안로 39 1층 브리틀",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/cafe_brittle"
+  },
+  "153": {
+    "name": "탱밀리",
+    "lat": 37.53255727,
+    "lng": 127.121832052,
+    "neighborhood": "성내동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0229",
+      "address": "서울특별시 강동구 올림픽로 572 상가 101동 102호, 탱밀리",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/tangmily_bakery/"
+  },
+  "154": {
+    "name": "플랜튜드 고덕점",
+    "lat": 37.566660233,
+    "lng": 127.157332949,
+    "neighborhood": "고덕동 ",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0276",
+      "address": "서울특별시 강동구 고덕비즈밸리로 51 415호 4F 플랜튜드",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/plantude.official"
+  },
+  "155": {
+    "name": "뉴질랜드스토리",
+    "lat": 37.509734823,
+    "lng": 127.105721509,
+    "neighborhood": "송파동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0121",
+      "address": "서울특별시 송파구 석촌호수로 268 경남레이크파크 113호",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/nz_story"
+  },
+  "156": {
+    "name": "다정이네 파스타",
+    "lat": 37.497742143,
+    "lng": 127.12034527,
+    "neighborhood": "가락동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0113",
+      "address": "서울특별시 송파구 중대로9길 62 104호",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/dajung_pasta"
+  },
+  "157": {
+    "name": "담뿍빵집",
+    "lat": 37.475631305,
+    "lng": 127.143194367,
+    "neighborhood": "장지동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0179",
+      "address": "서울특별시 송파구 위례광장로 270 송파위례와이즈더샵 상가1층 y104 담뿍빵집",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/dam_puk.vegan.bakery"
+  },
+  "158": {
+    "name": "루티드",
+    "lat": 37.511474583,
+    "lng": 127.111440213,
+    "neighborhood": "방이동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0049",
+      "address": "서울특별시 송파구 오금로17길 7 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/rootedseoul"
+  },
+  "159": {
+    "name": "르베지왕 롯데잠실공간",
+    "lat": 37.511481717,
+    "lng": 127.098224184,
+    "neighborhood": "잠실동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0275",
+      "address": "서울특별시 송파구 올림픽로 240 롯데백화점 지하1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/levegiwang"
+  },
+  "160": {
+    "name": "비건네이처",
+    "lat": 37.50669585,
+    "lng": 127.106287191,
+    "neighborhood": "송파동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0023",
+      "address": "서울특별시 송파구 송파대로 448-1 102, 103호",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/veganature_seoul/"
+  },
+  "161": {
+    "name": "정욱이네 제빵소",
+    "lat": 37.510738408,
+    "lng": 127.11542893,
+    "neighborhood": "방이동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0223",
+      "address": "서울특별시 송파구 백제고분로48나길 3 1층 (건물코너자리)",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/jungwookienae_bakery/"
+  },
+  "162": {
+    "name": "SOUPER 강남구청점",
+    "lat": 37.515061221,
+    "lng": 127.043125296,
+    "neighborhood": "삼성동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0265",
+      "address": "서울특별시 강남구 학동로56길 33 유원빌딩 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/souper_official"
+  },
+  "163": {
+    "name": "노르디",
+    "lat": 37.523398891,
+    "lng": 127.031486326,
+    "neighborhood": "신사동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0082",
+      "address": "서울특별시 강남구 도산대로37길 36 지상1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/cafe_nordi/"
+  },
+  "164": {
+    "name": "눈꽃빙수 어름당",
+    "lat": 37.502497599,
+    "lng": 127.050272988,
+    "neighborhood": "대치동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0237",
+      "address": "서울특별시 강남구 선릉로 420 2층 2호",
+      "status": "matched"
+    }
+  },
+  "165": {
+    "name": "닥터비건",
+    "lat": 37.521908623,
+    "lng": 127.044618814,
+    "neighborhood": "청담동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0059",
+      "address": "서울특별시 강남구 도산대로68길 25",
+      "status": "matched"
+    },
+    "website": "https://blog.naver.com/thebeetlemap"
+  },
+  "166": {
+    "name": "달리아 다이닝",
+    "lat": 37.523235269,
+    "lng": 127.035758239,
+    "neighborhood": "신사동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0058",
+      "address": "서울특별시 강남구 도산대로45길 14 2층 달리아 다이닝",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/dahliadining_/"
+  },
+  "167": {
+    "name": "듀공 역삼점",
+    "lat": 37.49244009,
+    "lng": 127.030955448,
+    "neighborhood": "역삼동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0220",
+      "address": "서울특별시 강남구 강남대로 328 108호",
+      "status": "address-differs",
+      "note": "PDF 주소와 서울시 지도 주소가 다릅니다. 핀은 서울시 지도 주소 기준이며 방문 전 위치를 재확인해 주세요."
+    }
+  },
+  "168": {
+    "name": "러빙헛 랜드",
+    "lat": 37.476750628,
+    "lng": 127.047700853,
+    "neighborhood": "개포동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0007",
+      "address": "서울특별시 강남구 논현로16길 17",
+      "status": "matched"
+    }
+  },
+  "169": {
+    "name": "러빙헛 카페",
+    "lat": 37.476893923,
+    "lng": 127.049440615,
+    "neighborhood": "개포동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0006",
+      "address": "서울특별시 강남구 개포로22길 35",
+      "status": "matched"
+    }
+  },
+  "170": {
+    "name": "레귬",
+    "lat": 37.51956598,
+    "lng": 127.01909101,
+    "neighborhood": "신사동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0055",
+      "address": "서울특별시 강남구 강남대로 652, 지상 2층 207-2호",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/legume.seoul/"
+  },
+  "171": {
+    "name": "르베지왕 센터필드공간",
+    "lat": 37.503625826,
+    "lng": 127.041627707,
+    "neighborhood": "역삼동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0296",
+      "address": "서울특별시 강남구 테헤란로 231 이스트동 지하2층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/levegiwang"
+  },
+  "172": {
+    "name": "르오뇽",
+    "lat": 37.521773084,
+    "lng": 127.020505378,
+    "neighborhood": "신사동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0137",
+      "address": "서울특별시 강남구 압구정로4길 13-4 1층 르오뇽",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/l.oignon"
+  },
+  "173": {
+    "name": "리브팜 압구정",
+    "lat": 37.524413863,
+    "lng": 127.02457556,
+    "neighborhood": "신사동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0290",
+      "address": "서울특별시 강남구 압구정로18길 7 1층 리브팜 압구정",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/livfarm_official/"
+  },
+  "174": {
+    "name": "리틀케어레시피 강남점",
+    "lat": 37.518467973,
+    "lng": 127.038033418,
+    "neighborhood": "논현동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0254",
+      "address": "서울특별시 강남구 학동로43길 38 B102호",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/little.care.recipe"
+  },
+  "175": {
+    "name": "리브팜 갤러리아백화점 명품관 WEST점",
+    "lat": 37.528468158,
+    "lng": 127.040029839,
+    "neighborhood": "압구정동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0292",
+      "address": "서울특별시 강남구 압구정로 343 지하 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/livfarm_official/"
+  },
+  "176": {
+    "name": "마치래빗",
+    "lat": 37.495553408,
+    "lng": 127.030090073,
+    "neighborhood": "역삼동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0053",
+      "address": "서울특별시 강남구 테헤란로4길 46 쌍용플래티넘밸류B1-139호",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/marchrabbitsalad/?hl=ko"
+  },
+  "177": {
+    "name": "마히나 비건 테이블",
+    "lat": 37.523661872,
+    "lng": 127.023039064,
+    "neighborhood": "신사동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0057",
+      "address": "서울특별시 강남구 논현로175길 75 2층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/mahina_vegan_table"
+  },
+  "178": {
+    "name": "만쥬랑",
+    "lat": 37.49877418,
+    "lng": 127.052016544,
+    "neighborhood": "대치동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0206",
+      "address": "서울특별시 강남구 선릉로 326 지상1층 5호",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/manju_rang?igsh=MTlkMm13MmVvZHRocg%3D%3D&utm_source=qr"
+  },
+  "179": {
+    "name": "면서울",
+    "lat": 37.524107945,
+    "lng": 127.038976898,
+    "neighborhood": "신사동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0153",
+      "address": "서울특별시 강남구 선릉로 805 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/myeonseoul"
+  },
+  "180": {
+    "name": "몽크스부처(도산)",
+    "lat": 37.526355082,
+    "lng": 127.035216004,
+    "neighborhood": "신사동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0119",
+      "address": "서울특별시 강남구 언주로168길 19 지하1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/monksbutcher/"
+  },
+  "181": {
+    "name": "무지개수프",
+    "lat": 37.494763613,
+    "lng": 127.035213722,
+    "neighborhood": "역삼동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0095",
+      "address": "서울특별시 강남구 역삼로 145 우성빌딩 1층 101호",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/moojigaesoup"
+  },
+  "182": {
+    "name": "미트앤샐러드",
+    "lat": 37.485924808,
+    "lng": 127.036646394,
+    "neighborhood": "도곡동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0097",
+      "address": "서울특별시 강남구 남부순환로359길 14 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/meatnsalad"
+  },
+  "183": {
+    "name": "바이탈 바이브 수서본점",
+    "lat": 37.463773737,
+    "lng": 127.106713026,
+    "neighborhood": "세곡동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0094",
+      "address": "서울특별시 강남구 밤고개로34길 14 2층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/vitalvibes.official"
+  },
+  "184": {
+    "name": "베지그린",
+    "lat": 37.476974591,
+    "lng": 127.047358318,
+    "neighborhood": "개포동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0083",
+      "address": "서울특별시 강남구 개포로20길 24-10 광민빌딩 1층",
+      "status": "matched"
+    }
+  },
+  "185": {
+    "name": "브레드 히어",
+    "lat": 37.491066621,
+    "lng": 127.082750316,
+    "neighborhood": "일원동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0240",
+      "address": "서울특별시 강남구 양재대로33길 24 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/bread_here_"
+  },
+  "186": {
+    "name": "블랙루머 다이오트",
+    "lat": 37.527987249,
+    "lng": 127.037205529,
+    "neighborhood": "신사동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0096",
+      "address": "서울특별시 강남구 압구정로46길 5-6 A동 105호",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/black_rumor_official"
+  },
+  "187": {
+    "name": "비건비거닝",
+    "lat": 37.503026427,
+    "lng": 127.049108921,
+    "neighborhood": "역삼동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0060",
+      "address": "서울특별시 강남구 선릉로85길 6 호텔뉴브 1층 비건비거닝",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/veganveganing/"
+  },
+  "188": {
+    "name": "비건제과 스윗바이비",
+    "lat": 37.512906431,
+    "lng": 127.038880983,
+    "neighborhood": "논현동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0099",
+      "address": "서울특별시 강남구 언주로124길 40 104호 스윗바이비",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/sweetby_ve"
+  },
+  "189": {
+    "name": "비움",
+    "lat": 37.522396982,
+    "lng": 127.054311954,
+    "neighborhood": "청담동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0156",
+      "address": "서울특별시 강남구 학동로97길 41 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/biumseoul?igsh=MXc4NnBtMTdpMHpmdg%3D%3D"
+  },
+  "190": {
+    "name": "썬더버드 청담점",
+    "lat": 37.526187862,
+    "lng": 127.041701129,
+    "neighborhood": "청담동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0090",
+      "address": "서울특별시 강남구 압구정로60길 18",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/sunthebud_official"
+  },
+  "191": {
+    "name": "쏭타이 역삼점",
+    "lat": 37.505695301,
+    "lng": 127.040267524,
+    "neighborhood": "역삼동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0093",
+      "address": "서울특별시 강남구 테헤란로39길 51 옥산빌딩 1층 102호",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/ssong_thai"
+  },
+  "192": {
+    "name": "아르켓 카페 가로수길점",
+    "lat": 37.519863429,
+    "lng": 127.023212145,
+    "neighborhood": "신사동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0217",
+      "address": "서울특별시 강남구 가로수길 30 아르켓카페 가로수길점",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/arketofficial"
+  },
+  "193": {
+    "name": "안식 레스토랑",
+    "lat": 37.502600223,
+    "lng": 127.065034666,
+    "neighborhood": "대치동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0098",
+      "address": "서울특별시 강남구 도곡로99길 31 1층, 안식 레스토랑",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/ansic_restaurant/"
+  },
+  "194": {
+    "name": "알렉산더 커피 워크",
+    "lat": 37.494666529,
+    "lng": 127.030449464,
+    "neighborhood": "역삼동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0197",
+      "address": "서울특별시 강남구 역삼로1길 20 1층, 알렉산더 커피 워크",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/alexandercoffee.seoul/profilecard/?igsh=MWhwYmgzeXMyamxsOQ%3D%3D"
+  },
+  "195": {
+    "name": "음 이터리",
+    "lat": 37.484675604,
+    "lng": 127.045474547,
+    "neighborhood": "도곡동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0040",
+      "address": "서울특별시 강남구 논현로28길 47, 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/uuumseoul/"
+  },
+  "196": {
+    "name": "인터랙트 with 글루텐프리",
+    "lat": 37.506484508,
+    "lng": 127.024890471,
+    "neighborhood": "논현동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0159",
+      "address": "서울특별시 강남구 강남대로118길 16 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/cafe_interact/"
+  },
+  "197": {
+    "name": "칙피스 신사점",
+    "lat": 37.519129409,
+    "lng": 127.024723756,
+    "neighborhood": "신사동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0264",
+      "address": "서울특별시 강남구 강남대로152길 69",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/chickpeace.kr"
+  },
+  "198": {
+    "name": "콜리플라워",
+    "lat": 37.518921727,
+    "lng": 127.021113748,
+    "neighborhood": "신사동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0054",
+      "address": "서울특별시 강남구 압구정로2길 45 플라워베이커리 내",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/cauliflour.kr/"
+  },
+  "199": {
+    "name": "탭샵바 도산대로점",
+    "lat": 37.517972911,
+    "lng": 127.025180322,
+    "neighborhood": "논현동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0287",
+      "address": "서울특별시 강남구 도산대로 150 지상 3층 탭샵바",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/tap.shop.bar/"
+  },
+  "200": {
+    "name": "플랜튜드(코엑스점)",
+    "lat": 37.512018329,
+    "lng": 127.059036925,
+    "neighborhood": "삼성동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0041",
+      "address": "서울특별시 강남구 영동대로 513, 스타필드 지하1층 I-111호",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/plantude.official"
+  },
+  "201": {
+    "name": "핀치브런치바",
+    "lat": 37.521491946,
+    "lng": 127.020583007,
+    "neighborhood": "신사동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0056",
+      "address": "서울특별시 강남구 압구정로4길 19",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/pinch_brunch_bar/"
+  },
+  "202": {
+    "name": "그랜파키친앤팜 서래마을본점",
+    "lat": 37.498957216,
+    "lng": 126.997251079,
+    "neighborhood": "반포동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0204",
+      "address": "서울특별시 서초구 사평대로20길 7",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/grandpa__kitchen/"
+  },
+  "203": {
+    "name": "남미플랜트랩",
+    "lat": 37.480622736,
+    "lng": 126.983234637,
+    "neighborhood": "방배동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0050",
+      "address": "서울특별시 서초구 방배천로4안길55 2층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/nammiplantlab"
+  },
+  "204": {
+    "name": "더래빗",
+    "lat": 37.479681149,
+    "lng": 126.983404763,
+    "neighborhood": "방배동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0045",
+      "address": "서울특별시 서초구 방배천로4안길 38 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/gourmet.the.rabbit/"
+  },
+  "205": {
+    "name": "리브팜 교대",
+    "lat": 37.492419891,
+    "lng": 127.014228576,
+    "neighborhood": "서초동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0258",
+      "address": "서울특별시 서초구 서초중앙로 118 KAIS빌딩 1층 리브팜 교대점",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/livfarm_gyodae"
+  },
+  "206": {
+    "name": "리브팜 방배",
+    "lat": 37.483454952,
+    "lng": 126.995982048,
+    "neighborhood": "방배동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0291",
+      "address": "서울특별시 서초구 방배로 105 디엠타워 2관 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/livfarm_official/"
+  },
+  "207": {
+    "name": "미소제과",
+    "lat": 37.475971838,
+    "lng": 127.037451164,
+    "neighborhood": "양재동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0232",
+      "address": "서울특별시 서초구 양재천로17길 16 1층 미소제과",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/misobakery_"
+  },
+  "208": {
+    "name": "베지스튜디오 신세계백화점 강남점",
+    "lat": 37.50428127,
+    "lng": 127.004566677,
+    "neighborhood": "반포동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0279",
+      "address": "서울특별시 서초구 신반포로 176 신세계백화점 지하1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/vegestudio_seoul"
+  },
+  "209": {
+    "name": "블랙루머 다이오트 양재",
+    "lat": 37.466670197,
+    "lng": 127.042970355,
+    "neighborhood": "양재동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0136",
+      "address": "서울특별시 서초구 강남대로2길 7 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/black_rumor_official"
+  },
+  "210": {
+    "name": "비건카페 유로카",
+    "lat": 37.492774816,
+    "lng": 127.012501343,
+    "neighborhood": "서초동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0207",
+      "address": "서울특별시 서초구 서초대로50길 8 관정빌딩 1층 카페 유로카",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/cafeuroka"
+  },
+  "211": {
+    "name": "스왈로 베이커리 카페",
+    "lat": 37.484378658,
+    "lng": 127.014454121,
+    "neighborhood": "서초동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0089",
+      "address": "서울특별시 서초구 효령로 276 203호",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/swallow_zerowaste.vegan"
+  },
+  "212": {
+    "name": "천년식향(밀레니얼 다이닝)",
+    "lat": 37.485420339,
+    "lng": 127.018966355,
+    "neighborhood": "서초동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0032",
+      "address": "서울특별시 서초구 효령로 316-1 3층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/millennial_dining/"
+  },
+  "213": {
+    "name": "초록버터서울 양재",
+    "lat": 37.479138962,
+    "lng": 127.040674903,
+    "neighborhood": "양재동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0178",
+      "address": "서울특별시 서초구 바우뫼로 190 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/chorocbutter.seoul"
+  },
+  "214": {
+    "name": "카페 거북이",
+    "lat": 37.480189573,
+    "lng": 126.983416954,
+    "neighborhood": "방배동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0044",
+      "address": "서울특별시 서초구 방배천로4안길 48",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/_cafe_turtle_"
+  },
+  "215": {
+    "name": "푸드 더즈 매터",
+    "lat": 37.496239987,
+    "lng": 126.997632379,
+    "neighborhood": "반포동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0033",
+      "address": "서울특별시 서초구 서래로1길 10",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/food_does_matter/"
+  },
+  "216": {
+    "name": "플랫오",
+    "lat": 37.476535465,
+    "lng": 127.040134798,
+    "neighborhood": "양재동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0091",
+      "address": "서울특별시 서초구 양재천로 103-1 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/plat.o_natural"
+  },
+  "217": {
+    "name": "홀썸",
+    "lat": 37.476292468,
+    "lng": 127.037915078,
+    "neighborhood": "양재동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0034",
+      "address": "서울특별시 서초구 양재천로19길 19, 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/wholesome_farm.to.table/"
+  },
+  "218": {
+    "name": "고드니 마곡",
+    "lat": 37.567853608,
+    "lng": 126.827452095,
+    "neighborhood": "마곡동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0192",
+      "address": "서울특별시 강서구 마곡중앙로 161-1 캐슬파크 2층 220, 230호",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/godny_café"
+  },
+  "219": {
+    "name": "고소미부엌 화곡점",
+    "lat": 37.542672304,
+    "lng": 126.840583852,
+    "neighborhood": "화곡동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0283",
+      "address": "서울특별시 강서구 강서로34길 14 1층 고소미부엌",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/gosomi_kitchen/"
+  },
+  "220": {
+    "name": "루루베이커리",
+    "lat": 37.558888986,
+    "lng": 126.820920341,
+    "neighborhood": "마곡동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0208",
+      "address": "서울특별시 강서구 공항대로 124 판매시설동 1층 1106-109호",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/lulubaker_/"
+  },
+  "221": {
+    "name": "비건식당 공간녹음",
+    "lat": 37.559627256,
+    "lng": 126.832694016,
+    "neighborhood": "마곡동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0043",
+      "address": "서울특별시 강서구 공항대로 227 403호",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/nokumspace/"
+  },
+  "222": {
+    "name": "사이유지",
+    "lat": 37.555476862,
+    "lng": 126.858978795,
+    "neighborhood": "등촌동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0139",
+      "address": "서울특별시 강서구 공항대로53가길 48 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/42_uz/"
+  },
+  "223": {
+    "name": "조은가게",
+    "lat": 37.55798777,
+    "lng": 126.830623424,
+    "neighborhood": "마곡동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0249",
+      "address": "서울특별시 강서구 마곡중앙2로 35 213호 (이너매스마곡2)",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/joeun_market/"
+  },
+  "224": {
+    "name": "채육식당 강서점",
+    "lat": 37.545259631,
+    "lng": 126.836592234,
+    "neighborhood": "화곡동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0282",
+      "address": "서울특별시 강서구 강서로 219 지하1층 105호",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/chaeyuk.official/"
+  },
+  "225": {
+    "name": "베를린덴시나몬",
+    "lat": 37.531246181,
+    "lng": 126.829268963,
+    "neighborhood": "신월동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0219",
+      "address": "서울특별시 양천구 남부순환로60길 20-14 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/berlinthencinnamon?igsh=ZjRtcG01azM5MGNr"
+  },
+  "226": {
+    "name": "소화연빵",
+    "lat": 37.523436209,
+    "lng": 126.877334318,
+    "neighborhood": "목동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0171",
+      "address": "서울특별시 양천구 신목로2길 66 제1층 제107호 소화연빵",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/sohwayeonbbang/"
+  },
+  "227": {
+    "name": "우리동네두부가게",
+    "lat": 37.519340077,
+    "lng": 126.852547719,
+    "neighborhood": "신정동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0155",
+      "address": "서울특별시 양천구 중앙로43길 15 1층 우리동네 두부가게",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/my_town_dooboo_store"
+  },
+  "228": {
+    "name": "릴리케",
+    "lat": 37.501648135,
+    "lng": 126.858621155,
+    "neighborhood": "고척동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0234",
+      "address": "서울특별시 구로구 경서로 49 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/lillelykke_official"
+  },
+  "229": {
+    "name": "수밀 블랑제리",
+    "lat": 37.50635917,
+    "lng": 126.860611711,
+    "neighborhood": "고척동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0135",
+      "address": "서울특별시 구로구 중앙로 100 1층 103호 수밀 블랑제리",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/soo_mil_boulangerie"
+  },
+  "230": {
+    "name": "고소미부엌 가산점",
+    "lat": 37.480831137,
+    "lng": 126.880662421,
+    "neighborhood": "가산동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0284",
+      "address": "서울특별시 금천구 가산디지털1로 171 1층 119호",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/gosomi_kitchen/"
+  },
+  "231": {
+    "name": "대두네순두부",
+    "lat": 37.477082892,
+    "lng": 126.881982206,
+    "neighborhood": "가산동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0181",
+      "address": "서울특별시 금천구 가산디지털1로 131",
+      "status": "matched"
+    }
+  },
+  "232": {
+    "name": "땅지베지",
+    "lat": 37.453269889,
+    "lng": 126.890883581,
+    "neighborhood": "독산동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0246",
+      "address": "서울특별시 금천구 금하로1라길 22 1층 102호",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/earthy_veggie"
+  },
+  "233": {
+    "name": "루디스비건",
+    "lat": 37.523132735,
+    "lng": 126.895531837,
+    "neighborhood": "당산동2가",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0150",
+      "address": "서울특별시 영등포구 당산로 95 현대아파트상가 지하1층 129호",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/rudis_vegan?igsh=MWJ6cG4wb2YxMjRieg%3D%3D"
+  },
+  "234": {
+    "name": "루쓰오트",
+    "lat": 37.52252261,
+    "lng": 126.885695646,
+    "neighborhood": "양평동1가",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0247",
+      "address": "서울특별시 영등포구 선유서로 76 1층 상가 103호",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/ryus_oat"
+  },
+  "235": {
+    "name": "르베지왕 여의도공간",
+    "lat": 37.521549743,
+    "lng": 126.92294497,
+    "neighborhood": "여의도동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0295",
+      "address": "서울특별시 영등포구 의사당대로 96 TP타워 지하2층 B 205호",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/levegiwang"
+  },
+  "236": {
+    "name": "묘묘씨",
+    "lat": 37.533293659,
+    "lng": 126.905163446,
+    "neighborhood": "당산동6가",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0221",
+      "address": "서울특별시 영등포구 당산로52길 31-1 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/myomyo__c"
+  },
+  "237": {
+    "name": "살롱드비건",
+    "lat": 37.540391235,
+    "lng": 126.89567243,
+    "neighborhood": "양평동5가",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0299",
+      "address": "서울특별시 영등포구 양평로22길 31 1층",
+      "status": "matched"
+    }
+  },
+  "238": {
+    "name": "소이닉",
+    "lat": 37.524369748,
+    "lng": 126.885110726,
+    "neighborhood": "양평동2가",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0115",
+      "address": "서울특별시 영등포구 선유서로25길 7 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/soyniq"
+  },
+  "239": {
+    "name": "시나브로채식식당카페",
+    "lat": 37.49121348,
+    "lng": 126.906888917,
+    "neighborhood": "대림동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0105",
+      "address": "서울특별시 영등포구 시흥대로183길 10 1층",
+      "status": "matched"
+    }
+  },
+  "240": {
+    "name": "아르켓 카페 더현대서울점",
+    "lat": 37.525935317,
+    "lng": 126.928424286,
+    "neighborhood": "여의도동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0177",
+      "address": "서울특별시 영등포구 여의대로 108 더현대서울특별시 지하2층 아르켓 더현대서울특별시점",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/arketofficial"
+  },
+  "241": {
+    "name": "아승지",
+    "lat": 37.507845955,
+    "lng": 126.91120325,
+    "neighborhood": "신길동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0005",
+      "address": "서울특별시 영등포구 신길로 176",
+      "status": "matched"
+    }
+  },
+  "242": {
+    "name": "요앤스 당산본점",
+    "lat": 37.534702472,
+    "lng": 126.897917094,
+    "neighborhood": "양평동4가",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0210",
+      "address": "서울특별시 영등포구 선유동2로 67 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/yo.ens"
+  },
+  "243": {
+    "name": "탭샵바 여의도점",
+    "lat": 37.524291547,
+    "lng": 126.929338612,
+    "neighborhood": "여의도동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0194",
+      "address": "서울특별시 영등포구 국제금융로 39 브라이튼여의도 1층 탭샵바 여의도점",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/tap.shop.bar/"
+  },
+  "244": {
+    "name": "포엣룸",
+    "lat": 37.514892275,
+    "lng": 126.892621661,
+    "neighborhood": "문래동4가",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0165",
+      "address": "서울특별시 영등포구 도림로141가길 4 1층 포엣룸",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/poet_room"
+  },
+  "245": {
+    "name": "우부래도",
+    "lat": 37.503135978,
+    "lng": 126.948640648,
+    "neighborhood": "상도1동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0031",
+      "address": "서울특별시 동작구 상도로37길 3",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/ooh_breado"
+  },
+  "246": {
+    "name": "네모네모디저트 본점",
+    "lat": 37.473847783,
+    "lng": 126.96057737,
+    "neighborhood": "봉천동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0225",
+      "address": "서울특별시 관악구 낙성대로3길 33-14 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/nemonemo_official"
+  },
+  "247": {
+    "name": "노와드코코베이커리",
+    "lat": 37.485219634,
+    "lng": 126.918321555,
+    "neighborhood": "신림동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0238",
+      "address": "서울특별시 관악구 남부순환로161가길 8 102호",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/noixdecoco_bakery"
+  },
+  "248": {
+    "name": "비건마마",
+    "lat": 37.482574161,
+    "lng": 126.950958898,
+    "neighborhood": "봉천동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0052",
+      "address": "서울특별시 관악구 봉천로 457-1, 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/veganmamabakery"
+  },
+  "249": {
+    "name": "자연식구",
+    "lat": 37.468315476,
+    "lng": 126.936695463,
+    "neighborhood": "신림동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0126",
+      "address": "서울특별시 관악구 호암로22길 70-3 1층 자연식구",
+      "status": "matched"
+    },
+    "website": "https://blog.naver.com/pkhdia2020"
+  },
+  "250": {
+    "name": "채육식당 관악구청점",
+    "lat": 37.475120142,
+    "lng": 126.953172366,
+    "neighborhood": "봉천동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0281",
+      "address": "서울특별시 관악구 관악로 110-1 한도빌딩",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/chaeyuk.official/"
+  },
+  "251": {
+    "name": "휘게라이프",
+    "lat": 37.474976078,
+    "lng": 126.976954673,
+    "neighborhood": "남현동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0002",
+      "address": "서울특별시 관악구 남현길 37 2층(남현동)",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/hyggelife_talk/?hl=ko"
+  },
+  "252": {
+    "name": "맑음이네",
+    "lat": 37.648813818,
+    "lng": 127.037257582,
+    "neighborhood": "창동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0100",
+      "address": "서울특별시 도봉구 도봉로118길 38 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/malgmine_homemademeal"
+  },
+  "253": {
+    "name": "저스트시즌",
+    "lat": 37.645156815,
+    "lng": 127.033523789,
+    "neighborhood": "창동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0244",
+      "address": "서울특별시 도봉구 도봉로110다길 26 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/cafe_just.season/"
+  },
+  "254": {
+    "name": "마을찻집 마주이야기",
+    "lat": 37.636870546,
+    "lng": 127.012307509,
+    "neighborhood": "수유동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0048",
+      "address": "서울특별시 강북구 인수봉로55길 10 2층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/maju_story_vegan_café"
+  },
+  "255": {
+    "name": "왓더훅",
+    "lat": 37.615658848,
+    "lng": 127.03496353,
+    "neighborhood": "미아동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0175",
+      "address": "서울특별시 강북구 오패산로30길 55",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/whathe__huck"
+  },
+  "256": {
+    "name": "고소미부엌 태릉입구역점",
+    "lat": 37.619520593,
+    "lng": 127.07765074,
+    "neighborhood": "공릉동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0185",
+      "address": "서울특별시 노원구 동일로174길 37-8",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/gosomi_kitchen/"
+  },
+  "257": {
+    "name": "더숲 더베이크샵",
+    "lat": 37.654176052,
+    "lng": 127.061431261,
+    "neighborhood": "상계동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0182",
+      "address": "서울특별시 노원구 노해로 480 조광빌딩 지하1층",
+      "status": "matched"
+    },
+    "website": "https://deosup.com/"
+  },
+  "258": {
+    "name": "마이브라더스",
+    "lat": 37.627271264,
+    "lng": 127.080410704,
+    "neighborhood": "공릉동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0257",
+      "address": "서울특별시 노원구 공릉로46길 28 삼익아파트",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/mybrothers_brunch"
+  },
+  "259": {
+    "name": "본노엘 중계은행사거리점",
+    "lat": 37.650061551,
+    "lng": 127.076388444,
+    "neighborhood": "중계동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0200",
+      "address": "서울특별시 노원구 한글비석로 245 1층 비-103호",
+      "status": "matched"
+    },
+    "website": "https://smartstore.naver.com/bonnoel1004"
+  },
+  "260": {
+    "name": "제일콩집",
+    "lat": 37.619520593,
+    "lng": 127.07765074,
+    "neighborhood": "공릉동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0183",
+      "address": "서울특별시 노원구 동일로174길 37-8",
+      "status": "matched"
+    },
+    "website": "https://cafe.naver.com/jkong/"
+  },
+  "261": {
+    "name": "KA",
+    "lat": 37.599904672,
+    "lng": 127.041481037,
+    "neighborhood": "하월곡동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0209",
+      "address": "서울특별시 성북구 월곡로14길 24",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/haejohaejo"
+  },
+  "262": {
+    "name": "oum",
+    "lat": 37.605376516,
+    "lng": 127.024172256,
+    "neighborhood": "길음동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0173",
+      "address": "서울특별시 성북구 삼양로 25 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/oum.vegan"
+  },
+  "263": {
+    "name": "러빙헛리얼러브",
+    "lat": 37.607908269,
+    "lng": 127.047037685,
+    "neighborhood": "상월곡동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0114",
+      "address": "서울특별시 성북구 장월로3길 1 B106호",
+      "status": "matched"
+    }
+  },
+  "264": {
+    "name": "미미제빵소",
+    "lat": 37.610332617,
+    "lng": 127.023144136,
+    "neighborhood": "길음동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0222",
+      "address": "서울특별시 성북구 숭인로2길 28 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/bakeshop_mimi"
+  },
+  "265": {
+    "name": "밀곳간 2호점",
+    "lat": 37.592675686,
+    "lng": 126.996696868,
+    "neighborhood": "성북동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0280",
+      "address": "서울특별시 성북구 성북로19길 9",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/millgokkan"
+  },
+  "266": {
+    "name": "밀곳간본점",
+    "lat": 37.594117575,
+    "lng": 126.999322531,
+    "neighborhood": "성북동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0128",
+      "address": "서울특별시 성북구 성북로18길 19 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/millgokkan"
+  },
+  "267": {
+    "name": "비블",
+    "lat": 37.608004591,
+    "lng": 127.016165285,
+    "neighborhood": "정릉동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0218",
+      "address": "서울특별시 성북구 서경로 60 길음뉴타운11단지롯데캐슬골든힐스 제상가동 제지하1층 제비112호",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/_b.ble?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr"
+  },
+  "268": {
+    "name": "빌라드코스테스",
+    "lat": 37.602716704,
+    "lng": 127.039119938,
+    "neighborhood": "하월곡동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0123",
+      "address": "서울특별시 성북구 화랑로5길 4 빌라드코스테스",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/villa.de_costes"
+  },
+  "269": {
+    "name": "빵미숙",
+    "lat": 37.595742993,
+    "lng": 127.035145865,
+    "neighborhood": "종암동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0271",
+      "address": "서울특별시 성북구 종암로9길 8 1층 102호",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/bbangmisook"
+  },
+  "270": {
+    "name": "여울비건",
+    "lat": 37.59113872,
+    "lng": 127.004391302,
+    "neighborhood": "성북동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0147",
+      "address": "서울특별시 성북구 성북로8길 11 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/yeoulvegan"
+  },
+  "271": {
+    "name": "카페 헤더그로브",
+    "lat": 37.591663308,
+    "lng": 127.018785803,
+    "neighborhood": "동선동1가",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0176",
+      "address": "서울특별시 성북구 동소문로24길 45 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/heathergrove_café"
+  },
+  "272": {
+    "name": "플랜티 브런치카페",
+    "lat": 37.580017825,
+    "lng": 127.02525245,
+    "neighborhood": "안암동4가",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0211",
+      "address": "서울특별시 성북구 안암로 25",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/planty_official_/"
+  },
+  "273": {
+    "name": "하루한톨",
+    "lat": 37.594581128,
+    "lng": 127.020033705,
+    "neighborhood": "동선동3가",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0169",
+      "address": "서울특별시 성북구 동소문로26가길 16 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/haruhantol11_bakery/"
+  },
+  "274": {
+    "name": "본노엘 답십리",
+    "lat": 37.571792103,
+    "lng": 127.056215498,
+    "neighborhood": "답십리동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0289",
+      "address": "서울특별시 동대문구 전농로 75-18 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/bonnoel2020"
+  },
+  "275": {
+    "name": "채육식당 전농점",
+    "lat": 37.579137053,
+    "lng": 127.057003232,
+    "neighborhood": "전농동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0180",
+      "address": "서울특별시 동대문구 전농로20길 5 1층 채육식당",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/chaeyuk.official/"
+  },
+  "276": {
+    "name": "초록뜰식당",
+    "lat": 37.58853646,
+    "lng": 127.062818902,
+    "neighborhood": "휘경동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0073",
+      "address": "서울특별시 동대문구 망우로18길 36",
+      "status": "matched"
+    }
+  },
+  "277": {
+    "name": "빵의향현",
+    "lat": 37.602583601,
+    "lng": 127.080834485,
+    "neighborhood": "중화동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0184",
+      "address": "서울특별시 중랑구 동일로136길 25 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/bbang_hyanghyun_"
+  },
+  "278": {
+    "name": "팡도리노 베이커리",
+    "lat": 37.597241243,
+    "lng": 127.093372279,
+    "neighborhood": "망우동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0186",
+      "address": "서울특별시 중랑구 용마산로115길 127 한일써너스빌리젠시 1단지 S1005호",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/pangdorino/"
+  },
+  "279": {
+    "name": "글루닉",
+    "lat": 37.54697035,
+    "lng": 127.040158089,
+    "neighborhood": "성수동1가",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0230",
+      "address": "서울특별시 성동구 서울숲2길 16-12 1층",
+      "status": "matched"
+    }
+  },
+  "280": {
+    "name": "로컬릿",
+    "lat": 37.54091592,
+    "lng": 127.014742413,
+    "neighborhood": "옥수동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0037",
+      "address": "서울특별시 성동구 한림말길 33, 2층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/the_local_eater"
+  },
+  "281": {
+    "name": "르베지왕 성수공간",
+    "lat": 37.544494741,
+    "lng": 127.051153293,
+    "neighborhood": "성수동2가",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0294",
+      "address": "서울특별시 성동구 연무장1길 15-1 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/levegiwang"
+  },
+  "282": {
+    "name": "리틀포레스트",
+    "lat": 37.548308789,
+    "lng": 127.053709166,
+    "neighborhood": "성수동2가",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0160",
+      "address": "서울특별시 성동구 성수일로12길 23 2층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/littleforest.iii"
+  },
+  "283": {
+    "name": "리프레쉬먼트",
+    "lat": 37.55088597,
+    "lng": 127.04744992,
+    "neighborhood": "성수동1가",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0162",
+      "address": "서울특별시 성동구 상원길 77 상가동 1층 refreshment",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/re.fresh.ment"
+  },
+  "284": {
+    "name": "매치스성수",
+    "lat": 37.541318098,
+    "lng": 127.05801931,
+    "neighborhood": "성수동2가",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0259",
+      "address": "서울특별시 성동구 뚝섬로13길 36 7층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/matches.seongsu"
+  },
+  "285": {
+    "name": "목로정원",
+    "lat": 37.546356507,
+    "lng": 127.044019372,
+    "neighborhood": "성수동1가",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0198",
+      "address": "서울특별시 성동구 서울숲2길 47 3~4층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/mokrojungwon"
+  },
+  "286": {
+    "name": "밋보어 서울",
+    "lat": 37.540815206,
+    "lng": 127.047926901,
+    "neighborhood": "성수동1가",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0268",
+      "address": "서울특별시 성동구 성수일로 1 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/mitbord.seoul"
+  },
+  "287": {
+    "name": "베러초이스",
+    "lat": 37.544174319,
+    "lng": 127.051948194,
+    "neighborhood": "성수동2가",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0245",
+      "address": "서울특별시 성동구 연무장5길 9-13 2층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/betterchoice_korea"
+  },
+  "288": {
+    "name": "본노엘 성수점",
+    "lat": 37.549745802,
+    "lng": 127.048004364,
+    "neighborhood": "성수동1가",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0199",
+      "address": "서울특별시 성동구 상원길 64 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/bonnoel2020"
+  },
+  "289": {
+    "name": "영베이커리",
+    "lat": 37.542677226,
+    "lng": 127.011891945,
+    "neighborhood": "옥수동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0248",
+      "address": "서울특별시 성동구 독서당로 187 극동상가 308호",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/youngbakery.veganbread"
+  },
+  "290": {
+    "name": "일상담미 성수점",
+    "lat": 37.541318098,
+    "lng": 127.05801931,
+    "neighborhood": "성수동2가",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0127",
+      "address": "서울특별시 성동구 뚝섬로13길 36 6층 일상담미",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/ilsangdammi_seongsu/"
+  },
+  "291": {
+    "name": "일호빵",
+    "lat": 37.53578574,
+    "lng": 127.055490988,
+    "neighborhood": "성수동2가",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0216",
+      "address": "서울특별시 성동구 둘레15길 11 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/1ho_bakery"
+  },
+  "292": {
+    "name": "채육식당 성수점",
+    "lat": 37.547164196,
+    "lng": 127.064354883,
+    "neighborhood": "성수동2가",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0251",
+      "address": "서울특별시 성동구 아차산로15길 52 삼환디지털벤처타워 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/chaeyuk.official/"
+  },
+  "293": {
+    "name": "칙피스 성수점",
+    "lat": 37.544326702,
+    "lng": 127.052649435,
+    "neighborhood": "성수동2가",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0125",
+      "address": "서울특별시 성동구 연무장5길 9-16 블루스톤타워 1층 101호",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/chickpeace.kr"
+  },
+  "294": {
+    "name": "코스모스 상점",
+    "lat": 37.541563497,
+    "lng": 127.053431531,
+    "neighborhood": "성수동2가",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0024",
+      "address": "서울특별시 성동구 성수이로7길 27, 서울숲코오롱디지탈타워 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/cosmos_grocery_/"
+  },
+  "295": {
+    "name": "푸드갤러리빈",
+    "lat": 37.545918084,
+    "lng": 127.046778175,
+    "neighborhood": "성수동1가",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0132",
+      "address": "서울특별시 성동구 왕십리로6길 19-7 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/food_gallery_bean"
+  },
+  "296": {
+    "name": "날일달월",
+    "lat": 37.550380061,
+    "lng": 127.109292449,
+    "neighborhood": "광장동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0101",
+      "address": "서울특별시 광진구 아차산로78길 7 유진스웰 B 202호",
+      "status": "matched"
+    },
+    "website": "https://blog.naver.com/nalildalwol"
+  },
+  "297": {
+    "name": "밀베이커리",
+    "lat": 37.546097493,
+    "lng": 127.088905591,
+    "neighborhood": "구의동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0140",
+      "address": "서울특별시 광진구 광나루로 545 A동 레미안상가 112호",
+      "status": "matched"
+    }
+  },
+  "298": {
+    "name": "베이크유어데이",
+    "lat": 37.564331489,
+    "lng": 127.082765627,
+    "neighborhood": "중곡동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0235",
+      "address": "서울특별시 광진구 능동로49길 9 1층 베이크유어데이",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/bakeyourday0217"
+  },
+  "299": {
+    "name": "슬로우브레드 오고",
+    "lat": 37.540381915,
+    "lng": 127.089108085,
+    "neighborhood": "구의동",
+    "category": "카페·베이커리",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0243",
+      "address": "서울특별시 광진구 자양로26길 95 1층 102호",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/slowbread_o.g.o"
+  },
+  "300": {
+    "name": "채육식당 군자점",
+    "lat": 37.558442509,
+    "lng": 127.075308371,
+    "neighborhood": "군자동",
+    "category": "음식점",
+    "provenance": {
+      "provider": "스마트서울맵 채식음식점",
+      "url": "https://map.seoul.go.kr/smgis2/seoulMap",
+      "themeId": "1734937216464",
+      "contentId": "v_0252",
+      "address": "서울특별시 광진구 천호대로 512 1층",
+      "status": "matched"
+    },
+    "instagram": "https://www.instagram.com/chaeyuk.official/"
+  }
+}

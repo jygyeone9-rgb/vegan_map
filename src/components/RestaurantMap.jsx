@@ -1,7 +1,9 @@
 import { useEffect, useState } from 'react';
 import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
 import L from 'leaflet';
-const pin = L.divIcon({ className: 'pin-wrap', html: '<div class="pin">✳</div>', iconSize: [32,38], iconAnchor: [16,34] });
+import { venueLabels } from '../lib/catalog.js';
+const makePin = (type, label) => L.divIcon({ className: 'pin-wrap', html: `<div class="pin pin-${type}"><span>${label}</span></div>`, iconSize: [32,38], iconAnchor: [16,34] });
+const pins = { specialist: makePin('specialist', '✳'), vegan: makePin('specialist', '✳'), options: makePin('options', '✳'), pending: makePin('pending', '?'), review: makePin('review', '!') };
 function FitResults({ restaurants }) {
   const map = useMap();
   useEffect(() => {
@@ -16,7 +18,7 @@ export default function RestaurantMap({ restaurants, onSelect }) {
     <MapContainer center={[37.558,127.038]} zoom={12} scrollWheelZoom={false} className="map" aria-label="서울 식당 지도">
       <TileLayer attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' url="https://tile.openstreetmap.org/{z}/{x}/{y}.png" eventHandlers={{ tileerror: () => setTileError(true) }}/>
       <FitResults restaurants={restaurants}/>
-      {restaurants.map(r => <Marker key={r.id} position={[r.lat,r.lng]} icon={pin} title={r.name}><Popup><strong>{r.name}</strong><p>{r.neighborhood}{r.isSample ? ' · 가상 위치 예시' : ''}</p><button onClick={() => onSelect(r)}>상세 정보 보기</button></Popup></Marker>)}
-    </MapContainer><div className="legend">✳　{restaurants.length ? '핀을 눌러 메뉴와 확인 근거를 살펴보세요' : '조건에 맞는 식당이 없어요'}</div>
+      {restaurants.map(r => <Marker key={r.id} position={[r.lat,r.lng]} icon={r.location?.status === 'address-differs' ? pins.review : pins[r.venueType] || pins.pending} title={`${r.name} · ${venueLabels[r.venueType]}`}><Popup><strong>{r.name}</strong><p>{venueLabels[r.venueType]} · PDF 기준</p><p>{r.neighborhood} · 2025년 10월 자료</p>{r.location?.status === 'address-differs' && <p>주소가 자료와 다릅니다. 현재 핀은 서울시 지도 주소 기준입니다.</p>}<button onClick={() => onSelect(r)}>메뉴·유형·상세 정보 보기</button></Popup></Marker>)}
+    </MapContainer><div className="legend map-legend"><span className="legend-specialist">● 채식 전문</span><span className="legend-options">● 채식 가능</span><span className="legend-review">! 주소 재확인</span>{!restaurants.length && <span>조건에 맞는 식당이 없어요</span>}</div>
   </div>;
 }

@@ -1,9 +1,9 @@
 # VEGAN SEOUL — 서울 비건 한 끼 지도
 
-한양대학교 주변에서 서울 전역으로 확장하는 React + JSX / Vite / Leaflet / OpenStreetMap 정적 웹사이트입니다. 기존 프로토타입의 지도와 색상·일러스트 방향을 유지하면서 기획서의 메뉴 탐색, 저장, 인터뷰, 캠페인, 제보 구조를 확장했습니다.
+한양대학교 주변에서 서울 전역으로 확장하는 React + JSX / Vite / Leaflet / OpenStreetMap 정적 웹사이트입니다. 서울시 시민건강국 식품정책과 발행, 한국비건진흥원 편집의 **서울시 채식음식점 지도**를 바탕으로 서울 25개 자치구의 **300개 식당·841개 메뉴**를 탐색합니다.
 
 ## 실행
-Node.js 22 이상을 사용하세요.
+Node.js 22 이상:
 ```bash
 npm ci
 npm run dev
@@ -12,52 +12,61 @@ npm run build
 npm run preview
 ```
 
-## 구현 범위
-- 지도와 동일한 결과를 사용하는 식당 목록, 마커 팝업, 상세 화면.
-- 식당·메뉴·재료·동네 검색, 자치구·역·음식 종류·운영 형태·메뉴 가격·채식 유형 필터.
-- 한양대 주변, 공개 인터뷰, 즐겨찾기 필터.
-- 메뉴별 재료·가격·채식 유형·출처·확인 방법·확인일·교차접촉·주문 유의사항.
-- localStorage 즐겨찾기, 저장 실패 안내 및 같은 브라우저 탭 간 동기화.
-- 공개 동의가 있는 인터뷰 요약·전문·사진, 정확한 지점 리뷰·공식 링크.
-- 캠페인 소개·등록 지표, 실제 Forms/캠페인 URL/QR을 연결할 수 있는 설정.
-- 모바일 메뉴, 키보드 포커스, 본문 건너뛰기, Escape로 닫는 상세 dialog.
-- hash 경로: `#map`, `#menus`, `#stories`, `#campaign`, `#report`, `#map/sample-01`. 새로고침과 직접 링크가 GitHub Pages에서 동작합니다.
+## 데이터와 분류
+- PDF 조사 기준: **2025년 10월**, 발행: **2025년 11월**.
+- PDF의 채식 전문 119곳 / 채식 가능 181곳을 별도 지도 색상과 필터로 표시합니다.
+- 5가지 메뉴 필터: 비건, 락토, 오보, 락토오보, 페스코. PDF에는 앞의 4가지 표기만 있으므로 페스코 결과는 현재 0건입니다.
+- 메뉴 표기: 비건 788개, 락토 42개, 오보 2개, 락토오보 9개. 유형은 원자료에 적힌 값을 정확히 검색하며 다른 유형으로 자동 확장하지 않습니다.
+- **채식 전문은 완전 비건 전문 인증과 다릅니다.** PDF의 전문점에도 유제품 메뉴가 있으므로 식당 운영 형태와 메뉴 유형을 분리합니다.
+- PDF에서 옮긴 유형은 `documented`(자료 표기), 재료를 개별 재확인한 것은 `verified`로 관리합니다. 기본 검색은 자료 표기를 포함하고, ‘재료를 개별 재확인한 메뉴만’ 옵션으로 구분합니다.
+- 메뉴 가격·영업시간·전체 재료·교차접촉·가까운 역은 PDF에 없어 임의로 입력하지 않았습니다. 현재 판매 여부 역시 미확인입니다.
+- 각 식당과 메뉴에 원본 식당 번호, PDF 페이지, 인쇄 쪽수, 출처를 연결합니다. 원본 파일의 SHA-256을 출처 메타데이터에 기록합니다.
 
-## 저장소 구조
+## 기능
+지도·메뉴 탐색·식당 이야기·캠페인·식당 제보의 5개 화면, 식당명/메뉴명/지역 검색, 자치구·업종·전문/가능·채식 유형·가격 필터, 한양대 인접 권역 필터, 브라우저 즐겨찾기, 상세 메뉴·방문 정보·공식 SNS, 네이버/Google 지도 검색 링크를 제공합니다. 정확한 지점 리뷰 URL은 확보 시 별도로 등록합니다.
+
+목록은 30개, 메뉴는 24개씩 더 볼 수 있으며 지도에는 필터에 맞는 모든 식당을 표시합니다. 모바일 레이아웃, 키보드 포커스, 본문 건너뛰기, Escape로 닫는 상세 dialog를 지원합니다. hash 경로(`#map`, `#menus`, `#map/seoul-280` 등)는 GitHub Pages에서 새로고침과 직접 연결이 가능합니다.
+
+## 사진
+메뉴와 정확히 대응하는 사용 가능한 사진이 확인되지 않아 현재는 **이미지 없이 설명만** 표시합니다. 사진 준비 중 아이콘·빈 사진 자리도 표시하지 않습니다. 사진을 등록하려면 사진 URL·메뉴에 맞는 대체 텍스트·원출처·사용 동의를 함께 입력합니다. 이미지 로딩 실패 시에도 사진 영역을 숨깁니다. 네이버/Google 지도 이용자 사진을 임의로 복제하거나 사진과 다른 메뉴에 붙이지 않습니다.
+
+## 구조
 ```text
 src/
-  App.jsx                      페이지·필터 상태와 hash 경로
-  components/
-    Filters.jsx                검색 및 필터
-    RestaurantMap.jsx          지도 마커·뷰포트
-    RestaurantDetail.jsx       메뉴·인터뷰·방문 정보 dialog
-    MenuCard.jsx               메뉴 확인 정보
+  App.jsx                        화면·필터·경로·목록 표시 수
+  components/                    검색, 지도, 식당 상세, 메뉴 카드
   data/
-    restaurants.json           식당 정보
-    menus.json                 restaurantId로 연결한 메뉴
-    interviews.json            동의·공개 상태를 가진 인터뷰
-    index.js                   데이터 진입점
-  hooks/useFavorites.js        브라우저 저장소
-  lib/catalog.js               검색·가격·유형·검증 공통 규칙
-  config.js                    제보·캠페인 주소 설정
-  style.css                    기존 디자인 기반
-  enhancements.css             확장 화면·반응형·접근성
-scripts/validate-data.mjs       JSON 참조·근거·동의 검증
-tests/catalog.test.js           검색 조건과 비공개 정보 회귀 테스트
-docs/DATA_GUIDE.md              조사표·등록·운영 안내
-.github/workflows/deploy.yml    테스트 → 빌드 → Pages 배포
+    restaurants.json             식당 300개
+    menus.json                   메뉴 841개, restaurantId로 연결
+    interviews.json              공개 동의가 있는 인터뷰
+    handbook-source.json         발행·조사 기준·범례·파일 해시
+  hooks/useFavorites.js          브라우저 즐겨찾기
+  lib/catalog.js                 검색·유형·자료/재확인 판정
+  config.js                      실제 제보·캠페인 주소
+scripts/
+  validate-data.mjs              데이터 관계·출처·유형·사진 검증
+  import-handbook.py             제공된 PDF의 재현 가능한 추출
+  handbook-locations.json        PDF 번호와 대조한 좌표·출처
+tests/catalog.test.js            검색 및 PDF 반영 회귀 테스트
+docs/DATA_GUIDE.md                데이터 수정 방법
+docs/IMPORT_NOTES.md              원자료 대조·차이·좌표 보완 내역
+.github/workflows/deploy.yml      검증 → 테스트 → 빌드 → Pages
 ```
 
-## 실제 운영 전 준비
-현재 식당 3곳과 메뉴 4개는 **실제 업체가 아닌 가상 데이터**입니다. 실제 조사 요청을 수행한 것은 아니며 가격·식단 태그·검증일을 꾸며 넣지 않았습니다. 따라서 채식 유형/가격/공개 인터뷰 필터의 결과가 비어 있는 것이 정상입니다. 실제 가격·태그가 있는 테스트 데이터는 자동 테스트 안에만 있습니다.
+앱 실행에는 Python이 필요 없습니다. 원본 PDF를 다시 추출할 때만 `pdfplumber`가 필요합니다.
+```bash
+python scripts/import-handbook.py --pdf /path/to/handbook.pdf
+npm test
+```
+추출 스크립트는 네트워크를 사용하지 않으며 검토된 좌표 파일과 PDF를 결합합니다. 재추출은 자료 상태로 되돌리므로 이후 수동 검수 변경은 먼저 보존하세요.
 
-`docs/DATA_GUIDE.md`에 따라 조사한 정보를 입력하세요. 실제 식당 등록 전 `isSample` 값을 변경하고 주소·좌표·지점 링크·재료 근거를 검수합니다. 공개할 근거가 없는 메뉴는 확인 중으로 남깁니다. 사진·인터뷰는 공개 동의를 확인한 뒤 등록합니다.
+## 운영 설정과 배포
+`src/config.js`의 `reportFormUrl`에 실제 Google Forms 주소를 연결해야 접수가 열립니다. 공개 동의를 확보한 인터뷰, 캠페인 일정/URL/QR은 자료가 마련되면 등록하세요. Google Sheets 수집·Forms 자동 연동, 계정·관리자 기능과 참여 분석은 포함하지 않습니다.
 
-`src/config.js`의 `reportFormUrl`에 실제 Google Forms 주소를 연결해야 제보 버튼이 열립니다. 캠페인 안내와 QR도 실제 자료가 있을 때 설정합니다. Google Sheets 수집·Forms 자동 연동, 회원 계정, 관리자 기능, 방문·참여 분석은 포함하지 않습니다. 외부 연결을 설정하기 전에는 접수나 캠페인 참여가 완료되었다고 표시하지 않습니다.
+GitHub Pages: Settings → Pages → Source를 **GitHub Actions**로 설정하세요. `main`에 변경하면 `npm ci`, 테스트, 빌드를 거쳐 `dist`를 배포합니다. base는 `/vegan_map/`입니다. 초기 배포에서 Pages 미설정 오류가 확인되었으므로 설정 전에는 배포 완료로 보지 않습니다.
 
-## GitHub Pages
-기존 `main` 배포 흐름을 사용하며 `vite.config.js`의 base는 `/vegan_map/`입니다. Settings → Pages → Source가 **GitHub Actions**로 설정되어야 합니다. 워크플로가 `npm ci`, 데이터 검증/테스트, 빌드를 통과하면 `dist`를 배포합니다. 다른 이름의 저장소에 옮기면 base를 변경하세요.
+지도 타일은 OpenStreetMap을 사용합니다. 타일 접속 실패 시 목록과 메뉴 탐색을 계속 사용할 수 있습니다. 출처·저작권 표시는 유지하며 대량 다운로드나 프리페치는 하지 않습니다.
 
-브라우저가 OpenStreetMap 타일 서버에 접속해야 지도 배경이 보입니다. 실패 시 목록으로 탐색할 수 있습니다. OSM 저작권 표시는 유지하고 대량 타일 다운로드/프리페치는 하지 않습니다.
+자료: [서울시 공식 배포처](https://fsi.seoul.go.kr/front/M0000070/board/view.do?atcSn=2283), [한국비건진흥원 안내](https://k-vegan.org/?page_id=4337&uid=644&mod=document&pageid=1), [스마트서울맵](https://map.seoul.go.kr/smgis2/seoulMap).
 
-구현 참고: [React Effect](https://react.dev/reference/react/useEffect), [Leaflet API](https://leafletjs.com/reference.html), [Vite GitHub Pages](https://vite.dev/guide/static-deploy.html#github-pages).
+기술 참고: [React Effect](https://react.dev/reference/react/useEffect), [Leaflet](https://leafletjs.com/reference.html), [Vite Pages 배포](https://vite.dev/guide/static-deploy.html#github-pages).
