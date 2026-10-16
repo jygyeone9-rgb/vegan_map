@@ -4,6 +4,7 @@ import { dietLabels, safeUrl, isVerified, isDocumented, getPhotoUrl } from '../s
 const read = name => JSON.parse(readFileSync(new URL(`../src/data/${name}.json`, import.meta.url), 'utf8'));
 const restaurants = read('restaurants'), menus = read('menus'), interviews = read('interviews');
 const source = read('handbook-source');
+const closedRestaurants = read('closed-restaurants');
 const ids = list => {
   assert.ok(Array.isArray(list), 'Data must be an array');
   assert.equal(new Set(list.map(item => item.id)).size, list.length, 'Duplicate ID');
@@ -26,6 +27,15 @@ const checkVerification = v => {
   }
 };
 for (const list of [restaurants,menus,interviews]) ids(list);
+assert.equal(new Set(closedRestaurants.map(item => item.restaurantId)).size, closedRestaurants.length, 'Duplicate closed restaurant');
+for (const item of closedRestaurants) {
+  assert.ok(restaurants.some(r => r.id === item.restaurantId), 'Closed restaurant must match a source record');
+  assert.equal(item.status, 'closed');
+  assert.ok(date(item.checkedAt) && item.reason && item.sourceName && safeUrl(item.sourceUrl), 'Closed status needs dated evidence');
+}
+const closedIds = new Set(closedRestaurants.map(item => item.restaurantId));
+const activeRestaurants = restaurants.filter(r => !closedIds.has(r.id));
+const activeMenus = menus.filter(m => !closedIds.has(m.restaurantId));
 for (const r of restaurants) {
   for (const key of ['name','district','neighborhood','address','category','hours','closedDays','description']) assert.ok(typeof r[key] === 'string' && r[key].trim(), `${r.id}: missing ${key}`);
   assert.ok(typeof r.isSample === 'boolean' && typeof r.nearHanyang === 'boolean');
@@ -73,6 +83,8 @@ assert.equal(restaurants.length, source.restaurantCount, 'Restaurant count diffe
 assert.equal(menus.length, source.menuCount, 'Menu count differs from source manifest');
 assert.equal(new Set(restaurants.map(r => r.verification.recordNumber)).size, source.restaurantCount, 'Each PDF record must occur once');
 assert.ok(restaurants.every(r => menus.some(m => m.restaurantId === r.id)), 'Each restaurant needs at least one menu');
+assert.equal(activeRestaurants.length, 298, 'Public catalog must exclude confirmed closed locations');
+assert.equal(activeMenus.length, 835, 'Public catalog must exclude menus from closed locations');
 assert.equal(source.surveyMonth, '2025-10');
 assert.match(source.sha256, /^[a-f0-9]{64}$/);
 console.log(`Data valid: ${restaurants.length} restaurants, ${menus.length} menus, ${interviews.length} interviews`);
@@ -80,7 +92,7 @@ console.log(`Data valid: ${restaurants.length} restaurants, ${menus.length} menu
 const updates = read('menu-enrichments');
 ids(updates);
 for (const update of updates) {
-  assert.ok(menus.some(m => m.id === update.id), 'Enrichment must reference an existing menu');
+  assert.ok(activeMenus.some(m => m.id === update.id), 'Enrichment must reference an active menu');
   assert.ok(Number.isInteger(update.price) && update.price >= 0);
   const v = update.priceVerification;
   assert.ok(v && safeUrl(v.sourceUrl) && date(v.checkedAt) && v.sourceName && v.note);
@@ -88,7 +100,7 @@ for (const update of updates) {
   assert.ok(['official', 'platform'].includes(v.sourceKind));
   assert.ok(['exact', 'from'].includes(v.qualifier));
   const base = menus.find(m => m.id === update.id);
-  const venue = restaurants.find(r => r.id === base.restaurantId);
+  const venue = activeRestaurants.find(r => r.id === base.restaurantId);
   assert.equal(v.restaurantId, venue.id, 'Price evidence must match the branch');
   assert.equal(v.restaurantName, venue.name, 'Price branch name mismatch');
   assert.ok(v.sourceAddress && v.publishedMenuName, 'Source address and actual published menu name required');
@@ -96,4 +108,5 @@ for (const update of updates) {
   assert.ok(update.descriptionUpdate.text && safeUrl(update.descriptionUpdate.sourceUrl) && date(update.descriptionUpdate.checkedAt));
   assert.ok(Object.keys(update).every(k => ['id','price','priceVerification','descriptionUpdate','photoReferenceUrl','photoReferenceLabel'].includes(k)), 'Enrichment cannot override ingredient or photo consent evidence');
 }
-console.log(`Validated ${updates.length} menu enrichments`);
+assert.equal(new Set(updates.map(u => u.priceVerification.restaurantId)).size, 30, 'Price enrichment must cover 30 locations');
+console.log(`Validated ${activeRestaurants.length} active restaurants, ${activeMenus.length} active menus, ${updates.length} price enrichments across 30 locations`);

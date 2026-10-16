@@ -1,7 +1,7 @@
 # 데이터 등록과 검수
 
 ## 식당과 메뉴는 별도로 관리
-`restaurants.json`은 식당 위치·연락처·운영 형태, `menus.json`은 개별 메뉴 이름·유형·재료·가격을 저장합니다. 식당 ID와 메뉴의 `restaurantId`로 연결합니다. `handbook-source.json`은 원본 출처를, `scripts/handbook-locations.json`은 좌표 대조 근거를 기록합니다.
+`restaurants.json`은 원자료 식당 위치·연락처·운영 형태, `menus.json`은 개별 메뉴 이름·유형·재료·가격을 저장합니다. 식당 ID와 메뉴의 `restaurantId`로 연결합니다. `closed-restaurants.json`은 폐점 근거가 확인된 지점을 앱 공개 목록에서 제외하고, `menu-enrichments.json`은 가격 출처를 기록합니다. 현재 공개 목록은 298곳·835개 메뉴이며 가격 자료는 30곳·40개 메뉴에 있습니다. 가격 보강은 재료 확인이나 채식 유형을 바꾸지 않습니다.
 
 PDF에서 옮긴 항목은 `verification.status: documented`, 확인일은 `null`입니다. 조사 기준 월(2025-10)과 자료를 앱에 옮긴 시점, 업체에 다시 확인한 날짜는 다른 개념입니다. 월만 알려진 조사일에 임의의 일자를 만들지 않습니다.
 
@@ -22,6 +22,8 @@ PDF에서 옮긴 항목은 `verification.status: documented`, 확인일은 `null
 가격은 원 단위 정수, 미확인은 `null`. 가격 미확인 메뉴는 가격 필터에서 제외됩니다. 현재 판매 여부는 `available: null`, 재확인 후 판매 중은 `true`, 중단은 `false`입니다. `crossContact`는 `unknown`/`possible`/`none`이며 재료 유형과 독립적으로 기록합니다.
 
 `address`는 PDF 주소, `location.address`는 지도 좌표 출처의 주소입니다. 다르면 `location.status: address-differs`와 설명을 유지해 사용자가 알 수 있게 합니다. 동명 업체는 이름만으로 좌표를 복사하지 말고 주소·전화번호도 대조합니다.
+
+폐점은 지점명과 주소가 맞는 출처에 명확히 표시된 경우에만 `closed-restaurants.json`에 넣습니다. 원자료 행은 보존하며 앱의 식당·메뉴 배열에서 해당 지점만 제외합니다. 단순한 정보 수정 제안 표시는 폐점 증거로 보지 않습니다.
 
 한양대 인접 권역은 성동구 중 왕십리·행당·성수 주소 권역이며 도보 거리나 이동 시간을 뜻하지 않습니다. 가까운 역과 한식/양식 등 세부 업종은 PDF에 없어 추측하지 않았습니다. 지하철역 배열을 추가하면 역 필터가 자동으로 활성화됩니다. 현재 업종은 음식점과 카페·베이커리 구분입니다.
 

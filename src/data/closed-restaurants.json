@@ -1,0 +1,18 @@
+[
+  {
+    "restaurantId": "seoul-275",
+    "checkedAt": "2026-10-17",
+    "status": "closed",
+    "sourceName": "뽈레",
+    "sourceUrl": "https://polle.com/place/4vk6tV/채육식당",
+    "reason": "지점명과 전농로20길 5 주소가 일치하는 페이지에 폐점으로 표시됨"
+  },
+  {
+    "restaurantId": "seoul-293",
+    "checkedAt": "2026-10-17",
+    "status": "closed",
+    "sourceName": "뽈레",
+    "sourceUrl": "https://polle.com/place/1PFrrr/칙피스",
+    "reason": "지점명과 연무장5길 9-16 주소가 일치하는 페이지에 폐점으로 표시됨"
+  }
+]

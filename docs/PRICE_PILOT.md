@@ -1,10 +1,10 @@
-# 가격 보강 1차: 10곳 / 20개 메뉴
+# 가격 보강: 30곳 / 40개 메뉴
 
-2026-10-17 웹 페이지 조회 기준. 기존 베러초이스 1곳 / 3개에 9곳 / 17개를 추가했다. 업체 직접 확인을 뜻하지 않으며, 출처 게시물의 최종 갱신일은 확인되지 않았다.
+2026-10-17 웹 페이지 조회 기준. 기존 10곳 / 20개 메뉴에 20곳 / 20개 메뉴를 추가했다. 업체 직접 확인을 뜻하지 않으며, 플랫폼 메뉴의 최종 갱신일은 확인되지 않았다.
 
 ## 자료 범위와 선택
 
-성수 8곳, 광진구 2곳. 기존 300개 식당과 메뉴를 유지하며 원자료와 분리된 menu-enrichments.json에 보강 정보를 관리한다. 공식몰 이외의 가격은 외부 플랫폼 등록가이며 현장 가격이나 현재 판매를 보증하지 않는다. 각 레코드에 지점명·주소·실제 게재 메뉴명을 기록한다.
+한양대 인접 권역부터 종로·용산·서대문·마포·강남·동작·관악·성북 등 서울 여러 권역으로 넓혔다. 기존 300개 원자료는 보존하고, 확인된 폐점 2곳을 closed-restaurants.json에서 공개 목록과 메뉴에서 제외한다. 가격은 원자료와 분리된 menu-enrichments.json에 관리한다. 공식몰 이외의 가격은 외부 플랫폼 등록가이며 현장 가격이나 현재 판매를 보증하지 않는다. 각 레코드에 지점명·주소·실제 게재 메뉴명을 기록한다.
 
 ## 보강 항목
 
@@ -28,10 +28,30 @@
 - 푸드갤러리빈 / 쌈장두부비빔밥: 12,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=x4lhuSymFkNx)
 - 슬로우브레드 오고 / 무화과 호밀빵 (Rye & Fig): 14,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=az98pzez7TGk)
 - 슬로우브레드 오고 / 통밀 시골빵: 9,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=az98pzez7TGk)
+- 마지 / 오늘의마지: 11,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=QBc1NKeAZ5DI)
+- 발우공양 / 선식(평일 점심 한정 메뉴): 36,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=gFxIOnl6TMQV)
+- 몽크스부처 이태원 / 블랙 레몬 파스타: 19,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=rOLdQ8mQg3d7)
+- 바이두부 / 바이두부랩: 14,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=SvRBrH6GnTXg)
+- 베제투스 / 베제투스버거: 16,000원 — [셔틀딜리버리](https://www.shuttledelivery.co.kr/ko/restaurant/menu/553/trees)
+- 빵어니스타 이태원점 / 비건 피스타치오 빙수: 19,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=oFQg49849c5U)
+- 알트에이 이태원점 / 유린팽이: 22,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=TOYomryJOiDW)
+- 플랜튜드 아이파크몰 용산점 / 고사리 오일 스톡 파스타: 16,900원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=nRY8t2bQ9DhV)
+- 플랜트 이태원점 / 후무스 템페 샐러드 보울: 15,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=UAcDBmWKK8fK)
+- 베지나랑 신촌 / 흑미 콩까스 정식: 9,900원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=3AgzI1FMnKZn)
+- 비건 베이커리 구떼 / 스모어 쿠키: 3,800원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=bWJHZTJ7OHnq)
+- 더브레드블루 / 밤식빵 280g: 5,930원 온라인가 — [쿠팡](https://www.coupang.com/vp/products/8550065399)
+- 베지 스튜디오 / 깻잎-아보 주스: 5,500원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=8EbT9LJfwLlz)
+- 써니보울 / 채소짬뽕: 15,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=V8RaVJtCTASg)
+- 노르디 / 비건 라즈베리 타르트: 8,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=QbbSM1aJYKn3)
+- 닥터비건 / 비건 6미 쿠스쿠스 파스타: 22,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=aN44QPZ1mdEt)
+- 마히나 비건 테이블 / 샹트렐 레몬 파슬리 파스타: 28,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=PR6YW1gWvUk4)
+- 우부래도 / 쌀바게트: 4,500원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=IUO2ghSqHq6K)
+- 비건마마 / 마마 아사이볼: 11,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=ccc18oLd3Mky)
+- 러빙헛리얼러브 / 비건김밥: 5,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=k2gHnwRPkEUq)
 
 ## 대조 및 제외 사항
 
-- 채육식당은 성수점과 군자점 가격을 각각 대조했다. 전농점과 칙피스 성수점은 폐점 표시가 있어 이번 가격 보강 대상에서 제외했다. 폐점 상태를 업체에 직접 확인한 것은 아니므로 원자료를 삭제하거나 운영 상태를 확정하지 않았다.
+- 채육식당 전농점과 칙피스 성수점은 지점명·주소가 일치하는 뽈레 페이지에 폐점으로 표시되어 공개 지도와 메뉴에서 제외했다. 원자료는 보존하고, 확인 근거와 날짜를 closed-restaurants.json에 남겼다.
 - 본노엘 답십리점은 성수점 가격을 전용하지 않았다. 로컬릿은 지점 혼동, 코스모스 상점은 메뉴 변경 때문에 제외했다.
 - 르베지왕: 원자료의 텝버볼과 프로필의 템버볼(템페 버섯볼 포케)을 대응했다. 프로필의 두아볼·템버볼은 시작 가격이므로 qualifier=from으로 기록하고 가격 상한 필터에서 제외한다. 템버볼은 다른 자료와 가격 차이가 있어 화면에도 재확인 문구를 표시한다.
 - 리프레쉬먼트 비빔밥은 다이닝코드 13,000원과 테이블링 12,000원 표기가 다르다. 13,000원을 외부 등록가로 보관하고 차이를 화면에 명시했다. 비빔밥 세트 17,000원을 단품 가격으로 가져오지 않았다.

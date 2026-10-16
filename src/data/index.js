@@ -1,8 +1,11 @@
-import restaurants from './restaurants.json';
-import baseMenus from './menus.json';
+import sourceRestaurants from './restaurants.json';
+import sourceMenus from './menus.json';
 import enrichments from './menu-enrichments.json';
 import { enrichMenus } from '../lib/enrichMenus.js';
-const menus = enrichMenus(baseMenus, enrichments);
+import closedRestaurants from './closed-restaurants.json';
 import interviews from './interviews.json';
 import handbookSource from './handbook-source.json';
+const closedIds = new Set(closedRestaurants.map(item => item.restaurantId));
+const restaurants = sourceRestaurants.filter(restaurant => !closedIds.has(restaurant.id));
+const menus = enrichMenus(sourceMenus, enrichments).filter(menu => !closedIds.has(menu.restaurantId));
 export { restaurants, menus, interviews, handbookSource };

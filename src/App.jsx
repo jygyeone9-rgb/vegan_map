@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { ArrowUpRight, Heart, Leaf, MapPin } from 'lucide-react';
-import { restaurants, menus, interviews, handbookSource } from './data/index.js';
+import { restaurants, menus, interviews } from './data/index.js';
 import { defaults, dietLabels, formatPrice, getDietTypes, publicInterviews, safeUrl, searchCatalog, venueLabels } from './lib/catalog.js';
 import { siteConfig } from './config.js';
 import useFavorites from './hooks/useFavorites.js';
@@ -37,7 +37,7 @@ export default function App() {
   const realStories = stories.filter(i => realPlaces.some(r => r.id === i.restaurantId));
   return <div className="shell"><a className="skip-link" href="#main">본문으로 이동</a><header><a className="brand" href="#map"><span><Leaf/></span><b>VEGAN SEOUL<small>서울 비건 한 끼 지도</small></b></a><nav aria-label="주 메뉴">{Object.entries(pages).map(([key,label]) => <a key={key} href={`#${key}`} className={route.page === key?'active':''} aria-current={route.page === key?'page':undefined}>{label}</a>)}</nav><button className="save-button header-save" onClick={() => { setFilters({...defaults, favorites:true}); window.location.hash='map'; }}><Heart size={16}/> 저장 {favorites.filter(id => restaurants.some(r => r.id === id)).length}</button></header>
     <main id="main"><section className="hero"><div><small className="kicker">FROM HANYANG, ACROSS SEOUL</small><h1>오늘의 한 끼가<br/><em>조금 더 다정하도록.</em></h1><p>한양대학교 주변에서 서울 곳곳까지.<br/>메뉴의 재료를 확인하고, 식당의 이야기를 함께 기록합니다.</p><div className="hero-actions"><a className="primary-button" href="#map">한 끼 찾아보기 <ArrowUpRight size={16}/></a><a className="text-button" href="#campaign">프로젝트 알아보기 →</a></div></div><div className="hero-art"><div className="sun"/><div className="leaf-art">✳</div><div className="hero-note">A SMALL STEP.<br/><b>A GREENER TABLE.</b></div></div></section>
-      <div className="source-banner"><div><b>서울 곳곳의 {handbookSource.restaurantCount}곳, {handbookSource.menuCount}개 메뉴</b><p>나에게 맞는 한 끼를 찾아보세요. 메뉴와 영업 정보는 방문 전 매장에 확인해 주세요.</p></div></div>
+      <div className="source-banner"><div><b>서울 곳곳의 {restaurants.length}곳, {menus.length}개 메뉴</b><p>나에게 맞는 한 끼를 찾아보세요. 메뉴와 영업 정보는 방문 전 매장에 확인해 주세요.</p></div></div>
       {error && <p className="warning" role="status">{error}</p>}
       {(route.page === 'map' || route.page === 'menus') && <section className="map-section"><div className="section-intro"><div><small className="kicker">{route.page === 'map'?'FIND YOUR GREEN SPOT':'LOOK INSIDE YOUR PLATE'}</small><h2>{route.page === 'map'?'서울 비건 한 끼 지도':'메뉴부터 찾아보세요'}</h2><p>메뉴별 채식 유형과 자료의 확인 범위를 함께 살펴보세요.</p></div><div className="count" aria-live="polite"><b>{places.length.toString().padStart(2,'0')}</b> 식당 · {menuRows.length} 메뉴</div></div>
         <div className={'explorer '+(route.page === 'menus'?'menu-explorer':'')}><aside className="sidebar"><Filters filters={filters} setFilters={setFilters} restaurants={restaurants} favoriteCount={favorites.filter(id => restaurants.some(r => r.id === id)).length}/><DietGuide/>
