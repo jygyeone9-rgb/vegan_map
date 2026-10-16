@@ -1,0 +1,56 @@
+[
+  {
+    "id": "seoul-287-m01",
+    "price": 3000,
+    "priceVerification": {
+      "sourceUrl": "https://betterchoice.kr/goods/goods_view.php?goodsNo=1000000042",
+      "sourceName": "베러초이스 공식몰",
+      "checkedAt": "2026-10-17",
+      "channel": "online",
+      "note": "공식몰 상품 1개 기준 · 배송비 별도 · 옵션과 매장 가격은 다를 수 있음"
+    },
+    "photoReferenceUrl": "https://betterchoice.kr/goods/goods_view.php?goodsNo=1000000042",
+    "photoReferenceLabel": "공식 상품 사진 보기",
+    "descriptionUpdate": {
+      "text": "공식몰에서 비건 제품으로 소개하는 앙금빵입니다. 구성과 옵션은 상품 페이지에서 확인해 주세요.",
+      "sourceUrl": "https://betterchoice.kr/goods/goods_view.php?goodsNo=1000000042",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-287-m02",
+    "price": 3900,
+    "priceVerification": {
+      "sourceUrl": "https://betterchoice.kr/goods/goods_view.php?goodsNo=1000000023",
+      "sourceName": "베러초이스 공식몰",
+      "checkedAt": "2026-10-17",
+      "channel": "online",
+      "note": "공식몰 상품 1개 기준 · 배송비 별도 · 옵션과 매장 가격은 다를 수 있음"
+    },
+    "photoReferenceUrl": "https://betterchoice.kr/goods/goods_view.php?goodsNo=1000000023",
+    "photoReferenceLabel": "공식 상품 사진 보기",
+    "descriptionUpdate": {
+      "text": "공식몰에서 비건 제품으로 소개하는 옥수슈 크림 파운드입니다. 구성과 옵션은 상품 페이지에서 확인해 주세요.",
+      "sourceUrl": "https://betterchoice.kr/goods/goods_view.php?goodsNo=1000000023",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-287-m03",
+    "price": 3900,
+    "priceVerification": {
+      "sourceUrl": "https://betterchoice.kr/goods/goods_view.php?goodsNo=1000000049",
+      "sourceName": "베러초이스 공식몰",
+      "checkedAt": "2026-10-17",
+      "channel": "online",
+      "note": "공식몰 상품 1개 기준 · 배송비 별도 · 옵션과 매장 가격은 다를 수 있음"
+    },
+    "photoReferenceUrl": "https://betterchoice.kr/goods/goods_view.php?goodsNo=1000000049",
+    "photoReferenceLabel": "공식 상품 사진 보기",
+    "descriptionUpdate": {
+      "text": "공식몰에서 비건 제품으로 소개하는 애플 시나몬 파운드입니다. 구성과 옵션은 상품 페이지에서 확인해 주세요.",
+      "sourceUrl": "https://betterchoice.kr/goods/goods_view.php?goodsNo=1000000049",
+      "checkedAt": "2026-10-17"
+    }
+  }
+]

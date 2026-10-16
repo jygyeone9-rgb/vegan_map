@@ -76,3 +76,17 @@ assert.ok(restaurants.every(r => menus.some(m => m.restaurantId === r.id)), 'Eac
 assert.equal(source.surveyMonth, '2025-10');
 assert.match(source.sha256, /^[a-f0-9]{64}$/);
 console.log(`Data valid: ${restaurants.length} restaurants, ${menus.length} menus, ${interviews.length} interviews`);
+
+const updates = read('menu-enrichments');
+ids(updates);
+for (const update of updates) {
+  assert.ok(menus.some(m => m.id === update.id), 'Enrichment must reference an existing menu');
+  assert.ok(Number.isInteger(update.price) && update.price >= 0);
+  const v = update.priceVerification;
+  assert.ok(v && safeUrl(v.sourceUrl) && date(v.checkedAt) && v.sourceName && v.note);
+  assert.ok(['online', 'store'].includes(v.channel));
+  assert.ok(safeUrl(update.photoReferenceUrl));
+  assert.ok(update.descriptionUpdate.text && safeUrl(update.descriptionUpdate.sourceUrl) && date(update.descriptionUpdate.checkedAt));
+  assert.ok(Object.keys(update).every(k => ['id','price','priceVerification','descriptionUpdate','photoReferenceUrl','photoReferenceLabel'].includes(k)), 'Enrichment cannot override ingredient or photo consent evidence');
+}
+console.log(`Validated ${updates.length} menu enrichments`);
