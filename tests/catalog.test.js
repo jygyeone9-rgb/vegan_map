@@ -62,7 +62,7 @@ test('all 300 handbook restaurants, 25 districts and original menu classificatio
   assert.equal(restaurants.length,300);
   assert.equal(new Set(restaurants.map(r=>r.district)).size,25);
   assert.equal(menus.filter(m=>m.verification.sourceId==='seoul-handbook-2025').length,841);
-  assert.equal(menus.length,846);
+  assert.equal(menus.length,869);
   assert.equal(restaurants.filter(r=>r.venueType==='specialist').length,119);
   assert.equal(restaurants.filter(r=>r.venueType==='options').length,181);
   assert.equal(restaurants.filter(r=>r.isSample).length,0);

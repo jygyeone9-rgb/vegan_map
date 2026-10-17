@@ -86,5 +86,61 @@
     "sourceName": "뽈레",
     "sourceUrl": "https://polle.com/place/10WPLa/%ED%91%B8%EB%93%9C%20%EB%8D%94%EC%A6%88%20%EB%A7%A4%ED%84%B0",
     "reason": "서래로1길 10 페이지 폐점 표시"
+  },
+  {
+    "restaurantId": "seoul-090",
+    "checkedAt": "2026-10-17",
+    "status": "closed",
+    "sourceName": "HappyCow",
+    "sourceUrl": "https://www.happycow.net/reviews/very-very-salty-seoul-316325",
+    "reason": "해당 지점의 업체 목록에 2024년 9월 폐점으로 표시됨"
+  },
+  {
+    "restaurantId": "seoul-119",
+    "checkedAt": "2026-10-17",
+    "status": "closed",
+    "sourceName": "다이닝코드",
+    "sourceUrl": "https://www.diningcode.com/profile.php?rid=PRtTvNcPpLaN",
+    "reason": "백범로24길 기존 지점 폐점·이전 안내가 있어 기존 주소의 지점을 제외함"
+  },
+  {
+    "restaurantId": "seoul-155",
+    "checkedAt": "2026-10-17",
+    "status": "closed",
+    "sourceName": "다이닝코드",
+    "sourceUrl": "https://www.diningcode.com/profile.php?rid=zoUYnFQvJWWu",
+    "reason": "지점 소개에 2026년 7월 5일 영업 종료로 안내됨"
+  },
+  {
+    "restaurantId": "seoul-209",
+    "checkedAt": "2026-10-17",
+    "status": "closed",
+    "sourceName": "뽈레",
+    "sourceUrl": "https://polle.com/place/3A8TBi/%EB%B8%94%EB%9E%99%EB%A3%A8%EB%A8%B8%20%EB%8B%A4%EC%9D%B4%EC%98%A4%ED%8A%B8",
+    "reason": "양재점과 주소가 일치하는 업체 페이지에 폐점 표시"
+  },
+  {
+    "restaurantId": "seoul-234",
+    "checkedAt": "2026-10-17",
+    "status": "closed",
+    "sourceName": "뽈레",
+    "sourceUrl": "https://polle.com/place/3MsieZ/%EB%A3%A8%EC%93%B0%EC%98%A4%ED%8A%B8",
+    "reason": "선유서로 지점의 업체 페이지에 폐점 표시"
+  },
+  {
+    "restaurantId": "seoul-257",
+    "checkedAt": "2026-10-17",
+    "status": "closed",
+    "sourceName": "지역 업체 정보",
+    "sourceUrl": "https://xn--2s2b33eb3kgvpta.com/store/S140522_1655175660762",
+    "reason": "노해로 480 지점 정보에 영업 종료 표시"
+  },
+  {
+    "restaurantId": "seoul-270",
+    "checkedAt": "2026-10-17",
+    "status": "closed",
+    "sourceName": "HappyCow",
+    "sourceUrl": "https://www.happycow.net/reviews/yeoul-vegan-seoul-418530",
+    "reason": "해당 지점 목록에 2026년 1월 폐점 제보가 표시됨"
   }
 ]
