@@ -2348,5 +2348,643 @@
       "sourceUrl": "https://www.diningcode.com/profile.php?rid=J5DnfWia9s1K",
       "checkedAt": "2026-10-17"
     }
+  },
+  {
+    "id": "seoul-016-m01",
+    "price": 14000,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/1GrjWN/%EC%86%8C%EC%9D%B4%EB%A1%9C%EC%9B%80",
+      "sourceName": "뽈레",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "지점 주소와 공개 메뉴명이 일치하는 등록가 · 방문 전 현재 판매가 확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-016",
+      "restaurantName": "소이로움",
+      "sourceAddress": "서울 종로구 필운대로 41 1층",
+      "publishedMenuName": "곡물패티버거"
+    },
+    "descriptionUpdate": {
+      "text": "공개 메뉴 자료에서 확인한 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/1GrjWN/%EC%86%8C%EC%9D%B4%EB%A1%9C%EC%9B%80",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-016-m02",
+    "price": 16000,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/1GrjWN/%EC%86%8C%EC%9D%B4%EB%A1%9C%EC%9B%80",
+      "sourceName": "뽈레",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "지점 주소와 공개 메뉴명이 일치하는 등록가 · 방문 전 현재 판매가 확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-016",
+      "restaurantName": "소이로움",
+      "sourceAddress": "서울 종로구 필운대로 41 1층",
+      "publishedMenuName": "베지함박플레이트"
+    },
+    "descriptionUpdate": {
+      "text": "공개 메뉴 자료에서 확인한 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/1GrjWN/%EC%86%8C%EC%9D%B4%EB%A1%9C%EC%9B%80",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-016-m03",
+    "price": 9500,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/1GrjWN/%EC%86%8C%EC%9D%B4%EB%A1%9C%EC%9B%80",
+      "sourceName": "뽈레",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "지점 주소와 공개 메뉴명이 일치하는 등록가 · 방문 전 현재 판매가 확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-016",
+      "restaurantName": "소이로움",
+      "sourceAddress": "서울 종로구 필운대로 41 1층",
+      "publishedMenuName": "아보카도 오픈 샌드위치"
+    },
+    "descriptionUpdate": {
+      "text": "공개 메뉴 자료에서 확인한 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/1GrjWN/%EC%86%8C%EC%9D%B4%EB%A1%9C%EC%9B%80",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-023-m01",
+    "price": 12000,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=sz8xl8o5wPoF",
+      "sourceName": "다이닝코드",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "비건 손수제비·손칼국수 선택 메뉴의 공개 등록가 · 실제 주문 가격 확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-023",
+      "restaurantName": "인사동 청춘수제비",
+      "sourceAddress": "서울 종로구 인사동12길 14-7",
+      "publishedMenuName": "비건 손수제비 • 비건 손칼국수"
+    },
+    "descriptionUpdate": {
+      "text": "공개 메뉴 자료에서 확인한 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=sz8xl8o5wPoF",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-040-m01",
+    "price": 16000,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/4D3HoS/%EB%B2%A0%EC%A0%9C%ED%88%AC%EC%8A%A4",
+      "sourceName": "뽈레",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "지점 주소와 공개 메뉴명이 일치하는 등록가 · 방문 전 현재 판매가 확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-040",
+      "restaurantName": "베제투스",
+      "sourceAddress": "서울 용산구 신흥로 59 1층",
+      "publishedMenuName": "갈릭 알프레도 스파게티 (글루텐프리)"
+    },
+    "descriptionUpdate": {
+      "text": "공개 메뉴 자료에서 확인한 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/4D3HoS/%EB%B2%A0%EC%A0%9C%ED%88%AC%EC%8A%A4",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-040-m02",
+    "price": 17000,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/4D3HoS/%EB%B2%A0%EC%A0%9C%ED%88%AC%EC%8A%A4",
+      "sourceName": "뽈레",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "지점 주소와 공개 메뉴명이 일치하는 등록가 · 방문 전 현재 판매가 확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-040",
+      "restaurantName": "베제투스",
+      "sourceAddress": "서울 용산구 신흥로 59 1층",
+      "publishedMenuName": "라자냐 (글루텐프리)"
+    },
+    "descriptionUpdate": {
+      "text": "공개 메뉴 자료에서 확인한 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/4D3HoS/%EB%B2%A0%EC%A0%9C%ED%88%AC%EC%8A%A4",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-035-m01",
+    "price": 16000,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/5kOBLT/%EB%AA%BD%ED%81%AC%EC%8A%A4%20%EB%B6%80%EC%B2%98",
+      "sourceName": "뽈레",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "이태원 지점 주소와 공개 메뉴명이 일치하는 등록가 · 방문 전 현재 판매가 확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-035",
+      "restaurantName": "몽크스부처(이태원)",
+      "sourceAddress": "서울 용산구 이태원로 228-1 3층",
+      "publishedMenuName": "구운야채 토마토 크림 스프"
+    },
+    "descriptionUpdate": {
+      "text": "공개 메뉴 자료에서 확인한 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/5kOBLT/%EB%AA%BD%ED%81%AC%EC%8A%A4%20%EB%B6%80%EC%B2%98",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-035-m03",
+    "price": 19000,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/5kOBLT/%EB%AA%BD%ED%81%AC%EC%8A%A4%20%EB%B6%80%EC%B2%98",
+      "sourceName": "뽈레",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "이태원 지점 주소와 공개 메뉴명이 일치하는 등록가 · 방문 전 현재 판매가 확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-035",
+      "restaurantName": "몽크스부처(이태원)",
+      "sourceAddress": "서울 용산구 이태원로 228-1 3층",
+      "publishedMenuName": "오렌지 두부 치킨 강정"
+    },
+    "descriptionUpdate": {
+      "text": "공개 메뉴 자료에서 확인한 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/5kOBLT/%EB%AA%BD%ED%81%AC%EC%8A%A4%20%EB%B6%80%EC%B2%98",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-006-m01",
+    "price": 13000,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/1UAg1g/%EB%8D%B0%EC%BC%80%EB%93%9C",
+      "sourceName": "뽈레",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "공개 메뉴에서 비건으로 표시된 저녁 메뉴의 등록가 · 판매일과 현재 가격 확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-006",
+      "restaurantName": "데케드",
+      "sourceAddress": "서울 종로구 자하문로7길 43 1층",
+      "publishedMenuName": "크루디테(Dinner) *비건"
+    },
+    "descriptionUpdate": {
+      "text": "공개 메뉴 자료에서 확인한 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/1UAg1g/%EB%8D%B0%EC%BC%80%EB%93%9C",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-010-m02",
+    "price": 20000,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/4FMDmb/%EB%A7%88%EC%A7%80",
+      "sourceName": "뽈레",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "지점 주소와 메뉴명이 일치하는 공개 등록가 · 방문 전 현재 판매가 확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-010",
+      "restaurantName": "마지",
+      "sourceAddress": "서울 종로구 자하문로5길 19",
+      "publishedMenuName": "연밥올림"
+    },
+    "descriptionUpdate": {
+      "text": "공개 메뉴 자료에서 확인한 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/4FMDmb/%EB%A7%88%EC%A7%80",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-009-m03",
+    "price": 4000,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/13pIY5/%EB%A7%88%EB%A3%A8%20%EC%9E%90%EC%97%B0%EC%8B%9D%20%EA%B9%80%EB%B0%A5",
+      "sourceName": "뽈레",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "지점 주소와 공개 메뉴명이 일치하는 등록가 · 방문 전 현재 판매가 확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-009",
+      "restaurantName": "마루 자연식 김밥",
+      "sourceAddress": "서울 종로구 인사동길 35-4 해정병원 1층 105호",
+      "publishedMenuName": "비건오뎅"
+    },
+    "descriptionUpdate": {
+      "text": "공개 메뉴 자료에서 확인한 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/13pIY5/%EB%A7%88%EB%A3%A8%20%EC%9E%90%EC%97%B0%EC%8B%9D%20%EA%B9%80%EB%B0%A5",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-011-m01",
+    "price": 70000,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/4OrKK5/%EB%B0%9C%EC%9A%B0%EA%B3%B5%EC%96%91",
+      "sourceName": "뽈레",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "공개 코스 메뉴 등록가 · 예약과 현재 구성·가격 확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-011",
+      "restaurantName": "발우공양",
+      "sourceAddress": "서울 종로구 우정국로 56 템플스테이빌딩",
+      "publishedMenuName": "마음식"
+    },
+    "descriptionUpdate": {
+      "text": "공개 메뉴 자료에서 확인한 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/4OrKK5/%EB%B0%9C%EC%9A%B0%EA%B3%B5%EC%96%91",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-011-m03",
+    "price": 50000,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/4OrKK5/%EB%B0%9C%EC%9A%B0%EA%B3%B5%EC%96%91",
+      "sourceName": "뽈레",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "공개 코스 메뉴 등록가 · 예약과 현재 구성·가격 확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-011",
+      "restaurantName": "발우공양",
+      "sourceAddress": "서울 종로구 우정국로 56 템플스테이빌딩",
+      "publishedMenuName": "원식"
+    },
+    "descriptionUpdate": {
+      "text": "공개 메뉴 자료에서 확인한 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/4OrKK5/%EB%B0%9C%EC%9A%B0%EA%B3%B5%EC%96%91",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-005-m01",
+    "price": 7500,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/1hRl7l/%EB%84%90%EB%8B%B4%EC%9D%80%EA%B3%B5%EA%B0%84",
+      "sourceName": "뽈레",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "지점 메뉴의 공개 등록가 · 방문 전 현재 판매가 확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-005",
+      "restaurantName": "널담은공간 경복궁점",
+      "sourceAddress": "서울 종로구 삼청로 24 1층",
+      "publishedMenuName": "비건 흑임자 크림라떼"
+    },
+    "descriptionUpdate": {
+      "text": "공개 메뉴 자료에서 확인한 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/1hRl7l/%EB%84%90%EB%8B%B4%EC%9D%80%EA%B3%B5%EA%B0%84",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-005-m03",
+    "price": 6500,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/1hRl7l/%EB%84%90%EB%8B%B4%EC%9D%80%EA%B3%B5%EA%B0%84",
+      "sourceName": "뽈레",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "원자료 메뉴명에 대응하는 공개 비건 말차라떼 등록가 · 방문 전 확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-005",
+      "restaurantName": "널담은공간 경복궁점",
+      "sourceAddress": "서울 종로구 삼청로 24 1층",
+      "publishedMenuName": "비건 말차라떼"
+    },
+    "descriptionUpdate": {
+      "text": "공개 메뉴 자료에서 확인한 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/1hRl7l/%EB%84%90%EB%8B%B4%EC%9D%80%EA%B3%B5%EA%B0%84",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-014-m01",
+    "price": 6500,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/1nuBk6/%EC%82%AC%EC%A7%81%EB%8F%99%20%EA%B7%B8%EA%B0%80%EA%B2%8C",
+      "sourceName": "뽈레",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "지점 주소와 메뉴명이 일치하는 공개 등록가 · 방문 전 확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-014",
+      "restaurantName": "사직동 그 가게",
+      "sourceAddress": "서울 종로구 사직로9길 18",
+      "publishedMenuName": "아이스 커더멈 두유 짜이"
+    },
+    "descriptionUpdate": {
+      "text": "공개 메뉴 자료에서 확인한 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/1nuBk6/%EC%82%AC%EC%A7%81%EB%8F%99%20%EA%B7%B8%EA%B0%80%EA%B2%8C",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-014-m02",
+    "price": 6000,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/1nuBk6/%EC%82%AC%EC%A7%81%EB%8F%99%20%EA%B7%B8%EA%B0%80%EA%B2%8C",
+      "sourceName": "뽈레",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "지점 주소와 메뉴명이 일치하는 공개 등록가 · 방문 전 확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-014",
+      "restaurantName": "사직동 그 가게",
+      "sourceAddress": "서울 종로구 사직로9길 18",
+      "publishedMenuName": "두유짜이"
+    },
+    "descriptionUpdate": {
+      "text": "공개 메뉴 자료에서 확인한 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/1nuBk6/%EC%82%AC%EC%A7%81%EB%8F%99%20%EA%B7%B8%EA%B0%80%EA%B2%8C",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-014-m03",
+    "price": 13000,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/1nuBk6/%EC%82%AC%EC%A7%81%EB%8F%99%20%EA%B7%B8%EA%B0%80%EA%B2%8C",
+      "sourceName": "뽈레",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "지점 주소와 메뉴명이 일치하는 공개 등록가 · 방문 전 확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-014",
+      "restaurantName": "사직동 그 가게",
+      "sourceAddress": "서울 종로구 사직로9길 18",
+      "publishedMenuName": "두부커리"
+    },
+    "descriptionUpdate": {
+      "text": "공개 메뉴 자료에서 확인한 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/1nuBk6/%EC%82%AC%EC%A7%81%EB%8F%99%20%EA%B7%B8%EA%B0%80%EA%B2%8C",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-022-m01",
+    "price": 13000,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/5A3MTm/%EC%9D%B8%EC%82%AC%EB%8F%84%EB%8B%B4",
+      "sourceName": "뽈레",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "공개 메뉴에서 비건 표기와 가격이 확인된 등록가 · 현재 판매가 확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-022",
+      "restaurantName": "인사도담",
+      "sourceAddress": "서울 종로구 인사동16길 5-1",
+      "publishedMenuName": "두부 야채찜(for vegan)"
+    },
+    "descriptionUpdate": {
+      "text": "공개 메뉴 자료에서 확인한 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/5A3MTm/%EC%9D%B8%EC%82%AC%EB%8F%84%EB%8B%B4",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-022-m02",
+    "price": 16000,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/5A3MTm/%EC%9D%B8%EC%82%AC%EB%8F%84%EB%8B%B4",
+      "sourceName": "뽈레",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "공개 메뉴에서 비건 표기와 가격이 확인된 등록가 · 현재 판매가 확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-022",
+      "restaurantName": "인사도담",
+      "sourceAddress": "서울 종로구 인사동16길 5-1",
+      "publishedMenuName": "BEST 미나리전(for vegan)"
+    },
+    "descriptionUpdate": {
+      "text": "공개 메뉴 자료에서 확인한 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/5A3MTm/%EC%9D%B8%EC%82%AC%EB%8F%84%EB%8B%B4",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-022-m03",
+    "price": 15000,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/5A3MTm/%EC%9D%B8%EC%82%AC%EB%8F%84%EB%8B%B4",
+      "sourceName": "뽈레",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "공개 메뉴에서 비건 표기와 가격이 확인된 등록가 · 현재 판매가 확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-022",
+      "restaurantName": "인사도담",
+      "sourceAddress": "서울 종로구 인사동16길 5-1",
+      "publishedMenuName": "뚝배기 두부버섯탕 (for vegan)"
+    },
+    "descriptionUpdate": {
+      "text": "공개 메뉴 자료에서 확인한 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/5A3MTm/%EC%9D%B8%EC%82%AC%EB%8F%84%EB%8B%B4",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-008-m01",
+    "price": 13000,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/15ivO9/%EB%A7%88%EB%82%98%EB%8B%98%20%EB%A0%88%EC%8B%9C%ED%94%BC",
+      "sourceName": "뽈레",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "지점 주소와 공개 메뉴명이 일치하는 등록가 · 방문 전 현재 판매가 확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-008",
+      "restaurantName": "마나님 레시피",
+      "sourceAddress": "서울 종로구 윤보선길 65 1층",
+      "publishedMenuName": "따실떡국"
+    },
+    "descriptionUpdate": {
+      "text": "공개 메뉴 자료에서 확인한 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/15ivO9/%EB%A7%88%EB%82%98%EB%8B%98%20%EB%A0%88%EC%8B%9C%ED%94%BC",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-008-m02",
+    "price": 18000,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/15ivO9/%EB%A7%88%EB%82%98%EB%8B%98%20%EB%A0%88%EC%8B%9C%ED%94%BC",
+      "sourceName": "뽈레",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "지점 주소와 공개 메뉴명이 일치하는 등록가 · 방문 전 현재 판매가 확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-008",
+      "restaurantName": "마나님 레시피",
+      "sourceAddress": "서울 종로구 윤보선길 65 1층",
+      "publishedMenuName": "그린커리"
+    },
+    "descriptionUpdate": {
+      "text": "공개 메뉴 자료에서 확인한 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/15ivO9/%EB%A7%88%EB%82%98%EB%8B%98%20%EB%A0%88%EC%8B%9C%ED%94%BC",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-008-m03",
+    "price": 12000,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/15ivO9/%EB%A7%88%EB%82%98%EB%8B%98%20%EB%A0%88%EC%8B%9C%ED%94%BC",
+      "sourceName": "뽈레",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "지점 주소와 공개 메뉴명이 일치하는 등록가 · 방문 전 현재 판매가 확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-008",
+      "restaurantName": "마나님 레시피",
+      "sourceAddress": "서울 종로구 윤보선길 65 1층",
+      "publishedMenuName": "방실 비빔밥"
+    },
+    "descriptionUpdate": {
+      "text": "공개 메뉴 자료에서 확인한 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/15ivO9/%EB%A7%88%EB%82%98%EB%8B%98%20%EB%A0%88%EC%8B%9C%ED%94%BC",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-027-m03",
+    "price": 3500,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/34Sc2N/%ED%9E%88%EB%A7%90%EB%9D%BC%EC%95%BC",
+      "sourceName": "뽈레",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "지점 주소와 공개 메뉴명이 일치하는 등록가 · 방문 전 현재 판매가 확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-027",
+      "restaurantName": "히말라야 종각점",
+      "sourceAddress": "서울 종로구 종로8길 5 2층",
+      "publishedMenuName": "갈릭난"
+    },
+    "descriptionUpdate": {
+      "text": "공개 메뉴 자료에서 확인한 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/34Sc2N/%ED%9E%88%EB%A7%90%EB%9D%BC%EC%95%BC",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-052-m01",
+    "price": 13000,
+    "priceVerification": {
+      "sourceUrl": "https://gajaseoul.com/ko/store/plant_itaewon",
+      "sourceName": "GAJA SEOUL",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "지점 주소와 공개 메뉴명이 일치하는 공개 가격 · 방문 전 현재 판매가 확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-052",
+      "restaurantName": "플랜트 이태원점",
+      "sourceAddress": "서울 용산구 보광로 117 2층",
+      "publishedMenuName": "머쉬룸버거"
+    },
+    "descriptionUpdate": {
+      "text": "공개 메뉴 자료에서 확인한 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://gajaseoul.com/ko/store/plant_itaewon",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-052-m02",
+    "price": 13000,
+    "priceVerification": {
+      "sourceUrl": "https://gajaseoul.com/ko/store/plant_itaewon",
+      "sourceName": "GAJA SEOUL",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "지점 주소와 공개 메뉴명이 일치하는 공개 가격 · 방문 전 현재 판매가 확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-052",
+      "restaurantName": "플랜트 이태원점",
+      "sourceAddress": "서울 용산구 보광로 117 2층",
+      "publishedMenuName": "칠리 치즈 버거"
+    },
+    "descriptionUpdate": {
+      "text": "공개 메뉴 자료에서 확인한 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://gajaseoul.com/ko/store/plant_itaewon",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-051-m02",
+    "price": 16900,
+    "priceVerification": {
+      "sourceUrl": "https://www.siksinhot.com/P/1718172",
+      "sourceName": "식신",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "아이파크몰 용산점 메뉴의 공개 등록가 · 메뉴판과 현장 가격 재확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-051",
+      "restaurantName": "플랜튜드 아이파크몰 용산점",
+      "sourceAddress": "서울 용산구 한강대로23길 55 HDC 아이파크몰 7층",
+      "publishedMenuName": "프라잉 가지 베지 카레 라이스"
+    },
+    "descriptionUpdate": {
+      "text": "공개 메뉴 자료에서 확인한 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://www.siksinhot.com/P/1718172",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-051-m03",
+    "price": 15900,
+    "priceVerification": {
+      "sourceUrl": "https://www.siksinhot.com/P/1718172",
+      "sourceName": "식신",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "아이파크몰 용산점 메뉴의 공개 등록가 · 메뉴판과 현장 가격 재확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-051",
+      "restaurantName": "플랜튜드 아이파크몰 용산점",
+      "sourceAddress": "서울 용산구 한강대로23길 55 HDC 아이파크몰 7층",
+      "publishedMenuName": "크럼블두부비빔밥&토마토순두부스튜"
+    },
+    "descriptionUpdate": {
+      "text": "공개 메뉴 자료에서 확인한 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://www.siksinhot.com/P/1718172",
+      "checkedAt": "2026-10-17"
+    }
   }
 ]
