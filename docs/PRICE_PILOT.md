@@ -1,6 +1,6 @@
-# 가격 보강: 150곳 / 224개 메뉴
+# 가격 보강: 175곳 / 249개 메뉴
 
-2026-10-17 웹 페이지 조회 기준. 기존 10곳 / 20개 메뉴에 20곳 / 20개 메뉴를 추가했다. 업체 직접 확인을 뜻하지 않으며, 플랫폼 메뉴의 최종 갱신일은 확인되지 않았다.
+2026-10-17 웹 페이지 조회 기준. 이번 차수에서 25개 지점의 메뉴 가격 25개를 추가했다. 업체 직접 확인을 뜻하지 않으며, 플랫폼 메뉴의 최종 갱신일은 확인되지 않은 항목이 있다.
 
 ## 자료 범위와 선택
 
@@ -114,7 +114,7 @@
 
 ## 다음 갱신 방법
 
-가격 변경은 menu-enrichments.json에서 해당 메뉴만 갱신하고 출처·조회일·지점·원문 메뉴명을 함께 기록한다. npm test와 npm run build로 데이터·가격 검색을 검증한다. 가격 자료가 있는 메뉴만 필터로 현재 150곳을 찾아볼 수 있다.
+가격 변경은 menu-enrichments.json에서 해당 메뉴만 갱신하고 출처·조회일·지점·원문 메뉴명을 함께 기록한다. npm test와 npm run build로 데이터·가격 검색을 검증한다. 가격 자료가 있는 메뉴만 필터로 현재 175곳을 찾아볼 수 있다.
 
 ## 추가 보강: 4곳 / 12개 메뉴
 
@@ -161,7 +161,7 @@
 - 블루서울 / 알리오 올리오: 16,000원부터 — [당근](https://www.daangn.com/kr/local-profile/%EB%B8%94%EB%A3%A8%EC%84%9C%EC%9A%B8-2su8ihbuot7f/)
 - SOUPER 광화문점 / 그릴드 베지 리코타 샌드위치: 12,500원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=J5DnfWia9s1K)
 
-현재 공개 가격 자료는 150곳의 224개 메뉴다. 가격 자료는 등록가이며 현장가와 현재 판매를 보증하지 않는다.
+현재 공개 가격 자료는 175곳의 249개 메뉴다. 가격 자료는 등록가이며 현장가와 현재 판매를 보증하지 않는다.
 
 ## 2026-10-17 추가 가격 자료
 
@@ -235,3 +235,33 @@
 - 빌라드코스테스 / 코코넛토마토파스타: 16,000원 — [비즈W 업체 메뉴 정보](https://bizw.kr/brand/198473)
 - 날일달월 / 생채식 진지: 23,000원 — [뽈레](https://polle.com/place/29Bkc7/%EB%82%A0%EC%9D%BC%EB%8B%AC%EC%9B%94)
 - 본노엘 중계은행사거리점 / 쌀식빵: 5,500원 — [비즈W 업체 메뉴 정보](https://bizw.kr/brand/197618)
+
+## 2026-10-17 가격 자료 확장: 175곳
+
+이번 차수에서 기존 가격 등록 지점을 제외한 25곳에 메뉴 가격 25개를 추가했다. 공개 메뉴판·플랫폼·공식몰에 게시된 가격을 기록했으며, 현장 판매가와 현재 판매 여부를 보증하지 않는다. 가격 출처를 추가해도 기존 채식 유형이나 재료 검증 상태는 바꾸지 않았다.
+
+- 탭샵바 동대문두타점 / 그릴드 알배추: 12,900원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=0S1LidFj75rg)
+- 인터랙트 with 글루텐프리 / 비건 초코 크라운: 3,900원 — [Gangnam Finds](https://www.gangnamfinds.com/en/place/inteoraekteuwithgeulrutenpeuri)
+- 소화연빵 / 비건 샹티크림 케이크: 69,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=XeZhB1EjYyQm)
+- 초록버터서울 양재 / 두부크림치즈 계절 샐러드: 12,900원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=p9Tin1wPVb5R)
+- 듀공 이대점 / 두유소프트아이스크림: 4,800원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=jQQ2QZgk6995)
+- 이상미통밀빵 / 호두베리빵: 10,000원 — [테이블링](https://www.tabling.co.kr/place/677ccc2a66de5f06987e9269)
+- 미소제과 / 미소금빵: 3,800원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=fHVBuuSSrl4z)
+- 카페브리틀 / 두부 파운드 케이크: 3,500원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=37LgWMsnRPBz)
+- 정욱이네 제빵소 / 플레인 사워도우: 9,900원 — [뽈레](https://polle.com/place/3AKwru/%EC%A0%95%EC%9A%B1%EC%9D%B4%EB%84%A4%20%EC%A0%9C%EB%B9%B5%EC%86%8C)
+- 마치래빗 / 두도: 8,500원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=M7eP2v5O7fyj)
+- 담뿍빵집 / 현미초코 브라우니: 6,500원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=eCNCgw3fTzEP)
+- 탭샵바 합정점 / 그릴드 알배추: 12,900원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=LIYAEAdsjWvJ)
+- 탭샵바 도산대로점 / 그릴드 알배추: 12,900원 — [뽈레](https://polle.com/place/328VaN/%ED%83%AD%EC%83%B5%EB%B0%94)
+- 플랜티 브런치카페 / 베지 오믈렛: 21,800원 — [테이블링](https://www.tabling.co.kr/place/677cd0ac66de5f0698868068)
+- 평형 / 쑥쑥 파운드: 5,000원 — [테이블링](https://www.tabling.co.kr/place/677cd42e66de5f06988ced70)
+- 고드니 마곡 / godny bianco: 6,900원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=jAKoEpclpIOj)
+- 노와드코코베이커리 / 무화과캄파뉴: 4,700원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=CJtkx7iz0HND)
+- 안식 레스토랑 / 세상의 모든 버섯 샐러드: 26,000원 — [Gangnam Finds](https://www.gangnamfinds.com/ko/place/ansik-reseutorang)
+- 죠티레스토랑 / 비건 케이티 롤: 6,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=p9puxfCp1Qk1)
+- 성미산알루 / 감자채전: 12,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=2lMNVPhsiBMB)
+- 성산커피클럽 / 라즈베리 비건 치즈무스 케이크: 7,000원 — [뽈레](https://polle.com/place/5nhpH3/%EC%84%B1%EC%82%B0%20%EC%BB%A4%ED%94%BC%20%ED%81%B4%EB%9F%BD)
+- 빵의향현 / 비건 오트 눈꽃 팥빙수: 12,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=PeQ2fC2aWjf5)
+- 슬금슬금 / 마늘떡볶이: 18,000원 — [뽈레](https://polle.com/place/3phLtx/%EC%8A%AC%EA%B8%88%EC%8A%AC%EA%B8%88)
+- 프레스커피바 / 오미자시즌에이드: 3,500원 — [테이블링](https://www.tabling.co.kr/place/677cd3dd66de5f06988c573a)
+- 영베이커리 / 우리밀 통밀 스콘: 2,000원 — [영베이커리 공식몰](https://youngbakery.com/product/%EC%9A%B0%EB%A6%AC%EB%B0%80-%ED%86%B5%EB%B0%80-%EC%8A%A4%EC%BD%98-%EC%B4%88%EC%BD%94-%EB%8B%A8%ED%8C%A5-%ED%81%AC%EB%A0%8C%EB%B2%A0%EB%A6%AC-%EA%B1%B4%ED%8F%AC%EB%8F%84/22/)

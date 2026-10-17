@@ -17,7 +17,7 @@ test('price enrichment preserves ingredient evidence and filters by the publishe
     assert.equal(isVerified(m), false);
     assert.equal(getPhotoUrl(m), '');
     assert.equal(menuMatches(m, {...defaults, price:String(m.price)}), m.priceVerification.qualifier !== 'from');
-    assert.equal(menuMatches(m, {...defaults, price:'2000'}), false);
+    assert.equal(menuMatches(m, {...defaults, price:String(Math.max(0, m.price - 1))}), false);
     assert.equal(m.priceVerification.restaurantId, base.restaurantId);
     assert.equal(menuMatches(m, {...defaults, pricedOnly:true}), true);
   }
@@ -29,12 +29,12 @@ test('enrichment cannot overwrite dietary evidence or photo permission', () => {
   assert.equal(result.photoConsent, base.photoConsent);
 });
 
-test('price-only discovery returns one hundred fifty restaurants and two hundred twenty-four matched menus, excluding closed locations', () => {
+test('price-only discovery returns one hundred seventy-five restaurants and two hundred forty-nine matched menus, excluding closed locations', () => {
   const original = read('menus'), updates = read('menu-enrichments');
   const enriched = enrichMenus(original, updates);
   const rows = searchCatalog(read('restaurants'), enriched, [], {...defaults, pricedOnly:true});
-  assert.equal(rows.length, 150);
-  assert.equal(rows.flatMap(r => r.menus).length, 224);
+  assert.equal(rows.length, 175);
+  assert.equal(rows.flatMap(r => r.menus).length, 249);
   assert.ok(rows.every(r => r.menus.every(m => m.priceVerification.restaurantId === r.restaurant.id)));
   assert.equal(searchCatalog(read('restaurants'), enriched, [], {...defaults, query:'목로정원', pricedOnly:true}).length, 0);
   const lowerBound = enriched.find(m => m.priceVerification?.qualifier === 'from');
