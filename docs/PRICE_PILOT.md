@@ -1,4 +1,4 @@
-# 가격 보강: 30곳 / 40개 메뉴
+# 가격 보강: 50곳 / 69개 메뉴
 
 2026-10-17 웹 페이지 조회 기준. 기존 10곳 / 20개 메뉴에 20곳 / 20개 메뉴를 추가했다. 업체 직접 확인을 뜻하지 않으며, 플랫폼 메뉴의 최종 갱신일은 확인되지 않았다.
 
@@ -64,6 +64,21 @@
 
 이번 추가분도 원자료의 채식 분류와 재료 확인 상태를 변경하지 않는다. 플랫폼 가격은 등록 시점과 지점·구성에 따라 현장가와 다를 수 있다.
 
+## 추가 보강: 10곳 / 10개 메뉴
+
+2026-10-17 조회 기준. 총 가격 자료는 50곳 / 69개 메뉴가 되었다. 가격 조회는 해당 지점의 공개 메뉴와 게시 가격을 연결했으며, 재료나 채식 유형을 새로 검증한 것은 아니다.
+
+- 사라바나 바반 / Plain Dosa: 14,000원 — [뽈레](https://polle.com/place/1M0ER3/%EC%82%AC%EB%9D%BC%EB%B0%94%EB%82%98%20%EB%B0%94%EB%B0%98)
+- 하루한톨 / 비건플레인 쌀식빵: 4,600원 — [뽈레](https://polle.com/place/1T6KSH/%ED%95%98%EB%A3%A8%ED%95%9C%ED%86%A8)
+- 널담은공간 경복궁점 / 비건 아몬드 크림 라떼: 7,500원 — [방문 후기 메뉴판](https://knowledge-t.tistory.com/entry/%EC%A2%85%EB%A1%9C-%EB%84%90%EB%8B%B4%EC%9D%80%EA%B3%B5%EA%B0%84)
+- 플랜튜드 고덕점 / 고사리 오일 스톡 파스타: 16,900원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=LzQImSp5GIy2)
+- 비건식당 공간녹음 / 김리조또: 17,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=cpgWbv3eMUL8)
+- 코스모스 상점 / 비건 두부템페 랩샌드: 10,500원 — [뽈레](https://polle.com/place/14xqjF/%EC%BD%94%EC%8A%A4%EB%AA%A8%EC%8A%A4%20%EC%83%81%EC%A0%90)
+- 루디스비건 / 들깨 곤드레 소보로 랩: 21,900원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=o3NTg26bBpTX)
+- 살롱드비건 / 비건핫도그: 6,700원 — [REDTABLE](https://benepia.redtable.global/ko/store/1054393)
+- 마루 자연식 김밥 / 떡볶이: 8,000원 — [뽈레](https://polle.com/place/13pIY5/%EB%A7%88%EB%A3%A8%20%EC%9E%90%EC%97%B0%EC%8B%9D%20%EA%B9%80%EB%B0%A5)
+- 비건키친 / 아보카도 포케: 12,000원 — [서울 공식 관광정보](https://korean.visitseoul.net/citycenter/VeganKitchen/KOP4uv0kz)
+
 ## 대조 및 제외 사항
 
 - 채육식당 전농점과 칙피스 성수점은 지점명·주소가 일치하는 뽈레 페이지에 폐점으로 표시되어 공개 지도와 메뉴에서 제외했다. 원자료는 보존하고, 확인 근거와 날짜를 closed-restaurants.json에 남겼다.
@@ -82,5 +97,5 @@
 
 ## 다음 갱신 방법
 
-가격 변경은 menu-enrichments.json에서 해당 메뉴만 갱신하고 출처·조회일·지점·원문 메뉴명을 함께 기록한다. npm test와 npm run build로 데이터·가격 검색을 검증한다. 가격 자료가 있는 메뉴만 필터로 현재 40곳을 찾아볼 수 있다.
+가격 변경은 menu-enrichments.json에서 해당 메뉴만 갱신하고 출처·조회일·지점·원문 메뉴명을 함께 기록한다. npm test와 npm run build로 데이터·가격 검색을 검증한다. 가격 자료가 있는 메뉴만 필터로 현재 50곳을 찾아볼 수 있다.
 

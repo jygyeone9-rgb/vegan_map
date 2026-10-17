@@ -108,7 +108,7 @@ for (const update of updates) {
   assert.ok(update.descriptionUpdate.text && safeUrl(update.descriptionUpdate.sourceUrl) && date(update.descriptionUpdate.checkedAt));
   assert.ok(Object.keys(update).every(k => ['id','price','priceVerification','descriptionUpdate','photoReferenceUrl','photoReferenceLabel'].includes(k)), 'Enrichment cannot override ingredient or photo consent evidence');
 }
-assert.equal(new Set(updates.map(u => u.priceVerification.restaurantId)).size, 40, 'Price enrichment must cover 40 locations');
-assert.equal(updates.length, 59, 'Price enrichment must contain 59 menu prices');
-console.log(`Validated ${activeRestaurants.length} active restaurants, ${activeMenus.length} active menus, ${updates.length} price enrichments across 40 locations`);
+assert.equal(new Set(updates.map(u => u.priceVerification.restaurantId)).size, 50, 'Price enrichment must cover 50 locations');
+assert.equal(updates.length, 69, 'Price enrichment must contain 69 menu prices');
+console.log(`Validated ${activeRestaurants.length} active restaurants, ${activeMenus.length} active menus, ${updates.length} price enrichments across 50 locations`);
 
