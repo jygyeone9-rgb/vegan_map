@@ -23546,5 +23546,125 @@
       "recordNumber": 300,
       "ingredientNotes": "PDF에 채식 유형만 표기 · 전체 재료, 육수·소스·조미료는 개별 재확인 필요"
     }
+  },
+  {
+    "id": "seoul-153-m04",
+    "restaurantId": "seoul-153",
+    "name": "에스프레소쌀탱콘",
+    "price": null,
+    "description": "공식 상품에서 비건(VG) 표기를 확인했습니다. 전체 원재료와 조리 과정은 별도 확인이 필요합니다.",
+    "ingredients": [],
+    "dietTypes": [],
+    "documentedDietType": "vegan",
+    "sourceTag": "V",
+    "available": true,
+    "photoUrl": "",
+    "photoAlt": "",
+    "photoConsent": false,
+    "orderNotes": "비건 표기 메뉴입니다. 소스·첨가물과 조리 과정, 교차접촉 가능성은 주문 전 매장에 확인해 주세요.",
+    "crossContact": "unknown",
+    "verification": {
+      "status": "listed",
+      "method": "업체 메뉴 자료의 비건 표기를 확인; 전체 재료와 조리 과정은 미확인",
+      "checkedAt": "2026-10-17",
+      "sourceUrl": "https://tangmily.com/",
+      "ingredientNotes": "출처에서 비건 표기를 확인했으나 전체 원재료·첨가물·조리 과정은 개별 검증하지 않음"
+    }
+  },
+  {
+    "id": "seoul-136-m04",
+    "restaurantId": "seoul-136",
+    "name": "제주고사리 파스타",
+    "price": null,
+    "description": "업체 메뉴 안내에서 비건 메뉴로 표시되어 있습니다. 전체 원재료와 조리 과정은 별도 확인이 필요합니다.",
+    "ingredients": [],
+    "dietTypes": [],
+    "documentedDietType": "vegan",
+    "sourceTag": "V",
+    "available": true,
+    "photoUrl": "",
+    "photoAlt": "",
+    "photoConsent": false,
+    "orderNotes": "비건 표기 메뉴입니다. 소스·첨가물과 조리 과정, 교차접촉 가능성은 주문 전 매장에 확인해 주세요.",
+    "crossContact": "unknown",
+    "verification": {
+      "status": "listed",
+      "method": "업체 메뉴 자료의 비건 표기를 확인; 전체 재료와 조리 과정은 미확인",
+      "checkedAt": "2026-10-17",
+      "sourceUrl": "https://pgpg.co.kr/company/12805",
+      "ingredientNotes": "출처에서 비건 표기를 확인했으나 전체 원재료·첨가물·조리 과정은 개별 검증하지 않음"
+    }
+  },
+  {
+    "id": "seoul-072-m04",
+    "restaurantId": "seoul-072",
+    "name": "두 가지 맛(컵)",
+    "price": null,
+    "description": "출처의 매장 비건 표기를 참고해 추가했습니다. 메뉴별 원재료와 선택 옵션은 별도 확인이 필요합니다.",
+    "ingredients": [],
+    "dietTypes": [],
+    "documentedDietType": "vegan",
+    "sourceTag": "V",
+    "available": true,
+    "photoUrl": "",
+    "photoAlt": "",
+    "photoConsent": false,
+    "orderNotes": "비건 표기 메뉴입니다. 소스·첨가물과 조리 과정, 교차접촉 가능성은 주문 전 매장에 확인해 주세요.",
+    "crossContact": "unknown",
+    "verification": {
+      "status": "listed",
+      "method": "업체 메뉴 자료의 비건 표기를 확인; 전체 재료와 조리 과정은 미확인",
+      "checkedAt": "2026-10-17",
+      "sourceUrl": "https://www.tabling.co.kr/place/677cd1bb66de5f0698887340",
+      "ingredientNotes": "출처에서 비건 표기를 확인했으나 전체 원재료·첨가물·조리 과정은 개별 검증하지 않음"
+    }
+  },
+  {
+    "id": "seoul-029-m04",
+    "restaurantId": "seoul-029",
+    "name": "굿니스보틀케이크(V/GF)",
+    "price": null,
+    "description": "메뉴 자료에 V(비건) 표기가 있습니다. 전체 원재료와 조리 과정은 별도 확인이 필요합니다.",
+    "ingredients": [],
+    "dietTypes": [],
+    "documentedDietType": "vegan",
+    "sourceTag": "V",
+    "available": true,
+    "photoUrl": "",
+    "photoAlt": "",
+    "photoConsent": false,
+    "orderNotes": "비건 표기 메뉴입니다. 소스·첨가물과 조리 과정, 교차접촉 가능성은 주문 전 매장에 확인해 주세요.",
+    "crossContact": "unknown",
+    "verification": {
+      "status": "listed",
+      "method": "업체 메뉴 자료의 비건 표기를 확인; 전체 재료와 조리 과정은 미확인",
+      "checkedAt": "2026-10-17",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=VDJObtX9szHU",
+      "ingredientNotes": "출처에서 비건 표기를 확인했으나 전체 원재료·첨가물·조리 과정은 개별 검증하지 않음"
+    }
+  },
+  {
+    "id": "seoul-056-m04",
+    "restaurantId": "seoul-056",
+    "name": "비건 콤부차",
+    "price": null,
+    "description": "메뉴 자료에서 비건으로 표시된 음료입니다. 세부 재료와 첨가물은 별도 확인이 필요합니다.",
+    "ingredients": [],
+    "dietTypes": [],
+    "documentedDietType": "vegan",
+    "sourceTag": "V",
+    "available": true,
+    "photoUrl": "",
+    "photoAlt": "",
+    "photoConsent": false,
+    "orderNotes": "비건 표기 메뉴입니다. 소스·첨가물과 조리 과정, 교차접촉 가능성은 주문 전 매장에 확인해 주세요.",
+    "crossContact": "unknown",
+    "verification": {
+      "status": "listed",
+      "method": "업체 메뉴 자료의 비건 표기를 확인; 전체 재료와 조리 과정은 미확인",
+      "checkedAt": "2026-10-17",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=h4vvn0Wphhgy",
+      "ingredientNotes": "출처에서 비건 표기를 확인했으나 전체 원재료·첨가물·조리 과정은 개별 검증하지 않음"
+    }
   }
 ]

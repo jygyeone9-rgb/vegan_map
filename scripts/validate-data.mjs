@@ -1,6 +1,6 @@
 import { readFileSync } from 'node:fs';
 import assert from 'node:assert/strict';
-import { dietLabels, safeUrl, isVerified, isDocumented, getPhotoUrl } from '../src/lib/catalog.js';
+import { dietLabels, safeUrl, isVerified, isDocumented, isVendorListed, getPhotoUrl } from '../src/lib/catalog.js';
 const read = name => JSON.parse(readFileSync(new URL(`../src/data/${name}.json`, import.meta.url), 'utf8'));
 const restaurants = read('restaurants'), menus = read('menus'), interviews = read('interviews');
 const source = read('handbook-source');
@@ -12,11 +12,12 @@ const ids = list => {
 };
 const date = value => typeof value === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(value) && !Number.isNaN(Date.parse(value)) && new Date(value).toISOString().slice(0,10) === value;
 const checkVerification = v => {
-  assert.ok(v && ['pending','documented','verified','recheck'].includes(v.status), 'Invalid verification status');
+  assert.ok(v && ['pending','documented','verified','listed','recheck'].includes(v.status), 'Invalid verification status');
   assert.ok(typeof v.method === 'string' && v.method.trim(), 'Verification method required');
   assert.ok(v.checkedAt === null || date(v.checkedAt), 'Invalid confirmation date');
   assert.ok(!v.sourceUrl || safeUrl(v.sourceUrl), 'Evidence must use HTTPS');
   if (v.status === 'verified') assert.ok(date(v.checkedAt) && safeUrl(v.sourceUrl), 'Verified records require date and source URL');
+  if (v.status === 'listed') assert.ok(date(v.checkedAt) && safeUrl(v.sourceUrl), 'Vendor-listed records require date and source URL');
   if (v.status === 'documented') {
     assert.equal(v.sourceId, source.id, 'Unknown document source');
     assert.equal(v.sourceUrl, source.url, 'Unexpected document source URL');
@@ -61,6 +62,11 @@ for (const m of menus) {
   assert.ok(typeof m.available === 'boolean' || (m.available === null && m.verification.status === 'documented'), 'Historical documents do not prove current availability');
   checkVerification(m.verification);
   if (m.dietTypes.length) assert.ok(isVerified(m), 'Diet labels require verified ingredients');
+  if (m.verification.status === 'listed') {
+    assert.ok(isVendorListed(m), 'Vendor-listed menus need an explicit vegan label and source');
+    assert.equal(m.dietTypes.length, 0, 'Vendor-listed labels are not ingredient verification');
+    assert.equal(m.available, true, 'Vendor-listed menu needs current availability evidence');
+  }
   if (m.verification.status === 'documented') {
     assert.ok(isDocumented(m), 'PDF tag and documented diet type must agree');
     const r = restaurants.find(r => r.id === m.restaurantId);
@@ -80,11 +86,11 @@ for (const i of interviews) {
   }
 }
 assert.equal(restaurants.length, source.restaurantCount, 'Restaurant count differs from source manifest');
-assert.equal(menus.length, source.menuCount, 'Menu count differs from source manifest');
+assert.equal(menus.filter(m => m.verification.status === 'documented').length, source.menuCount, 'Documented menu count differs from source manifest');
 assert.equal(new Set(restaurants.map(r => r.verification.recordNumber)).size, source.restaurantCount, 'Each PDF record must occur once');
 assert.ok(restaurants.every(r => menus.some(m => m.restaurantId === r.id)), 'Each restaurant needs at least one menu');
 assert.equal(activeRestaurants.length, 298, 'Public catalog must exclude confirmed closed locations');
-assert.equal(activeMenus.length, 835, 'Public catalog must exclude menus from closed locations');
+assert.equal(activeMenus.length, 840, 'Public catalog must exclude menus from closed locations');
 assert.equal(source.surveyMonth, '2025-10');
 assert.match(source.sha256, /^[a-f0-9]{64}$/);
 console.log(`Data valid: ${restaurants.length} restaurants, ${menus.length} menus, ${interviews.length} interviews`);
@@ -108,6 +114,7 @@ for (const update of updates) {
   assert.ok(update.descriptionUpdate.text && safeUrl(update.descriptionUpdate.sourceUrl) && date(update.descriptionUpdate.checkedAt));
   assert.ok(Object.keys(update).every(k => ['id','price','priceVerification','descriptionUpdate','photoReferenceUrl','photoReferenceLabel'].includes(k)), 'Enrichment cannot override ingredient or photo consent evidence');
 }
-assert.equal(new Set(updates.map(u => u.priceVerification.restaurantId)).size, 130, 'Price enrichment must cover 130 locations');
-assert.equal(updates.length, 204, 'Price enrichment must contain 204 menu prices');
-console.log(`Validated ${activeRestaurants.length} active restaurants, ${activeMenus.length} active menus, ${updates.length} price enrichments across 130 locations`);
+assert.equal(new Set(updates.map(u => u.priceVerification.restaurantId)).size, 150, 'Price enrichment must cover 150 locations');
+assert.equal(updates.length, 224, 'Price enrichment must contain 224 menu prices');
+console.log(`Validated ${activeRestaurants.length} active restaurants, ${activeMenus.length} active menus, ${updates.length} price enrichments across 150 locations`);
+

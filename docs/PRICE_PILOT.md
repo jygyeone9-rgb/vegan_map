@@ -1,4 +1,4 @@
-# 가격 보강: 130곳 / 204개 메뉴
+# 가격 보강: 150곳 / 224개 메뉴
 
 2026-10-17 웹 페이지 조회 기준. 기존 10곳 / 20개 메뉴에 20곳 / 20개 메뉴를 추가했다. 업체 직접 확인을 뜻하지 않으며, 플랫폼 메뉴의 최종 갱신일은 확인되지 않았다.
 
@@ -114,7 +114,7 @@
 
 ## 다음 갱신 방법
 
-가격 변경은 menu-enrichments.json에서 해당 메뉴만 갱신하고 출처·조회일·지점·원문 메뉴명을 함께 기록한다. npm test와 npm run build로 데이터·가격 검색을 검증한다. 가격 자료가 있는 메뉴만 필터로 현재 130곳을 찾아볼 수 있다.
+가격 변경은 menu-enrichments.json에서 해당 메뉴만 갱신하고 출처·조회일·지점·원문 메뉴명을 함께 기록한다. npm test와 npm run build로 데이터·가격 검색을 검증한다. 가격 자료가 있는 메뉴만 필터로 현재 150곳을 찾아볼 수 있다.
 
 ## 추가 보강: 4곳 / 12개 메뉴
 
@@ -161,7 +161,7 @@
 - 블루서울 / 알리오 올리오: 16,000원부터 — [당근](https://www.daangn.com/kr/local-profile/%EB%B8%94%EB%A3%A8%EC%84%9C%EC%9A%B8-2su8ihbuot7f/)
 - SOUPER 광화문점 / 그릴드 베지 리코타 샌드위치: 12,500원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=J5DnfWia9s1K)
 
-현재 공개 가격 자료는 130곳의 204개 메뉴다. 가격 자료는 등록가이며 현장가와 현재 판매를 보증하지 않는다.
+현재 공개 가격 자료는 150곳의 224개 메뉴다. 가격 자료는 등록가이며 현장가와 현재 판매를 보증하지 않는다.
 
 ## 2026-10-17 추가 가격 자료
 
@@ -179,6 +179,31 @@
 ## 2026-10-17 가격 자료 확장: 130곳
 
 출처에 지점과 메뉴가 확인된 새 지점 30곳을 추가해 총 130곳 / 204개 메뉴로 늘렸다. 메뉴와 지점별 출처·확인일은 src/data/menu-enrichments.json에 기록했다. 외부 플랫폼 등록가는 현장가를 보증하지 않으며 변경될 수 있다. 두 메뉴의 시작가는 from으로 구분해 가격 상한 필터에는 포함하지 않는다. 폐점으로 표시된 후보와 지점 불일치 자료는 제외했다.
+
+## 2026-10-17 가격 자료 확장: 150곳
+
+신규 20곳의 메뉴 가격을 추가해 가격 출처가 등록된 지점을 150곳, 메뉴를 224개로 늘렸다. 새 메뉴 5개는 업체 메뉴의 비건 표기를 `listed`로 기록했다. 이 상태는 출처의 비건 표기를 보여 주지만, 재료 전체를 확인했다는 뜻은 아니다. 메뉴별 출처·지점·조회일·원문명은 `src/data/menu-enrichments.json`에서 확인한다.
+
+- 카페 블랙번즈 신촌점 / 베지볼 샐러드: 12,900원 — [비즈W](https://bizw.kr/brand/198468)
+- 아민 이화 / 모로코 잘룩 플레이트: 35,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=jb3JEXMGowC0)
+- 고드니 망원 / godny bianco: 6,900원 — [뽈레](https://polle.com/place/2xIdYh/%EA%B3%A0%EB%93%9C%EB%8B%88)
+- 르베지왕 을지공간 / 두아볼: 12,900원 — [메뉴 안내](https://dinner.ambitstock.com/gwanghwamun/restaurant/%EB%A5%B4%EB%B2%A0%EC%A7%80%EC%99%95%20%EC%9D%84%EC%A7%80%EA%B3%B5%EA%B0%84)
+- 샐러그리티 강동본점 / 숯불직화갈비 샐러드&포케: 11,900원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=tgJo9ZAHLWP4)
+- 위어도우 / 바질 페스토 연근 피자: 26,000원 — [뽈레](https://polle.com/place/5zCZNy/%EC%9C%84%EC%96%B4%EB%8F%84%EC%9A%B0)
+- 줄리아스케이크룸 / 베리피스타치오케이크 미니: 39,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=TpnIdqvf90ns)
+- 탱밀리 / 에스프레소쌀탱콘: 4,700원 온라인가 — [탱밀리 공식몰](https://tangmily.com/)
+- 잇다프로젝트 연남 / 제주고사리 파스타: 23,000원 — [PGPG](https://pgpg.co.kr/company/12805)
+- 코코너즘 / 두 가지 맛 컵: 5,500원 — [테이블링](https://www.tabling.co.kr/place/677cd1bb66de5f0698887340)
+- 옷셉 by 페스토 페스토 망원 / 트러플 머쉬룸 리조또: 16,500원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=JJmlplQgdP0e)
+- 르베지왕 롯데잠실공간 / 텝버볼: 11,000원 — [MenuFans](https://menufans.com/place/%EB%A5%B4%EB%B2%A0%EC%A7%80%EC%99%95-%EB%A1%AF%EB%8D%B0%EC%9E%A0%EC%8B%A4%EA%B3%B5%EA%B0%84-019b59fd13a377d7becee8f58d58515a)
+- 휘게라이프 / 당근라페 땅콩버터 샌드위치: 8,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=Df9nFcWsRZk4)
+- 그랭블레 / 통밀깜파뉴: 5,500원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=sA0nf11XX6D8)
+- 굿니스클럽 / 굿니스보틀케이크: 9,500원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=VDJObtX9szHU)
+- 러빙헛 카페 / 비건피자: 19,900원 — [당근 업체 프로필](https://www.daangn.com/kr/local-profile/%EB%9F%AC%EB%B9%99%ED%97%9B-%EC%B9%B4%ED%8E%98-sjb2usxjfc3v/)
+- 러빙헛 랜드 / 비건 백짬뽕: 12,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=ZqNNspCBPXjN)
+- 비건카페 유로카 / 애플시나몬 파운드케이크: 13,000원부터 — [당근 업체 프로필](https://www.daangn.com/kr/local-profile/%EB%B9%84%EA%B1%B4%EC%B9%B4%ED%8E%98-%EC%9C%A0%EB%A1%9C%EC%B9%B4-diwy7erdpui6/)
+- 리틀케어레시피 강남점 / 이천 표고장비건말이: 13,900원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=IxGMFijKAegq)
+- 그라운드125 / 비건 콤부차: 6,700원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=h4vvn0Wphhgy)
 
 - 루시드 서울 / 바나나브레드: 9,000원 — [테이블링](https://www.tabling.co.kr/place/677cd01766de5f0698856f6d)
 - 사워도우 랩 / 플레인 사워도우: 8,000원 — [테이블링](https://www.tabling.co.kr/place/677ccf8c66de5f0698846bc2)

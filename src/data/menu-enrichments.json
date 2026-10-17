@@ -4526,5 +4526,445 @@
       "sourceUrl": "https://bizw.kr/brand/197618",
       "checkedAt": "2026-10-17"
     }
+  },
+  {
+    "id": "seoul-101-m01",
+    "price": 12900,
+    "priceVerification": {
+      "sourceUrl": "https://bizw.kr/brand/198468",
+      "sourceName": "비즈W 업체 메뉴 정보",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "업체 메뉴 페이지 등록가 · 현장 판매 여부·가격은 매장 재확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-101",
+      "restaurantName": "카페 블랙번즈 신촌점",
+      "sourceAddress": "서울특별시 서대문구 연세로7안길 42 2층 블랙번즈",
+      "publishedMenuName": "베지볼 샐러드"
+    },
+    "descriptionUpdate": {
+      "text": "베지볼 샐러드 · 출처 등록가입니다. 메뉴 구성, 재료와 현재 판매 여부는 방문 전 식당에 확인해 주세요.",
+      "sourceUrl": "https://bizw.kr/brand/198468",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-096-m03",
+    "price": 35000,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=jb3JEXMGowC0",
+      "sourceName": "다이닝코드",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "다이닝코드 메뉴 정보 등록가 · 메뉴 구성 및 현장 가격은 재확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-096",
+      "restaurantName": "아민 이화",
+      "sourceAddress": "서울특별시 서대문구 이화여대길 52-31",
+      "publishedMenuName": "모로코/비건 메뉴"
+    },
+    "descriptionUpdate": {
+      "text": "모로코/비건 메뉴 · 출처 등록가입니다. 메뉴 구성, 재료와 현재 판매 여부는 방문 전 식당에 확인해 주세요.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=jb3JEXMGowC0",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-106-m01",
+    "price": 6900,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/2xIdYh/%EA%B3%A0%EB%93%9C%EB%8B%88",
+      "sourceName": "뽈레",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "사용자 등록 메뉴 가격 · 현장 판매 여부·가격은 매장 재확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-106",
+      "restaurantName": "고드니 망원",
+      "sourceAddress": "서울 마포구 포은로 108 1층",
+      "publishedMenuName": "godny bianco"
+    },
+    "descriptionUpdate": {
+      "text": "godny bianco · 출처 등록가입니다. 메뉴 구성, 재료와 현재 판매 여부는 방문 전 식당에 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/2xIdYh/%EA%B3%A0%EB%93%9C%EB%8B%88",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-059-m02",
+    "price": 12900,
+    "priceVerification": {
+      "sourceUrl": "https://dinner.ambitstock.com/gwanghwamun/restaurant/%EB%A5%B4%EB%B2%A0%EC%A7%80%EC%99%95%20%EC%9D%84%EC%A7%80%EA%B3%B5%EA%B0%84",
+      "sourceName": "르베지왕 을지공간 메뉴 안내",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "메뉴 안내 등록가 · 지점 및 현장 판매 여부를 방문 전 재확인해 주세요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-059",
+      "restaurantName": "르베지왕 을지공간",
+      "sourceAddress": "서울 중구 남대문로9길 10 2층",
+      "publishedMenuName": "두아볼"
+    },
+    "descriptionUpdate": {
+      "text": "두아볼 · 출처 등록가입니다. 메뉴 구성, 재료와 현재 판매 여부는 방문 전 식당에 확인해 주세요.",
+      "sourceUrl": "https://dinner.ambitstock.com/gwanghwamun/restaurant/%EB%A5%B4%EB%B2%A0%EC%A7%80%EC%99%95%20%EC%9D%84%EC%A7%80%EA%B3%B5%EA%B0%84",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-151-m01",
+    "price": 11900,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=tgJo9ZAHLWP4",
+      "sourceName": "다이닝코드",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "다이닝코드 등록가 · 메뉴명 및 현장 가격은 매장 재확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-151",
+      "restaurantName": "샐러그리티 강동본점",
+      "sourceAddress": "서울특별시 강동구 천호대로 1077 상가동 103동101호",
+      "publishedMenuName": "숯불직화갈비 (샐러드&포케)"
+    },
+    "descriptionUpdate": {
+      "text": "숯불직화갈비 (샐러드&포케) · 출처 등록가입니다. 메뉴 구성, 재료와 현재 판매 여부는 방문 전 식당에 확인해 주세요.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=tgJo9ZAHLWP4",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-098-m01",
+    "price": 26000,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/5zCZNy/%EC%9C%84%EC%96%B4%EB%8F%84%EC%9A%B0",
+      "sourceName": "뽈레",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "사용자 등록 메뉴 가격 · 현장 판매 여부·가격은 매장 재확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-098",
+      "restaurantName": "위어도우",
+      "sourceAddress": "서울특별시 서대문구 증가로 80 2층 201호",
+      "publishedMenuName": "바질 페스토 연근 피자"
+    },
+    "descriptionUpdate": {
+      "text": "바질 페스토 연근 피자 · 출처 등록가입니다. 메뉴 구성, 재료와 현재 판매 여부는 방문 전 식당에 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/5zCZNy/%EC%9C%84%EC%96%B4%EB%8F%84%EC%9A%B0",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-139-m01",
+    "price": 39000,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=TpnIdqvf90ns",
+      "sourceName": "다이닝코드",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "다이닝코드 등록가 · 크기·구성·현장 판매가는 매장 재확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-139",
+      "restaurantName": "줄리아스케이크룸",
+      "sourceAddress": "서울특별시 마포구 광성로6길 30 1층",
+      "publishedMenuName": "베리피스타치오케이크(GF&VG)_미니"
+    },
+    "descriptionUpdate": {
+      "text": "베리피스타치오케이크(GF&VG)_미니 · 출처 등록가입니다. 메뉴 구성, 재료와 현재 판매 여부는 방문 전 식당에 확인해 주세요.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=TpnIdqvf90ns",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-153-m04",
+    "price": 4700,
+    "priceVerification": {
+      "sourceUrl": "https://tangmily.com/",
+      "sourceName": "탱밀리 공식몰",
+      "checkedAt": "2026-10-17",
+      "channel": "online",
+      "note": "공식몰 온라인 상품가 · 배송비와 매장 판매 가격은 다를 수 있음",
+      "sourceKind": "official",
+      "qualifier": "exact",
+      "restaurantId": "seoul-153",
+      "restaurantName": "탱밀리",
+      "sourceAddress": "서울특별시 강동구 올림픽로 572 상가 101동 102호",
+      "publishedMenuName": "에스프레소쌀탱콘"
+    },
+    "descriptionUpdate": {
+      "text": "에스프레소쌀탱콘 · 출처 등록가입니다. 메뉴 구성, 재료와 현재 판매 여부는 방문 전 식당에 확인해 주세요.",
+      "sourceUrl": "https://tangmily.com/",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-136-m04",
+    "price": 23000,
+    "priceVerification": {
+      "sourceUrl": "https://pgpg.co.kr/company/12805",
+      "sourceName": "PGPG 업체 메뉴 안내",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "업체 메뉴 안내 등록가 · 현재 판매 여부와 현장 가격은 매장 재확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-136",
+      "restaurantName": "잇다프로젝트 연남",
+      "sourceAddress": "서울 마포구 성미산로31길 14 어쩌다집 1층",
+      "publishedMenuName": "제주고사리 파스타"
+    },
+    "descriptionUpdate": {
+      "text": "제주고사리 파스타 · 출처 등록가입니다. 메뉴 구성, 재료와 현재 판매 여부는 방문 전 식당에 확인해 주세요.",
+      "sourceUrl": "https://pgpg.co.kr/company/12805",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-072-m04",
+    "price": 5500,
+    "priceVerification": {
+      "sourceUrl": "https://www.tabling.co.kr/place/677cd1bb66de5f0698887340",
+      "sourceName": "테이블링",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "테이블링 메뉴 등록가 · 맛 선택, 현재 판매 여부와 가격은 매장 재확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-072",
+      "restaurantName": "코코너즘",
+      "sourceAddress": "서울특별시 중구 퇴계로36길 32 코코너즘",
+      "publishedMenuName": "두 가지 맛(컵)"
+    },
+    "descriptionUpdate": {
+      "text": "두 가지 맛(컵) · 출처 등록가입니다. 메뉴 구성, 재료와 현재 판매 여부는 방문 전 식당에 확인해 주세요.",
+      "sourceUrl": "https://www.tabling.co.kr/place/677cd1bb66de5f0698887340",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-131-m01",
+    "price": 16500,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=JJmlplQgdP0e",
+      "sourceName": "다이닝코드",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "메뉴 안내에서 비건 가능으로 표기 · 비건 조리 여부와 가격은 주문 전 매장 확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-131",
+      "restaurantName": "옷셉 by 페스토 페스토 망원",
+      "sourceAddress": "서울특별시 마포구 희우정로16길 23-6 1층",
+      "publishedMenuName": "트러플 머쉬룸 리조또"
+    },
+    "descriptionUpdate": {
+      "text": "트러플 머쉬룸 리조또 · 출처 등록가입니다. 메뉴 구성, 재료와 현재 판매 여부는 방문 전 식당에 확인해 주세요.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=JJmlplQgdP0e",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-159-m01",
+    "price": 11000,
+    "priceVerification": {
+      "sourceUrl": "https://menufans.com/place/%EB%A5%B4%EB%B2%A0%EC%A7%80%EC%99%95-%EB%A1%AF%EB%8D%B0%EC%9E%A0%EC%8B%A4%EA%B3%B5%EA%B0%84-019b59fd13a377d7becee8f58d58515a",
+      "sourceName": "MenuFans",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "메뉴 정보 플랫폼 등록가 · 현장 가격 및 옵션은 매장 재확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-159",
+      "restaurantName": "르베지왕 롯데잠실공간",
+      "sourceAddress": "서울특별시 송파구 올림픽로 240 롯데백화점 지하1층",
+      "publishedMenuName": "텝버볼 (Tempeh Ball)"
+    },
+    "descriptionUpdate": {
+      "text": "텝버볼 (Tempeh Ball) · 출처 등록가입니다. 메뉴 구성, 재료와 현재 판매 여부는 방문 전 식당에 확인해 주세요.",
+      "sourceUrl": "https://menufans.com/place/%EB%A5%B4%EB%B2%A0%EC%A7%80%EC%99%95-%EB%A1%AF%EB%8D%B0%EC%9E%A0%EC%8B%A4%EA%B3%B5%EA%B0%84-019b59fd13a377d7becee8f58d58515a",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-251-m01",
+    "price": 8000,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=Df9nFcWsRZk4",
+      "sourceName": "다이닝코드",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "메뉴 정보 등록가 · 현재 판매 여부·가격은 매장 재확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-251",
+      "restaurantName": "휘게라이프",
+      "sourceAddress": "서울특별시 관악구 남현길 37 2층(남현동)",
+      "publishedMenuName": "당근라페 땅콩버터 샌드위치"
+    },
+    "descriptionUpdate": {
+      "text": "당근라페 땅콩버터 샌드위치 · 출처 등록가입니다. 메뉴 구성, 재료와 현재 판매 여부는 방문 전 식당에 확인해 주세요.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=Df9nFcWsRZk4",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-107-m01",
+    "price": 5500,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=sA0nf11XX6D8",
+      "sourceName": "다이닝코드",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "메뉴 정보 등록가 · 현장 판매 여부·가격은 매장 재확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-107",
+      "restaurantName": "그랭블레",
+      "sourceAddress": "서울특별시 마포구 월드컵로14길 36",
+      "publishedMenuName": "통밀깜파뉴"
+    },
+    "descriptionUpdate": {
+      "text": "통밀깜파뉴 · 출처 등록가입니다. 메뉴 구성, 재료와 현재 판매 여부는 방문 전 식당에 확인해 주세요.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=sA0nf11XX6D8",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-029-m04",
+    "price": 9500,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=VDJObtX9szHU",
+      "sourceName": "다이닝코드",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "메뉴 정보에서 V/GF 표기 확인 · 현재 판매 여부와 가격은 매장 재확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-029",
+      "restaurantName": "굿니스클럽",
+      "sourceAddress": "서울특별시 용산구 신흥로 99-9 지층",
+      "publishedMenuName": "굿니스보틀케이크(V/GF)"
+    },
+    "descriptionUpdate": {
+      "text": "굿니스보틀케이크(V/GF) · 출처 등록가입니다. 메뉴 구성, 재료와 현재 판매 여부는 방문 전 식당에 확인해 주세요.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=VDJObtX9szHU",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-169-m01",
+    "price": 19900,
+    "priceVerification": {
+      "sourceUrl": "https://www.daangn.com/kr/local-profile/%EB%9F%AC%EB%B9%99%ED%97%9B-%EC%B9%B4%ED%8E%98-sjb2usxjfc3v/",
+      "sourceName": "당근 업체 프로필",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "업체 프로필 등록가 · 현재 판매 여부와 현장 가격은 매장 재확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-169",
+      "restaurantName": "러빙헛 카페",
+      "sourceAddress": "서울특별시 강남구 개포로22길 35",
+      "publishedMenuName": "비건피자"
+    },
+    "descriptionUpdate": {
+      "text": "비건피자 · 출처 등록가입니다. 메뉴 구성, 재료와 현재 판매 여부는 방문 전 식당에 확인해 주세요.",
+      "sourceUrl": "https://www.daangn.com/kr/local-profile/%EB%9F%AC%EB%B9%99%ED%97%9B-%EC%B9%B4%ED%8E%98-sjb2usxjfc3v/",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-168-m02",
+    "price": 12000,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=ZqNNspCBPXjN",
+      "sourceName": "다이닝코드",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "메뉴 정보 등록가 · 현재 판매 여부·가격은 매장 재확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-168",
+      "restaurantName": "러빙헛 랜드",
+      "sourceAddress": "서울특별시 강남구 논현로16길 17",
+      "publishedMenuName": "비건 백짬뽕"
+    },
+    "descriptionUpdate": {
+      "text": "비건 백짬뽕 · 출처 등록가입니다. 메뉴 구성, 재료와 현재 판매 여부는 방문 전 식당에 확인해 주세요.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=ZqNNspCBPXjN",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-210-m03",
+    "price": 13000,
+    "priceVerification": {
+      "sourceUrl": "https://www.daangn.com/kr/local-profile/%EB%B9%84%EA%B1%B4%EC%B9%B4%ED%8E%98-%EC%9C%A0%EB%A1%9C%EC%B9%B4-diwy7erdpui6/",
+      "sourceName": "당근 업체 프로필",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "업체 프로필 시작 가격 · 옵션·구성·현장 판매 가격은 매장 재확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "from",
+      "restaurantId": "seoul-210",
+      "restaurantName": "비건카페 유로카",
+      "sourceAddress": "서울특별시 서초구 서초대로50길 8 관정빌딩 1층",
+      "publishedMenuName": "애플시나몬 파운드케이크"
+    },
+    "descriptionUpdate": {
+      "text": "애플시나몬 파운드케이크 · 출처 등록가입니다. 메뉴 구성, 재료와 현재 판매 여부는 방문 전 식당에 확인해 주세요.",
+      "sourceUrl": "https://www.daangn.com/kr/local-profile/%EB%B9%84%EA%B1%B4%EC%B9%B4%ED%8E%98-%EC%9C%A0%EB%A1%9C%EC%B9%B4-diwy7erdpui6/",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-174-m01",
+    "price": 13900,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=IxGMFijKAegq",
+      "sourceName": "다이닝코드",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "메뉴 정보 등록가 · 예약/현재 판매와 현장 가격은 매장에 재확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-174",
+      "restaurantName": "리틀케어레시피 강남점",
+      "sourceAddress": "서울특별시 강남구 학동로43길 38 B102호",
+      "publishedMenuName": "이천 표고장비건말이"
+    },
+    "descriptionUpdate": {
+      "text": "이천 표고장비건말이 · 출처 등록가입니다. 메뉴 구성, 재료와 현재 판매 여부는 방문 전 식당에 확인해 주세요.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=IxGMFijKAegq",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-056-m04",
+    "price": 6700,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=h4vvn0Wphhgy",
+      "sourceName": "다이닝코드",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "메뉴 정보에서 비건 표기 확인 · 현재 판매 여부·가격은 매장 재확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-056",
+      "restaurantName": "그라운드125",
+      "sourceAddress": "서울특별시 중구 동호로14길 7 비에스빌딩 2층",
+      "publishedMenuName": "비건 콤부차"
+    },
+    "descriptionUpdate": {
+      "text": "비건 콤부차 · 출처 등록가입니다. 메뉴 구성, 재료와 현재 판매 여부는 방문 전 식당에 확인해 주세요.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=h4vvn0Wphhgy",
+      "checkedAt": "2026-10-17"
+    }
   }
 ]

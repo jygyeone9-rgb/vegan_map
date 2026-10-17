@@ -14,8 +14,14 @@ export function isDocumented(menu) {
     Number.isInteger(v.printedPage) && v.printedPage >= 20 && v.printedPage <= 118 &&
     !!safeUrl(v.sourceUrl) && handbookTags[menu.sourceTag] === menu.documentedDietType;
 }
+export function isVendorListed(menu) {
+  const v = menu.verification;
+  return v?.status === 'listed' && menu.documentedDietType in dietLabels &&
+    menu.sourceTag === 'V' && !!safeUrl(v.sourceUrl);
+}
 export function getDietTypes(menu) {
   if (isVerified(menu)) return menu.dietTypes;
+  if (isVendorListed(menu)) return [menu.documentedDietType];
   return isDocumented(menu) ? [menu.documentedDietType] : [];
 }
 export function getPhotoUrl(menu) {
@@ -56,3 +62,4 @@ export function searchCatalog(restaurants, menus, interviews, filters, favorites
   }
   return rows;
 }
+

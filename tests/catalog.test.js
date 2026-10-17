@@ -57,19 +57,27 @@ test('missing or unapproved menu photos resolve to no image', () => {
   assert.equal(getPhotoUrl({...photo,photoSourceUrl:''}),'');
 });
 const data = file => JSON.parse(readFileSync(new URL(`../src/data/${file}.json`,import.meta.url),'utf8'));
-test('all 300 handbook restaurants, 25 districts and 841 menu classifications survive import', () => {
+test('all 300 handbook restaurants, 25 districts and original menu classifications survive import', () => {
   const restaurants=data('restaurants'), menus=data('menus');
   assert.equal(restaurants.length,300);
   assert.equal(new Set(restaurants.map(r=>r.district)).size,25);
-  assert.equal(menus.length,841);
+  assert.equal(menus.filter(m=>m.verification.status==='documented').length,841);
+  assert.equal(menus.length,846);
   assert.equal(restaurants.filter(r=>r.venueType==='specialist').length,119);
   assert.equal(restaurants.filter(r=>r.venueType==='options').length,181);
   assert.equal(restaurants.filter(r=>r.isSample).length,0);
   const counts={};for(const m of menus)for(const type of getDietTypes(m))counts[type]=(counts[type]||0)+1;
-  assert.deepEqual(counts,{vegan:788,lacto:42,'lacto-ovo':9,ovo:2});
+  assert.deepEqual(counts,{vegan:793,lacto:42,'lacto-ovo':9,ovo:2});
   assert.equal(searchCatalog(restaurants,menus,[],{...defaults,diet:'ovo'}).flatMap(r=>r.menus).length,2);
   assert.equal(searchCatalog(restaurants,menus,[],{...defaults,diet:'pesco'}).length,0);
   assert.equal(searchCatalog(restaurants,menus,[],{...defaults,price:'10000'}).length,0);
+});
+test('five source-labeled vendor menu records are searchable without ingredient verification', () => {
+  const menus=data('menus').filter(m=>m.verification.status==='listed');
+  assert.equal(menus.length,5);
+  assert.ok(menus.every(m=>getDietTypes(m).includes('vegan')&&m.dietTypes.length===0));
+  assert.equal(searchCatalog(data('restaurants'),menus,[],{...defaults,diet:'vegan'}).length,5);
+  assert.equal(searchCatalog(data('restaurants'),menus,[],{...defaults,verifiedOnly:true}).length,0);
 });
 test('the handbook vegetarian specialist category does not become a fully vegan certification', () => {
   const r=data('restaurants').find(r=>r.id==='seoul-227');
@@ -83,3 +91,4 @@ test('different PDF and map addresses remain visible as separate provenance', ()
   assert.match(r.location.address,/강남대로 328/);
   assert.ok(r.location.note);
 });
+
