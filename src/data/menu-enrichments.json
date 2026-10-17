@@ -2040,5 +2040,93 @@
       "sourceUrl": "https://polle.com/place/2uzlND/%EB%91%90%EB%91%90%EB%A6%AC%EB%91%90%ED%8C%A1",
       "checkedAt": "2026-10-17"
     }
+  },
+  {
+    "id": "seoul-032-m01",
+    "price": 14500,
+    "priceVerification": {
+      "sourceUrl": "https://autoreserve.com/ko/restaurants/ryATbBzGLtGgAGhmFZg5",
+      "sourceName": "AutoReserve",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "외부 플랫폼 메뉴 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-032",
+      "restaurantName": "더로열푸드앤드링크",
+      "sourceAddress": "서울특별시 용산구 신흥로20길 37",
+      "publishedMenuName": "두유요거트볼(비건)"
+    },
+    "descriptionUpdate": {
+      "text": "공개 메뉴에는 비건 그래놀라, 두유요거트, 바나나로 구성된 메뉴로 안내되어 있습니다. 가격과 현재 판매 여부는 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://autoreserve.com/ko/restaurants/ryATbBzGLtGgAGhmFZg5",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-112-m01",
+    "price": 3200,
+    "priceVerification": {
+      "sourceUrl": "https://develop.bbanggree.com/main/stores/8",
+      "sourceName": "빵그리의 오븐",
+      "checkedAt": "2026-10-17",
+      "channel": "online",
+      "note": "온라인 상품 1개 기준 · 배송비 별도 · 매장 가격과 다를 수 있음",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-112",
+      "restaurantName": "모닐이네하우스 글루텐프리 공방카페",
+      "sourceAddress": "서울특별시 마포구 양화로6길 60 1층",
+      "publishedMenuName": "Best 100% 쌀 소금빵 (글루텐프리)"
+    },
+    "descriptionUpdate": {
+      "text": "빵그리 온라인 스토어의 상품 1개 가격입니다. 배송비와 매장 판매가는 다를 수 있으며, 현재 판매 여부는 상품 페이지에서 확인해 주세요.",
+      "sourceUrl": "https://develop.bbanggree.com/main/stores/8",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-112-m02",
+    "price": 3600,
+    "priceVerification": {
+      "sourceUrl": "https://develop.bbanggree.com/main/stores/8",
+      "sourceName": "빵그리의 오븐",
+      "checkedAt": "2026-10-17",
+      "channel": "online",
+      "note": "온라인 상품 1개 기준 · 배송비 별도 · 매장 가격과 다를 수 있음",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-112",
+      "restaurantName": "모닐이네하우스 글루텐프리 공방카페",
+      "sourceAddress": "서울특별시 마포구 양화로6길 60 1층",
+      "publishedMenuName": "100% 글루텐프리 쌀로 만든 베이글 (비건/GF)"
+    },
+    "descriptionUpdate": {
+      "text": "빵그리 온라인 스토어의 상품 가격입니다. 배송비와 매장 판매가는 다를 수 있으며, 현재 판매 여부는 상품 페이지에서 확인해 주세요.",
+      "sourceUrl": "https://develop.bbanggree.com/main/stores/8",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-031-m01",
+    "price": 9900,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=y2EZBSwegZkw",
+      "sourceName": "다이닝코드",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "외부 플랫폼 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-031",
+      "restaurantName": "닥터로빈 한남점",
+      "sourceAddress": "서울특별시 용산구 독서당로 70 1층",
+      "publishedMenuName": "단호박콩크림스프"
+    },
+    "descriptionUpdate": {
+      "text": "메뉴 자료에는 국내산 콩을 갈아 만든 콩크림소스를 담은 단호박 수프로 안내되어 있습니다. 가격과 현재 판매 여부는 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=y2EZBSwegZkw",
+      "checkedAt": "2026-10-17"
+    }
   }
 ]
