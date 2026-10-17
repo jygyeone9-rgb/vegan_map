@@ -1,6 +1,6 @@
 # VEGAN SEOUL — 서울 비건 한 끼 지도
 
-한양대학교 주변에서 서울 전역으로 확장하는 React + JSX / Vite / Leaflet / OpenStreetMap 정적 웹사이트입니다. 서울 25개 자치구의 **운영 목록 298곳·메뉴 835개**를 탐색하며, 가격 출처가 기록된 60곳의 79개 메뉴를 함께 표시합니다. 확인 근거가 있는 폐점 지점은 공개 목록에서 제외합니다.
+한양대학교 주변에서 서울 전역으로 확장하는 React + JSX / Vite / Leaflet / OpenStreetMap 정적 웹사이트입니다. 서울 25개 자치구의 **운영 목록 298곳·메뉴 835개**를 탐색하며, 가격 출처가 기록된 64곳의 91개 메뉴를 함께 표시합니다. 확인 근거가 있는 폐점 지점은 공개 목록에서 제외합니다.
 
 ## 실행
 Node.js 22 이상:
@@ -39,7 +39,7 @@ src/
     restaurants.json             원자료 식당 300개
     menus.json                   원자료 메뉴 841개, restaurantId로 연결
     closed-restaurants.json      확인된 폐점 지점 공개 목록 제외 기록
-     menu-enrichments.json        가격 자료 79개, 60개 지점
+     menu-enrichments.json        가격 자료 91개, 64개 지점
     interviews.json              공개 동의가 있는 인터뷰
     handbook-source.json         발행·조사 기준·범례·파일 해시
   hooks/useFavorites.js          브라우저 즐겨찾기
@@ -72,4 +72,3 @@ GitHub Pages: Settings → Pages → Source를 **GitHub Actions**로 설정하�
 자료: [서울시 공식 배포처](https://fsi.seoul.go.kr/front/M0000070/board/view.do?atcSn=2283), [한국비건진흥원 안내](https://k-vegan.org/?page_id=4337&uid=644&mod=document&pageid=1), [스마트서울맵](https://map.seoul.go.kr/smgis2/seoulMap).
 
 기술 참고: [React Effect](https://react.dev/reference/react/useEffect), [Leaflet](https://leafletjs.com/reference.html), [Vite Pages 배포](https://vite.dev/guide/static-deploy.html#github-pages).
-

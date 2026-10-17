@@ -1,4 +1,4 @@
-# 가격 보강: 60곳 / 79개 메뉴
+# 가격 보강: 64곳 / 91개 메뉴
 
 2026-10-17 웹 페이지 조회 기준. 기존 10곳 / 20개 메뉴에 20곳 / 20개 메뉴를 추가했다. 업체 직접 확인을 뜻하지 않으며, 플랫폼 메뉴의 최종 갱신일은 확인되지 않았다.
 
@@ -114,5 +114,23 @@
 
 ## 다음 갱신 방법
 
-가격 변경은 menu-enrichments.json에서 해당 메뉴만 갱신하고 출처·조회일·지점·원문 메뉴명을 함께 기록한다. npm test와 npm run build로 데이터·가격 검색을 검증한다. 가격 자료가 있는 메뉴만 필터로 현재 60곳을 찾아볼 수 있다.
+가격 변경은 menu-enrichments.json에서 해당 메뉴만 갱신하고 출처·조회일·지점·원문 메뉴명을 함께 기록한다. npm test와 npm run build로 데이터·가격 검색을 검증한다. 가격 자료가 있는 메뉴만 필터로 현재 64곳을 찾아볼 수 있다.
 
+## 추가 보강: 4곳 / 12개 메뉴
+
+2026-10-17 조회 기준. 공개 메뉴명과 가격이 함께 확인된 항목을 추가했다. 가격은 외부 플랫폼 게시 정보이며 현장 가격과 현재 판매를 보증하지 않는다.
+
+- 어라운드그린 / 세가지버섯피자: 22,900원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=W9lHy1BmtWy1)
+- 어라운드그린 / 된장소스가지덮밥정식: 12,900원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=W9lHy1BmtWy1)
+- 어라운드그린 / 버섯깐풍현미밥정식: 12,900원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=W9lHy1BmtWy1)
+- 포포브레드 / 밤식이: 8,500원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=4A0r2bdnlzAm)
+- 포포브레드 / 곡식이: 8,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=4A0r2bdnlzAm)
+- 포포브레드 / 무화과 쌀깜빠뉴: 8,200원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=4A0r2bdnlzAm)
+- 황금룡 / 버섯탕수(중): 25,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=DhlFq2zK4pHS)
+- 황금룡 / 깐풍가지(중): 25,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=DhlFq2zK4pHS)
+- 황금룡 / 야채짬뽕: 10,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=DhlFq2zK4pHS)
+- 두두리두팡 / 비건 갸또 케이크: 10,500원 — [뽈레](https://polle.com/place/2uzlND/%EB%91%90%EB%91%90%EB%A6%AC%EB%91%90%ED%8C%A1)
+- 두두리두팡 / 비건 쌀시트 케이크: 10,500원 — [뽈레](https://polle.com/place/2uzlND/%EB%91%90%EB%91%90%EB%A6%AC%EB%91%90%ED%8C%A1)
+- 두두리두팡 / 비건 치즈케이크: 10,500원 — [뽈레](https://polle.com/place/2uzlND/%EB%91%90%EB%91%90%EB%A6%AC%EB%91%90%ED%8C%A1)
+
+이번 보강도 기존 재료 확인 상태와 채식 유형은 변경하지 않았다. 현재 공개 목록에 표시되는 가격 자료는 64곳의 91개 메뉴다.

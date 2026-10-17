@@ -1776,5 +1776,269 @@
       "sourceUrl": "https://www.diningcode.com/profile.php?rid=s7u9qccBo0Oq",
       "checkedAt": "2026-10-17"
     }
+  },
+  {
+    "id": "seoul-129-m01",
+    "price": 22900,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=W9lHy1BmtWy1",
+      "sourceName": "다이닝코드",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "외부 플랫폼 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-129",
+      "restaurantName": "어라운드그린",
+      "sourceAddress": "서울 마포구 동교로 44-1 2층",
+      "publishedMenuName": "세가지버섯피자"
+    },
+    "descriptionUpdate": {
+      "text": "메뉴 자료에는 표고·새송이·느타리버섯과 채소, 비건 치즈를 올린 통밀 피자로 소개됩니다. 가격과 구성은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=W9lHy1BmtWy1",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-129-m02",
+    "price": 12900,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=W9lHy1BmtWy1",
+      "sourceName": "다이닝코드",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "외부 플랫폼 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-129",
+      "restaurantName": "어라운드그린",
+      "sourceAddress": "서울 마포구 동교로 44-1 2층",
+      "publishedMenuName": "된장소스가지덮밥정식"
+    },
+    "descriptionUpdate": {
+      "text": "메뉴 자료에는 구운 가지에 하우스메이드 된장소스를 바르고 현미밥과 샐러드를 곁들인 정식으로 소개됩니다. 가격과 구성은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=W9lHy1BmtWy1",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-129-m03",
+    "price": 12900,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=W9lHy1BmtWy1",
+      "sourceName": "다이닝코드",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "외부 플랫폼 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-129",
+      "restaurantName": "어라운드그린",
+      "sourceAddress": "서울 마포구 동교로 44-1 2층",
+      "publishedMenuName": "버섯깐풍현미밥정식"
+    },
+    "descriptionUpdate": {
+      "text": "메뉴 자료에는 깐풍소스에 조린 튀긴 버섯 3종과 현미밥, 샐러드를 함께 제공한다고 소개됩니다. 가격과 구성은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=W9lHy1BmtWy1",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-147-m01",
+    "price": 8500,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=4A0r2bdnlzAm",
+      "sourceName": "다이닝코드",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "외부 플랫폼 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-147",
+      "restaurantName": "포포브레드",
+      "sourceAddress": "서울특별시 마포구 동교로18길 13, 세원빌딩 1층",
+      "publishedMenuName": "밤식이"
+    },
+    "descriptionUpdate": {
+      "text": "다이닝코드 공개 메뉴 자료의 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=4A0r2bdnlzAm",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-147-m02",
+    "price": 8000,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=4A0r2bdnlzAm",
+      "sourceName": "다이닝코드",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "외부 플랫폼 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-147",
+      "restaurantName": "포포브레드",
+      "sourceAddress": "서울특별시 마포구 동교로18길 13, 세원빌딩 1층",
+      "publishedMenuName": "곡식이"
+    },
+    "descriptionUpdate": {
+      "text": "다이닝코드 공개 메뉴 자료의 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=4A0r2bdnlzAm",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-147-m03",
+    "price": 8200,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=4A0r2bdnlzAm",
+      "sourceName": "다이닝코드",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "외부 플랫폼 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-147",
+      "restaurantName": "포포브레드",
+      "sourceAddress": "서울특별시 마포구 동교로18길 13, 세원빌딩 1층",
+      "publishedMenuName": "무화과 쌀깜빠뉴"
+    },
+    "descriptionUpdate": {
+      "text": "다이닝코드 공개 메뉴 자료의 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=4A0r2bdnlzAm",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-149-m01",
+    "price": 25000,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=DhlFq2zK4pHS",
+      "sourceName": "다이닝코드",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "중 사이즈 기준 외부 플랫폼 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-149",
+      "restaurantName": "황금룡",
+      "sourceAddress": "서울 마포구 포은로 90 1층",
+      "publishedMenuName": "버섯탕수(중)"
+    },
+    "descriptionUpdate": {
+      "text": "중 사이즈 기준으로 공개된 가격입니다. 메뉴 상세와 사이즈, 현재 판매 여부는 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=DhlFq2zK4pHS",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-149-m02",
+    "price": 25000,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=DhlFq2zK4pHS",
+      "sourceName": "다이닝코드",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "중 사이즈 기준 외부 플랫폼 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-149",
+      "restaurantName": "황금룡",
+      "sourceAddress": "서울 마포구 포은로 90 1층",
+      "publishedMenuName": "깐풍가지(중)"
+    },
+    "descriptionUpdate": {
+      "text": "중 사이즈 기준으로 공개된 가격입니다. 메뉴 상세와 사이즈, 현재 판매 여부는 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=DhlFq2zK4pHS",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-149-m03",
+    "price": 10000,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=DhlFq2zK4pHS",
+      "sourceName": "다이닝코드",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "외부 플랫폼 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-149",
+      "restaurantName": "황금룡",
+      "sourceAddress": "서울 마포구 포은로 90 1층",
+      "publishedMenuName": "야채짬뽕"
+    },
+    "descriptionUpdate": {
+      "text": "다이닝코드 공개 메뉴 자료의 가격입니다. 육수와 소스를 포함한 재료 및 현재 판매 여부는 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=DhlFq2zK4pHS",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-110-m01",
+    "price": 10500,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/2uzlND/%EB%91%90%EB%91%90%EB%A6%AC%EB%91%90%ED%8C%A1",
+      "sourceName": "뽈레",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "외부 플랫폼 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-110",
+      "restaurantName": "두두리두팡",
+      "sourceAddress": "서울특별시 마포구 월드컵로23길 19 1층 두두리두팡",
+      "publishedMenuName": "비건 갸또 케이크"
+    },
+    "descriptionUpdate": {
+      "text": "뽈레 공개 메뉴 자료의 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/2uzlND/%EB%91%90%EB%91%90%EB%A6%AC%EB%91%90%ED%8C%A1",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-110-m02",
+    "price": 10500,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/2uzlND/%EB%91%90%EB%91%90%EB%A6%AC%EB%91%90%ED%8C%A1",
+      "sourceName": "뽈레",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "외부 플랫폼 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-110",
+      "restaurantName": "두두리두팡",
+      "sourceAddress": "서울특별시 마포구 월드컵로23길 19 1층 두두리두팡",
+      "publishedMenuName": "비건 쌀시트 케이크"
+    },
+    "descriptionUpdate": {
+      "text": "뽈레 공개 메뉴 자료의 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/2uzlND/%EB%91%90%EB%91%90%EB%A6%AC%EB%91%90%ED%8C%A1",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-110-m03",
+    "price": 10500,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/2uzlND/%EB%91%90%EB%91%90%EB%A6%AC%EB%91%90%ED%8C%A1",
+      "sourceName": "뽈레",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "외부 플랫폼 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-110",
+      "restaurantName": "두두리두팡",
+      "sourceAddress": "서울특별시 마포구 월드컵로23길 19 1층 두두리두팡",
+      "publishedMenuName": "비건 치즈케이크"
+    },
+    "descriptionUpdate": {
+      "text": "뽈레 공개 메뉴 자료의 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/2uzlND/%EB%91%90%EB%91%90%EB%A6%AC%EB%91%90%ED%8C%A1",
+      "checkedAt": "2026-10-17"
+    }
   }
 ]
