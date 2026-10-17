@@ -1,4 +1,4 @@
-# 가격 보강: 86곳 / 160개 메뉴
+# 가격 보강: 130곳 / 204개 메뉴
 
 2026-10-17 웹 페이지 조회 기준. 기존 10곳 / 20개 메뉴에 20곳 / 20개 메뉴를 추가했다. 업체 직접 확인을 뜻하지 않으며, 플랫폼 메뉴의 최종 갱신일은 확인되지 않았다.
 
@@ -114,7 +114,7 @@
 
 ## 다음 갱신 방법
 
-가격 변경은 menu-enrichments.json에서 해당 메뉴만 갱신하고 출처·조회일·지점·원문 메뉴명을 함께 기록한다. npm test와 npm run build로 데이터·가격 검색을 검증한다. 가격 자료가 있는 메뉴만 필터로 현재 86곳을 찾아볼 수 있다.
+가격 변경은 menu-enrichments.json에서 해당 메뉴만 갱신하고 출처·조회일·지점·원문 메뉴명을 함께 기록한다. npm test와 npm run build로 데이터·가격 검색을 검증한다. 가격 자료가 있는 메뉴만 필터로 현재 130곳을 찾아볼 수 있다.
 
 ## 추가 보강: 4곳 / 12개 메뉴
 
@@ -161,7 +161,7 @@
 - 블루서울 / 알리오 올리오: 16,000원부터 — [당근](https://www.daangn.com/kr/local-profile/%EB%B8%94%EB%A3%A8%EC%84%9C%EC%9A%B8-2su8ihbuot7f/)
 - SOUPER 광화문점 / 그릴드 베지 리코타 샌드위치: 12,500원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=J5DnfWia9s1K)
 
-현재 공개 가격 자료는 100곳의 174개 메뉴다. 가격 자료는 등록가이며 현장가와 현재 판매를 보증하지 않는다.
+현재 공개 가격 자료는 130곳의 204개 메뉴다. 가격 자료는 등록가이며 현장가와 현재 판매를 보증하지 않는다.
 
 ## 2026-10-17 추가 가격 자료
 
@@ -173,4 +173,40 @@
 
 ## 2026-10-17 가격 자료 확장
 
-가격 출처와 메뉴·지점이 대조된 14곳을 추가해 현재 총 100곳 / 174개 메뉴를 기록한다. 추가 지점은 7.8 2호점, 앞으로의빵집, 한과채, 바비, 조선보울 서울역점, 카무플라주, 전환마을부엌 밥풀꽃, 밀랑스, 아날로그가든, 카멜스 키친, 클로벨리, 칙피스 신사점, 제일콩집, 로컬릿이다. 공개 플랫폼의 등록 가격은 매장 현재가와 다를 수 있다. 조선보울 서울역점 가격은 후기의 가격 언급을 출처로 한 값이며, 다른 지점 가격은 사용하지 않았다. 가격 추가는 재료나 채식 유형을 새로 확인한 것이 아니다. 각 원문 메뉴명·주소·출처 링크·조회일은 `src/data/menu-enrichments.json`에 기록했다.
+가격 출처와 메뉴·지점이 대조된 14곳을 추가해 총 100곳 / 174개 메뉴를 기록했다. 추가 지점은 7.8 2호점, 앞으로의빵집, 한과채, 바비, 조선보울 서울역점, 카무플라주, 전환마을부엌 밥풀꽃, 밀랑스, 아날로그가든, 카멜스 키친, 클로벨리, 칙피스 신사점, 제일콩집, 로컬릿이다. 공개 플랫폼의 등록 가격은 매장 현재가와 다를 수 있다. 조선보울 서울역점 가격은 후기의 가격 언급을 출처로 한 값이며, 다른 지점 가격은 사용하지 않았다. 가격 추가는 재료나 채식 유형을 새로 확인한 것이 아니다. 각 원문 메뉴명·주소·출처 링크·조회일은 `src/data/menu-enrichments.json`에 기록했다.
+
+
+## 2026-10-17 가격 자료 확장: 130곳
+
+출처에 지점과 메뉴가 확인된 새 지점 30곳을 추가해 총 130곳 / 204개 메뉴로 늘렸다. 메뉴와 지점별 출처·확인일은 src/data/menu-enrichments.json에 기록했다. 외부 플랫폼 등록가는 현장가를 보증하지 않으며 변경될 수 있다. 두 메뉴의 시작가는 from으로 구분해 가격 상한 필터에는 포함하지 않는다. 폐점으로 표시된 후보와 지점 불일치 자료는 제외했다.
+
+- 루시드 서울 / 바나나브레드: 9,000원 — [테이블링](https://www.tabling.co.kr/place/677cd01766de5f0698856f6d)
+- 사워도우 랩 / 플레인 사워도우: 8,000원 — [테이블링](https://www.tabling.co.kr/place/677ccf8c66de5f0698846bc2)
+- 베이스 이즈 나이스 / 바삭청무와 옥수수밥: 23,000원 — [뽈레](https://polle.com/place/4hcSBy/%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EC%9D%B4%EC%A6%88%20%EB%82%98%EC%9D%B4%EC%8A%A4)
+- 업투미 / 비건식9코스요리: 79,000원 — [뽈레](https://polle.com/place/2yEqOz/%EC%97%85%ED%88%AC%EB%AF%B8)
+- 초록뜰식당 / 쌀국수: 10,000원 — [서울관광재단 비짓서울](https://korean.visitseoul.net/restaurants/GreenFieldRestaurant/KOPk0otw0)
+- 395빵집 / 브렛첼: 3,000원 — [완벽한 하루](https://xn--2s2b33eb3kgvpta.com/store/S135471_1656916499179)
+- 밀베이커리 / 순 쌀식빵: 5,500원 — [뽈레](https://polle.com/place/2kUMpX/%EB%B0%80%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC)
+- 베지위켄드 / 계절스프: 9,000원 — [푸슬레터](https://stibee.com/api/v1.0/emails/share/iGn8lNr-R-G5StH5thOL-WN8HcOgH1o)
+- 베지그린 / 샐러드 뷔페: 13,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=oUCp4xKuAU9D)
+- 셰발레리 / 버섯 크림 감자뇨끼: 14,500원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=s6ZQG2QOQgbr)
+- 강가 / 달 타르카: 26,500원 — [뽈레](https://polle.com/place/1Ka9ll/%EA%B0%95%EA%B0%80)
+- 비아37 신촌본점 / 비건 스파게티: 21,000원 — [뽈레](https://polle.com/place/4aSCcK/%EB%B9%84%EC%95%84%2037)
+- 아르켓 카페 더현대서울점 / 스위트 포테이토 고추장 비건 마요 랩: 9,900원 — [현대백화점 더현대서울 공식 안내](https://m.ehyundai.com/mobile/branch/DP/diningList.do?branchCd=B00140000)
+- 팡도리노 베이커리 / 호밀무화과: 5,000원 — [테이블링](https://www.tabling.co.kr/place/677ccb2e66de5f06987cc8d1)
+- 땅지베지 / 쌀르뱅 다크초코 쿠키: 4,500원부터 — [당근 업체 프로필](https://www.daangn.com/kr/local-profile/%EB%95%85%EC%A7%80%EB%B2%A0%EC%A7%80-wdhecr1cahia/)
+- 브레드 히어 / 쌀단팥빵: 3,300원 — [Gangnam Finds](https://www.gangnamfinds.com/en/place/beuredeu-hieo)
+- 더버튼스 / 카넬리비 빈 숩: 15,900원 — [뽈레](https://polle.com/place/45ckmk/%EB%8D%94%20%EB%B2%84%ED%8A%BC%EC%8A%A4)
+- 다온브레드 / 올리브치아바타: 2,700원 — [다온브레드 공식몰](https://daonbread.cafe24.com/product/%EC%98%AC%EB%A6%AC%EB%B8%8C-%EC%B9%98%EC%95%84%EB%B0%94%ED%83%80/24/category/1/display/2/)
+- 미들레인 / 컬리플라워: 17,000원 — [테이블링](https://www.tabling.co.kr/place/677cd73c66de5f069892662a)
+- 히꾸 / 흑임자 크럼블 찹쌀파이: 6,000원부터 — [당근 업체 프로필](https://www.daangn.com/kr/local-profile/%ED%9E%88%EA%BE%B8-yrkgbn6pfmgt/)
+- 달리아 다이닝 / 마리게리타 피자: 21,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=TEigqqEWwhnM)
+- 점점점점점점 / 8가지 비건코스: 40,000원 — [서울관광재단 비짓서울](https://korean.visitseoul.net/mapo-aroundx/jumjumjumjumjum/KOPb30c47)
+- 이도림 블로트커피 X 베이크 서촌 본점 / 비건티라미슈: 6,800원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=CYkEtmmUipN1)
+- 큔 / 비건버터 발효커리: 17,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=0efuHv8aU9cG)
+- 솔드아웃 베이커리 / 통밀100% 사워도우: 7,000원 — [뽈레](https://polle.com/place/3JlExk/%EC%86%94%EB%93%9C%EC%95%84%EC%9B%83%20%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC)
+- 지구제과 / 누아제트쇼콜라: 9,500원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=IHSOVC4biDyp)
+- 수밀 블랑제리 / 100% 유기농 통밀 식빵: 7,500원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=uFpurdwvpx7a)
+- 빌라드코스테스 / 코코넛토마토파스타: 16,000원 — [비즈W 업체 메뉴 정보](https://bizw.kr/brand/198473)
+- 날일달월 / 생채식 진지: 23,000원 — [뽈레](https://polle.com/place/29Bkc7/%EB%82%A0%EC%9D%BC%EB%8B%AC%EC%9B%94)
+- 본노엘 중계은행사거리점 / 쌀식빵: 5,500원 — [비즈W 업체 메뉴 정보](https://bizw.kr/brand/197618)
