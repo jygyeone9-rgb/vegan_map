@@ -61,16 +61,21 @@ test('all 300 handbook restaurants, 25 districts and original menu classificatio
   const restaurants=data('restaurants'), menus=data('menus');
   assert.equal(restaurants.length,300);
   assert.equal(new Set(restaurants.map(r=>r.district)).size,25);
-  assert.equal(menus.filter(m=>m.verification.status==='documented').length,841);
+  assert.equal(menus.filter(m=>m.verification.sourceId==='seoul-handbook-2025').length,841);
   assert.equal(menus.length,846);
   assert.equal(restaurants.filter(r=>r.venueType==='specialist').length,119);
   assert.equal(restaurants.filter(r=>r.venueType==='options').length,181);
   assert.equal(restaurants.filter(r=>r.isSample).length,0);
   const counts={};for(const m of menus)for(const type of getDietTypes(m))counts[type]=(counts[type]||0)+1;
-  assert.deepEqual(counts,{vegan:793,lacto:42,'lacto-ovo':9,ovo:2});
+  assert.deepEqual(counts,{vegan:791,lacto:42,'lacto-ovo':9,ovo:2});
   assert.equal(searchCatalog(restaurants,menus,[],{...defaults,diet:'ovo'}).flatMap(r=>r.menus).length,2);
   assert.equal(searchCatalog(restaurants,menus,[],{...defaults,diet:'pesco'}).length,0);
   assert.equal(searchCatalog(restaurants,menus,[],{...defaults,price:'10000'}).length,0);
+});
+test('conflicting menu evidence removes Hongmilmil and Reuonyong from the vegan filter', () => {
+  const menu=data('menus').find(m=>m.id==='seoul-076-m01');
+  assert.equal(menu.verification.status,'recheck');
+  assert.equal(getDietTypes(menu).includes('vegan'),false);
 });
 test('five source-labeled vendor menu records are searchable without ingredient verification', () => {
   const menus=data('menus').filter(m=>m.verification.status==='listed');
@@ -84,11 +89,11 @@ test('the handbook vegetarian specialist category does not become a fully vegan 
   assert.equal(r.venueType,'specialist');
   assert.ok(data('menus').filter(m=>m.restaurantId===r.id).some(m=>getDietTypes(m).includes('lacto')));
 });
-test('different PDF and map addresses remain visible as separate provenance', () => {
-  const r=data('restaurants').find(r=>r.id==='seoul-167');
-  assert.equal(r.location.status,'address-differs');
-  assert.match(r.address,/언주로71길/);
-  assert.match(r.location.address,/강남대로 328/);
-  assert.ok(r.location.note);
+test('verified current location updates are reflected consistently', () => {
+  for (const id of ['seoul-167','seoul-172']) {
+    const r=data('restaurants').find(r=>r.id===id);
+    assert.equal(r.location.status,'matched');
+    assert.equal(r.address,r.location.address);
+    assert.ok(r.location.note);
+  }
 });
-

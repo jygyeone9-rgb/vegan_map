@@ -14,5 +14,77 @@
     "sourceName": "뽈레",
     "sourceUrl": "https://polle.com/place/1PFrrr/칙피스",
     "reason": "지점명과 연무장5길 9-16 주소가 일치하는 페이지에 폐점으로 표시됨"
+  },
+  {
+    "restaurantId": "seoul-017",
+    "checkedAt": "2026-10-17",
+    "status": "closed",
+    "sourceName": "뽈레",
+    "sourceUrl": "https://polle.com/place/5m9snJ/%EC%8B%9C%EB%9E%98%EA%B8%B0%20%EB%8B%B4%EC%9D%80",
+    "reason": "삼청로 65-2 페이지 폐점 표시"
+  },
+  {
+    "restaurantId": "seoul-030",
+    "checkedAt": "2026-10-17",
+    "status": "closed",
+    "sourceName": "노노샵 공식 홈페이지",
+    "sourceUrl": "https://nonoshop.co.kr/ko/",
+    "reason": "공식 홈페이지 매장이 남대문으로 변경되어 이태원 기존 위치 종료"
+  },
+  {
+    "restaurantId": "seoul-087",
+    "checkedAt": "2026-10-17",
+    "status": "closed",
+    "sourceName": "뽈레",
+    "sourceUrl": "https://polle.com/place/4IVcGW/%ED%8B%B0%EC%B9%98",
+    "reason": "홍제천로 186 최근 페이지 폐점 표시"
+  },
+  {
+    "restaurantId": "seoul-102",
+    "checkedAt": "2026-10-17",
+    "status": "closed",
+    "sourceName": "HappyCow",
+    "sourceUrl": "https://www.happycow.net/reviews/kong-dyak-gyeonggi-do-408477",
+    "reason": "영업 종료 표시"
+  },
+  {
+    "restaurantId": "seoul-108",
+    "checkedAt": "2026-10-17",
+    "status": "closed",
+    "sourceName": "빈틈 M 매장 정보",
+    "sourceUrl": "https://xn--2s2b33eb3kgvpta.com/store/S177609_1661494776080",
+    "reason": "망원로7길 3-6 매장 영업종료 표시"
+  },
+  {
+    "restaurantId": "seoul-132",
+    "checkedAt": "2026-10-17",
+    "status": "closed",
+    "sourceName": "뽈레",
+    "sourceUrl": "https://polle.com/place/5ED3ux/%EC%9A%B0%EC%82%BC%EC%B4%8C%20%EC%B9%B4%EB%A0%88",
+    "reason": "포은로 139 망원점 폐점 표시"
+  },
+  {
+    "restaurantId": "seoul-133",
+    "checkedAt": "2026-10-17",
+    "status": "closed",
+    "sourceName": "뽈레",
+    "sourceUrl": "https://polle.com/place/1qLD1P/%EC%9A%B0%EC%82%BC%EC%B4%8C%EC%B9%B4%EB%A0%88",
+    "reason": "잔다리로3안길 24 홍대점 폐점 표시, 다른 플랫폼 상충"
+  },
+  {
+    "restaurantId": "seoul-146",
+    "checkedAt": "2026-10-17",
+    "status": "closed",
+    "sourceName": "포어픽 베이커리 공식 홈페이지",
+    "sourceUrl": "https://forepeakbakery.shop/",
+    "reason": "공식 홈페이지 주소가 연희동으로 변경되어 마포대로 기존 위치 종료"
+  },
+  {
+    "restaurantId": "seoul-215",
+    "checkedAt": "2026-10-17",
+    "status": "closed",
+    "sourceName": "뽈레",
+    "sourceUrl": "https://polle.com/place/10WPLa/%ED%91%B8%EB%93%9C%20%EB%8D%94%EC%A6%88%20%EB%A7%A4%ED%84%B0",
+    "reason": "서래로1길 10 페이지 폐점 표시"
   }
 ]

@@ -1,6 +1,6 @@
 # VEGAN SEOUL — 서울 비건 한 끼 지도
 
-한양대학교 주변에서 서울 전역으로 확장하는 React + JSX / Vite / Leaflet / OpenStreetMap 정적 웹사이트입니다. 서울 25개 자치구의 **운영 목록 298곳·메뉴 840개**를 탐색하며, 가격 출처가 기록된 175곳의 249개 메뉴를 함께 표시합니다. 확인 근거가 있는 폐점 지점은 공개 목록에서 제외합니다.
+한양대학교 주변에서 서울 전역으로 확장하는 React + JSX / Vite / Leaflet / OpenStreetMap 정적 웹사이트입니다. 서울 25개 자치구의 **운영 목록 289곳·메뉴 814개**를 탐색하며, 가격 출처가 기록된 200곳의 274개 메뉴를 함께 표시합니다. 확인 근거가 있는 폐점 지점은 공개 목록에서 제외합니다.
 
 ## 실행
 Node.js 22 이상:
@@ -39,7 +39,7 @@ src/
     restaurants.json             원자료 식당 300개
     menus.json                   원자료 메뉴 841개와 추가 메뉴 5개, restaurantId로 연결
     closed-restaurants.json      확인된 폐점 지점 공개 목록 제외 기록
-    menu-enrichments.json        가격 자료 249개, 175개 지점
+    menu-enrichments.json        가격 자료 274개, 200개 지점
     interviews.json              공개 동의가 있는 인터뷰
     handbook-source.json         발행·조사 기준·범례·파일 해시
   hooks/useFavorites.js          브라우저 즐겨찾기
@@ -47,20 +47,17 @@ src/
   config.js                      실제 제보·캠페인 주소
 scripts/
   validate-data.mjs              데이터 관계·출처·유형·사진 검증
-  import-handbook.py             제공된 PDF의 재현 가능한 추출
-  handbook-locations.json        PDF 번호와 대조한 좌표·출처
-tests/catalog.test.js            검색 및 PDF 반영 회귀 테스트
+  import-handbook.py             재현 가능한 조사 자료 가져오기
+  handbook-locations.json        조사 자료 번호와 좌표·출처
+tests/catalog.test.js            검색 및 조사 자료 반영 회귀 테스트
 docs/DATA_GUIDE.md                데이터 수정 방법
 docs/IMPORT_NOTES.md              원자료 대조·차이·좌표 보완 내역
 .github/workflows/deploy.yml      검증 → 테스트 → 빌드 → Pages
 ```
 
-앱 실행에는 Python이 필요 없습니다. 원본 PDF를 다시 추출할 때만 `pdfplumber`가 필요합니다.
 ```bash
-python scripts/import-handbook.py --pdf /path/to/handbook.pdf
 npm test
 ```
-추출 스크립트는 네트워크를 사용하지 않으며 검토된 좌표 파일과 PDF를 결합합니다. 재추출은 자료 상태로 되돌리므로 이후 수동 검수 변경은 먼저 보존하세요.
 
 ## 운영 설정과 배포
 `src/config.js`의 `reportFormUrl`에 실제 Google Forms 주소를 연결해야 접수가 열립니다. 공개 동의를 확보한 인터뷰, 캠페인 일정/URL/QR은 자료가 마련되면 등록하세요. Google Sheets 수집·Forms 자동 연동, 계정·관리자 기능과 참여 분석은 포함하지 않습니다.
@@ -72,4 +69,3 @@ GitHub Pages: Settings → Pages → Source를 **GitHub Actions**로 설정하�
 자료: [서울시 공식 배포처](https://fsi.seoul.go.kr/front/M0000070/board/view.do?atcSn=2283), [한국비건진흥원 안내](https://k-vegan.org/?page_id=4337&uid=644&mod=document&pageid=1), [스마트서울맵](https://map.seoul.go.kr/smgis2/seoulMap).
 
 기술 참고: [React Effect](https://react.dev/reference/react/useEffect), [Leaflet](https://leafletjs.com/reference.html), [Vite Pages 배포](https://vite.dev/guide/static-deploy.html#github-pages).
-

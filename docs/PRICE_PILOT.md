@@ -1,10 +1,10 @@
-# 가격 보강: 175곳 / 249개 메뉴
+# 가격 보강 현황: 200곳 / 274개 메뉴
 
 2026-10-17 웹 페이지 조회 기준. 이번 차수에서 25개 지점의 메뉴 가격 25개를 추가했다. 업체 직접 확인을 뜻하지 않으며, 플랫폼 메뉴의 최종 갱신일은 확인되지 않은 항목이 있다.
 
 ## 자료 범위와 선택
 
-한양대 인접 권역부터 종로·용산·서대문·마포·강남·동작·관악·성북 등 서울 여러 권역으로 넓혔다. 기존 300개 원자료는 보존하고, 확인된 폐점 2곳을 closed-restaurants.json에서 공개 목록과 메뉴에서 제외한다. 가격은 원자료와 분리된 menu-enrichments.json에 관리한다. 공식몰 이외의 가격은 외부 플랫폼 등록가이며 현장 가격이나 현재 판매를 보증하지 않는다. 각 레코드에 지점명·주소·실제 게재 메뉴명을 기록한다.
+한양대 인접 권역부터 종로·용산·서대문·마포·강남·동작·관악·성북 등 서울 여러 권역으로 넓혔다. 기존 300개 원자료는 보존하고, 확인된 폐점·이전 11곳을 폐점 기록에서 공개 목록과 메뉴에서 제외한다. 가격은 원자료와 분리된 menu-enrichments.json에 관리한다. 공식몰 이외의 가격은 외부 플랫폼 등록가이며 현장 가격이나 현재 판매를 보증하지 않는다. 각 레코드에 지점명·주소·실제 게재 메뉴명을 기록한다.
 
 ## 보강 항목
 
@@ -114,7 +114,7 @@
 
 ## 다음 갱신 방법
 
-가격 변경은 menu-enrichments.json에서 해당 메뉴만 갱신하고 출처·조회일·지점·원문 메뉴명을 함께 기록한다. npm test와 npm run build로 데이터·가격 검색을 검증한다. 가격 자료가 있는 메뉴만 필터로 현재 175곳을 찾아볼 수 있다.
+가격 변경은 menu-enrichments.json에서 해당 메뉴만 갱신하고 출처·조회일·지점·원문 메뉴명을 함께 기록한다. npm test와 npm run build로 데이터·가격 검색을 검증한다. 가격 자료가 있는 메뉴만 필터로 현재 200곳을 찾아볼 수 있다.
 
 ## 추가 보강: 4곳 / 12개 메뉴
 
@@ -161,7 +161,7 @@
 - 블루서울 / 알리오 올리오: 16,000원부터 — [당근](https://www.daangn.com/kr/local-profile/%EB%B8%94%EB%A3%A8%EC%84%9C%EC%9A%B8-2su8ihbuot7f/)
 - SOUPER 광화문점 / 그릴드 베지 리코타 샌드위치: 12,500원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=J5DnfWia9s1K)
 
-현재 공개 가격 자료는 175곳의 249개 메뉴다. 가격 자료는 등록가이며 현장가와 현재 판매를 보증하지 않는다.
+현재 공개 가격 자료는 200곳의 274개 메뉴다. 가격 자료는 등록가이며 현장가와 현재 판매를 보증하지 않는다.
 
 ## 2026-10-17 추가 가격 자료
 
@@ -265,3 +265,63 @@
 - 슬금슬금 / 마늘떡볶이: 18,000원 — [뽈레](https://polle.com/place/3phLtx/%EC%8A%AC%EA%B8%88%EC%8A%AC%EA%B8%88)
 - 프레스커피바 / 오미자시즌에이드: 3,500원 — [테이블링](https://www.tabling.co.kr/place/677cd3dd66de5f06988c573a)
 - 영베이커리 / 우리밀 통밀 스콘: 2,000원 — [영베이커리 공식몰](https://youngbakery.com/product/%EC%9A%B0%EB%A6%AC%EB%B0%80-%ED%86%B5%EB%B0%80-%EC%8A%A4%EC%BD%98-%EC%B4%88%EC%BD%94-%EB%8B%A8%ED%8C%A5-%ED%81%AC%EB%A0%8C%EB%B2%A0%EB%A6%AC-%EA%B1%B4%ED%8F%AC%EB%8F%84/22/)
+## 2026-10-17 가격 자료 확장: 200곳
+
+추가 25곳에 지점별 공개 메뉴 가격을 기록해 가격 등록 지점은 200곳, 메뉴는 274개가 되었다. 폐점·이전 지점 11곳은 공개 지도에서 제외했다. 외부 플랫폼 정보이므로 현장 판매 여부와 현재 가격은 방문 전에 확인해야 한다. 시작가는 가격 필터에서 고정 가격처럼 취급하지 않는다.
+
+- 갱스카페 / 크랜베리스콘: 2,500원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=KL0J0qnQ3zaF)
+- 시칠리 블루스 / 여름 이벤트 샐러드: 8,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=bP5YaW8VJ1mK)
+- 유알티 / 팟타이: 15,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=P3lkFpruQ2uq)
+- 듀공 역삼점 / 두유소프트아이스크림: 5,300원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=h9OaDhVKuGE5)
+- 르오뇽 / 런치 코스: 75,000원 — 페스코 코스로 안내되어 기존 비건 분류를 재확인 상태로 변경 · [강남파인즈](https://www.gangnamfinds.com/en/place/reuonyong)
+- 쏭타이 역삼점 / 팟타이: 18,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=WwLpkQ6ppS6u)
+- 카페 거북이 / 피스타치오라즈베리: 7,500원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=NURTKvtk4zXC)
+- 르베지왕 여의도공간 / 템버볼 포케 샐러드: 11,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=vPIj3VRzNaxc)
+- 아승지 / 아승지맡김차림: 35,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=81JtQheX5kwu)
+- 루티드 / 누룽지 후무스 플레터: 16,500원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=HxNRGMoWZjLN)
+- 그랜파키친앤팜 서래마을본점 / 로스트베지 그레인볼: 16,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=quECR29WnGfX)
+- 스왈로 베이커리 카페 / 크리스피두부 샐러드: 8,000원 — [뽈레](https://polle.com/place/1vBoLE/%EC%8A%A4%EC%99%88%EB%A1%9C%20%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EC%B9%B4%ED%8E%98)
+- 음 이터리 / 마이 베지 가든: 19,500원 — [강남파인즈](https://gangnamfinds.com/en/place/eum-iteori)
+- 묘묘씨 / 크럼볼: 4,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=IS7ppKi3kQn9)
+- 만쥬랑 / 유자 물양갱: 4,500원 — [뽈레](https://polle.com/place/5i37aB/%EB%A7%8C%EC%A5%AC%EB%9E%91)
+- 일상담미 성수점 / 일상담미 비빔밥 반상: 19,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=p7P77mULIBvM)
+- 그레인서울 / 아보카도: 18,500원 — [뽈레](https://polle.com/place/4r3QDb/%EA%B7%B8%EB%A0%88%EC%9D%B8%20%EC%84%9C%EC%9A%B8)
+- 비움 / 런치 지수화풍: 160,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=CtpVAMoETIKC)
+- 밀곳간본점 / 사워도우 브레드: 18,000원 — [뽈레](https://polle.com/place/2dcGSd/%EB%B0%80%EA%B3%B3%EA%B0%84)
+- 미미제빵소 / 쌀소금빵: 4,000원부터 — [당근 업체 프로필](https://www.daangn.com/kr/local-profile/%EB%AF%B8%EB%AF%B8%EC%A0%9C%EB%B9%B5%EC%86%8C-1r5vz36nxk3t/)
+- ARKET 카페 가로수길점 / 시나몬 번: 5,800원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=FPZEqzCTEVzx)
+- 홍밀밀 / 팥빙수: 9,800원 — [테이블링](https://www.tabling.co.kr/place/677ccb5d66de5f06987d1b4c) · 우유 얼음 안내가 기존 비건 분류와 상충해 재확인 상태로 변경
+- 아르켓 카페 아이파크몰 용산점 / 시나몬 번: 5,800원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=9gQtYCwJ95Ia)
+- 자연식구 / 배부른 샐러드: 9,100원부터 — [당근 업체 프로필](https://www.daangn.com/kr/local-profile/%EC%9E%90%EC%97%B0%EC%8B%9D%EA%B5%AC-ug1u78684hhs/)
+- 다정이네 파스타 / 시저샐러드 (구운버섯): 25,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=b8RL20tDVPSV)
+
+
+## 2026-10-17 가격 자료 확장: 200곳
+
+추가 25곳에 공개 메뉴 가격을 기록해 가격 등록 지점은 200곳, 메뉴는 274개가 되었다. 폐점·이전 지점 11곳은 공개 지도에서 제외했다. 외부 플랫폼 가격은 현장 판매 여부와 현재 가격을 보증하지 않으며, 시작가는 고정 가격처럼 취급하지 않는다.
+
+- 갱스카페 / 크랜베리스콘: 2,500원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=KL0J0qnQ3zaF)
+- 시칠리 블루스 / 여름 이벤트 샐러드: 8,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=bP5YaW8VJ1mK)
+- 유알티 / 팟타이: 15,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=P3lkFpruQ2uq)
+- 듀공 역삼점 / 두유소프트아이스크림: 5,300원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=h9OaDhVKuGE5)
+- 르오뇽 / 런치 코스: 75,000원 — [강남파인즈](https://www.gangnamfinds.com/en/place/reuonyong)
+- 쏭타이 역삼점 / 팟타이: 18,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=WwLpkQ6ppS6u)
+- 카페 거북이 / 피스타치오라즈베리: 7,500원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=NURTKvtk4zXC)
+- 르베지왕 여의도공간 / 템버볼 포케 샐러드: 11,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=vPIj3VRzNaxc)
+- 아승지 / 아승지맡김차림: 35,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=81JtQheX5kwu)
+- 루티드 / 누룽지 후무스 플레터: 16,500원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=HxNRGMoWZjLN)
+- 그랜파키친앤팜 서래마을본점 / 로스트베지 그레인볼: 16,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=quECR29WnGfX)
+- 스왈로 베이커리 카페 / 크리스피두부 샐러드: 8,000원 — [뽈레](https://polle.com/place/1vBoLE/%EC%8A%A4%EC%99%88%EB%A1%9C%20%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EC%B9%B4%ED%8E%98)
+- 음 이터리 / 마이 베지 가든: 19,500원 — [강남파인즈](https://gangnamfinds.com/en/place/eum-iteori)
+- 묘묘씨 / 크럼볼: 4,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=IS7ppKi3kQn9)
+- 만쥬랑 / 유자 물양갱: 4,500원 — [뽈레](https://polle.com/place/5i37aB/%EB%A7%8C%EC%A5%AC%EB%9E%91)
+- 일상담미 성수점 / 일상담미 비빔밥 반상: 19,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=p7P77mULIBvM)
+- 그레인서울 / 아보카도: 18,500원 — [뽈레](https://polle.com/place/4r3QDb/%EA%B7%B8%EB%A0%88%EC%9D%B8%20%EC%84%9C%EC%9A%B8)
+- 비움 / 런치 지수화풍: 160,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=CtpVAMoETIKC)
+- 밀곳간본점 / 사워도우 브레드: 18,000원 — [뽈레](https://polle.com/place/2dcGSd/%EB%B0%80%EA%B3%B3%EA%B0%84)
+- 미미제빵소 / 쌀소금빵: 4,000원부터 — [당근 업체 프로필](https://www.daangn.com/kr/local-profile/%EB%AF%B8%EB%AF%B8%EC%A0%9C%EB%B9%B5%EC%86%8C-1r5vz36nxk3t/)
+- ARKET 카페 가로수길점 / 시나몬 번: 5,800원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=FPZEqzCTEVzx)
+- 홍밀밀 / 팥빙수: 9,800원 — [테이블링](https://www.tabling.co.kr/place/677ccb5d66de5f06987d1b4c) · 우유 얼음 안내가 기존 비건 분류와 상충해 재확인 상태로 변경
+- 아르켓 카페 아이파크몰 용산점 / 시나몬 번: 5,800원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=9gQtYCwJ95Ia)
+- 자연식구 / 배부른 샐러드: 9,100원부터 — [당근 업체 프로필](https://www.daangn.com/kr/local-profile/%EC%9E%90%EC%97%B0%EC%8B%9D%EA%B5%AC-ug1u78684hhs/)
+- 다정이네 파스타 / 시저샐러드 (구운버섯): 25,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=b8RL20tDVPSV)
