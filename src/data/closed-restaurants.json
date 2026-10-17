@@ -142,5 +142,13 @@
     "sourceName": "HappyCow",
     "sourceUrl": "https://www.happycow.net/reviews/yeoul-vegan-seoul-418530",
     "reason": "해당 지점 목록에 2026년 1월 폐점 제보가 표시됨"
+  },
+  {
+    "restaurantId": "seoul-173",
+    "checkedAt": "2026-10-17",
+    "status": "closed",
+    "sourceName": "뽈레",
+    "sourceUrl": "https://polle.com/place/54Cnbp/%EB%A6%AC%EB%B8%8C%ED%8C%9C",
+    "reason": "압구정로18길 7 주소가 일치하는 지점 페이지에 폐점 표시 및 3월 31일 영업 종료 안내가 확인됨"
   }
 ]

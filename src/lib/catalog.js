@@ -1,6 +1,6 @@
 export const dietLabels = { vegan: '비건', lacto: '락토', ovo: '오보', 'lacto-ovo': '락토오보', pesco: '페스코' };
 export const venueLabels = { specialist: '채식 전문', options: '채식 가능', vegan: '완전 비건 전문 (별도 확인)', pending: '운영 형태 확인 중' };
-export const defaults = { query: '', district: '', station: '', category: '', diet: '', price: '', venue: '', interview: false, favorites: false, hanyang: false, verifiedOnly: false, pricedOnly: false };
+export const defaults = { query: '', district: '', station: '', category: '', diet: '', price: '', priceMin: '', priceMax: '', venue: '', interview: false, favorites: false, hanyang: false, verifiedOnly: false, pricedOnly: false };
 export const handbookTags = { V: 'vegan', L: 'lacto', O: 'ovo', LO: 'lacto-ovo' };
 export const formatPrice = price => Number.isFinite(price) ? `${price.toLocaleString('ko-KR')}원` : '가격 확인 중';
 export const safeUrl = value => { try { const url = new URL(value); return url.protocol === 'https:' ? url.href : ''; } catch { return ''; } };
@@ -33,7 +33,11 @@ export function menuMatches(menu, filters) {
   if (filters.verifiedOnly && !isVerified(menu)) return false;
   if (filters.pricedOnly && (!Number.isFinite(menu.price) || !safeUrl(menu.priceVerification?.sourceUrl))) return false;
   if (filters.diet && !getDietTypes(menu).includes(filters.diet)) return false;
+  const min = filters.priceMin === '' || filters.priceMin == null ? null : Number(filters.priceMin);
+  const max = filters.priceMax === '' || filters.priceMax == null ? null : Number(filters.priceMax);
+  const hasRange = min !== null || max !== null;
   if (filters.price && (!Number.isFinite(menu.price) || menu.priceVerification?.qualifier === 'from' || menu.price > Number(filters.price))) return false;
+  if (hasRange && (!Number.isFinite(menu.price) || menu.priceVerification?.qualifier === 'from' || (min !== null && menu.price < min) || (max !== null && menu.price > max) || (min !== null && max !== null && min > max))) return false;
   return true;
 }
 export function searchCatalog(restaurants, menus, interviews, filters, favorites = []) {
@@ -57,7 +61,8 @@ export function searchCatalog(restaurants, menus, interviews, filters, favorites
     const placeText = [restaurant.name, restaurant.branch, restaurant.district, restaurant.neighborhood, ...restaurant.stations, restaurant.category].join(' ').toLocaleLowerCase();
     const matchingMenus = (menusByRestaurant.get(restaurant.id) || []).filter(menu => menuMatches(menu, filters) && (!q || placeText.includes(q) || [menu.name, ...menu.ingredients].join(' ').toLocaleLowerCase().includes(q)));
     // Price and diet must match the same menu. Never combine conditions from different menus.
-    if ((filters.diet || filters.price || filters.verifiedOnly || filters.pricedOnly || q) && !matchingMenus.length && !(q && placeText.includes(q) && !filters.diet && !filters.price && !filters.verifiedOnly && !filters.pricedOnly)) continue;
+    const priceRange = (filters.priceMin !== '' && filters.priceMin != null) || (filters.priceMax !== '' && filters.priceMax != null);
+    if ((filters.diet || filters.price || priceRange || filters.verifiedOnly || filters.pricedOnly || q) && !matchingMenus.length && !(q && placeText.includes(q) && !filters.diet && !filters.price && !priceRange && !filters.verifiedOnly && !filters.pricedOnly)) continue;
     rows.push({ restaurant, menus: matchingMenus });
   }
   return rows;

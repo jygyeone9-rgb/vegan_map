@@ -6902,5 +6902,247 @@
       "sourceUrl": "https://www.diningcode.com/profile.php?rid=aIdHXNEDDuCT",
       "checkedAt": "2026-10-17"
     }
+  },
+  {
+    "id": "seoul-064-m01",
+    "price": 16000,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=wAE5xFzCTAyg",
+      "sourceName": "다이닝코드",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "공개 메뉴 목록의 게시 가격이며, 가격 게시가 재료나 비건 여부를 확인해 주지는 않습니다.",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-064",
+      "restaurantName": "빠르크 정동점",
+      "sourceAddress": "서울특별시 중구 서소문로 89-20 1동 1층 105호",
+      "publishedMenuName": "7나물반상"
+    },
+    "descriptionUpdate": {
+      "text": "공개 메뉴 목록에서 가격을 확인해 등록했습니다. 재료와 채식 유형은 별도로 확인해 주세요.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=wAE5xFzCTAyg",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-183-m01",
+    "price": 27900,
+    "priceVerification": {
+      "sourceUrl": "https://www.gangnamfinds.com/ko/place/baital-baibeu",
+      "sourceName": "Gangnam Finds",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "공개 메뉴 목록의 게시 가격이며, 가격 게시가 재료나 비건 여부를 확인해 주지는 않습니다.",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-183",
+      "restaurantName": "바이탈 바이브 수서본점",
+      "sourceAddress": "서울특별시 강남구 밤고개로34길 14 2층",
+      "publishedMenuName": "포도잎 리조또 Risotto"
+    },
+    "descriptionUpdate": {
+      "text": "공개 메뉴 목록에서 가격을 확인해 등록했습니다. 재료와 채식 유형은 별도로 확인해 주세요.",
+      "sourceUrl": "https://www.gangnamfinds.com/ko/place/baital-baibeu",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-186-m01",
+    "price": 11500,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/1NFe2A/%EB%8B%A4%EC%9D%B4%EC%98%A4%ED%8A%B8%20%EB%B0%94%EC%9D%B4%20%EB%B8%94%EB%9E%99%EB%A3%A8%EB%A8%B8",
+      "sourceName": "뽈레",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "공개 메뉴 목록의 게시 가격이며, 가격 게시가 재료나 비건 여부를 확인해 주지는 않습니다.",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-186",
+      "restaurantName": "블랙루머 다이오트",
+      "sourceAddress": "서울특별시 강남구 압구정로46길 5-6 A동 105호",
+      "publishedMenuName": "샐러드&포케_비건미트볼"
+    },
+    "descriptionUpdate": {
+      "text": "공개 메뉴 목록에서 가격을 확인해 등록했습니다. 재료와 채식 유형은 별도로 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/1NFe2A/%EB%8B%A4%EC%9D%B4%EC%98%A4%ED%8A%B8%20%EB%B0%94%EC%9D%B4%20%EB%B8%94%EB%9E%99%EB%A3%A8%EB%A8%B8",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-187-m03",
+    "price": 4000,
+    "priceVerification": {
+      "sourceUrl": "https://xn--2s2b33eb3kgvpta.com/store/S197567_1661494777244",
+      "sourceName": "완벽한 하루",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "공개 메뉴 목록의 게시 가격이며, 가격 게시가 재료나 비건 여부를 확인해 주지는 않습니다.",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-187",
+      "restaurantName": "비건비거닝",
+      "sourceAddress": "서울특별시 강남구 선릉로85길 6 호텔뉴브 1층",
+      "publishedMenuName": "인쑥씨 식빵(큐브 1개)"
+    },
+    "descriptionUpdate": {
+      "text": "공개 메뉴 목록에서 가격을 확인해 등록했습니다. 재료와 채식 유형은 별도로 확인해 주세요.",
+      "sourceUrl": "https://xn--2s2b33eb3kgvpta.com/store/S197567_1661494777244",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-204-m02",
+    "price": 4000,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/3NvrCj/%EB%8D%94%20%EB%9E%98%EB%B9%97",
+      "sourceName": "뽈레",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "공개 메뉴 목록의 게시 가격이며, 가격 게시가 재료나 비건 여부를 확인해 주지는 않습니다.",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-204",
+      "restaurantName": "더래빗",
+      "sourceAddress": "서울특별시 서초구 방배천로4안길 38 1층",
+      "publishedMenuName": "블루베리베이글"
+    },
+    "descriptionUpdate": {
+      "text": "공개 메뉴 목록에서 가격을 확인해 등록했습니다. 재료와 채식 유형은 별도로 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/3NvrCj/%EB%8D%94%20%EB%9E%98%EB%B9%97",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-222-m02",
+    "price": 8500,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/1o57wK/%EC%82%AC%EC%9D%B4%EC%9C%A0%EC%A7%80",
+      "sourceName": "뽈레",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "공개 메뉴 목록의 게시 가격이며, 가격 게시가 재료나 비건 여부를 확인해 주지는 않습니다.",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-222",
+      "restaurantName": "사이유지",
+      "sourceAddress": "서울특별시 강서구 공항대로53가길 48 1층",
+      "publishedMenuName": "프렌치토스트"
+    },
+    "descriptionUpdate": {
+      "text": "공개 메뉴 목록에서 가격을 확인해 등록했습니다. 재료와 채식 유형은 별도로 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/1o57wK/%EC%82%AC%EC%9D%B4%EC%9C%A0%EC%A7%80",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-238-m01",
+    "price": 5800,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=D6am26rbpXok",
+      "sourceName": "다이닝코드",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "공개 메뉴 목록의 게시 가격이며, 가격 게시가 재료나 비건 여부를 확인해 주지는 않습니다.",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-238",
+      "restaurantName": "소이닉",
+      "sourceAddress": "서울특별시 영등포구 선유서로25길 7 1층",
+      "publishedMenuName": "마실콩두유 밤"
+    },
+    "descriptionUpdate": {
+      "text": "공개 메뉴 목록에서 가격을 확인해 등록했습니다. 재료와 채식 유형은 별도로 확인해 주세요.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=D6am26rbpXok",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-238-m02",
+    "price": 5500,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=D6am26rbpXok",
+      "sourceName": "다이닝코드",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "공개 메뉴 목록의 게시 가격이며, 가격 게시가 재료나 비건 여부를 확인해 주지는 않습니다.",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-238",
+      "restaurantName": "소이닉",
+      "sourceAddress": "서울특별시 영등포구 선유서로25길 7 1층",
+      "publishedMenuName": "진약콩두유 스위트"
+    },
+    "descriptionUpdate": {
+      "text": "공개 메뉴 목록에서 가격을 확인해 등록했습니다. 재료와 채식 유형은 별도로 확인해 주세요.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=D6am26rbpXok",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-238-m03",
+    "price": 5800,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=D6am26rbpXok",
+      "sourceName": "다이닝코드",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "공개 메뉴 목록의 게시 가격이며, 가격 게시가 재료나 비건 여부를 확인해 주지는 않습니다.",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-238",
+      "restaurantName": "소이닉",
+      "sourceAddress": "서울특별시 영등포구 선유서로25길 7 1층",
+      "publishedMenuName": "마실콩두유 바닐라빈"
+    },
+    "descriptionUpdate": {
+      "text": "공개 메뉴 목록에서 가격을 확인해 등록했습니다. 재료와 채식 유형은 별도로 확인해 주세요.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=D6am26rbpXok",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-256-m01",
+    "price": 9000,
+    "priceVerification": {
+      "sourceUrl": "https://vividoit.tistory.com/entry/%ED%83%9C%EB%A6%89%EC%9E%85%EA%B5%AC-%EA%B3%B5%EB%A6%89-%EB%B9%84%EA%B1%B4-%EC%8B%9D%EB%8B%B9-%ED%98%BC%EB%B0%A5-%EB%A7%9B%EC%A7%91-%EA%B3%A0%EC%86%8C%EB%AF%B8%EB%B6%80%EC%97%8C-%ED%83%9C%EB%A6%89%EC%9E%85%EA%B5%AC%EC%97%AD%EC%A0%90-%EC%9C%84%EC%B9%98-%EC%8B%9C%EA%B0%84-%EC%A0%95%EB%B3%B4",
+      "sourceName": "방문 후기 메뉴판 기록",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "공개 메뉴 목록의 게시 가격이며, 가격 게시가 재료나 비건 여부를 확인해 주지는 않습니다.",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-256",
+      "restaurantName": "고소미부엌 태릉입구역점",
+      "sourceAddress": "서울특별시 노원구 동일로174길 37-8",
+      "publishedMenuName": "비건 콩불고기 채식김밥"
+    },
+    "descriptionUpdate": {
+      "text": "공개 메뉴 목록에서 가격을 확인해 등록했습니다. 재료와 채식 유형은 별도로 확인해 주세요.",
+      "sourceUrl": "https://vividoit.tistory.com/entry/%ED%83%9C%EB%A6%89%EC%9E%85%EA%B5%AC-%EA%B3%B5%EB%A6%89-%EB%B9%84%EA%B1%B4-%EC%8B%9D%EB%8B%B9-%ED%98%BC%EB%B0%A5-%EB%A7%9B%EC%A7%91-%EA%B3%A0%EC%86%8C%EB%AF%B8%EB%B6%80%EC%97%8C-%ED%83%9C%EB%A6%89%EC%9E%85%EA%B5%AC%EC%97%AD%EC%A0%90-%EC%9C%84%EC%B9%98-%EC%8B%9C%EA%B0%84-%EC%A0%95%EB%B3%B4",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-285-m02",
+    "price": 8500,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/3IgjxM/%EB%AA%A9%EB%A1%9C%EC%A0%95%EC%9B%90",
+      "sourceName": "뽈레",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "공개 메뉴 목록의 게시 가격이며, 가격 게시가 재료나 비건 여부를 확인해 주지는 않습니다.",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-285",
+      "restaurantName": "목로정원",
+      "sourceAddress": "서울특별시 성동구 서울숲2길 47 3~4",
+      "publishedMenuName": "비건 당근 케이크"
+    },
+    "descriptionUpdate": {
+      "text": "공개 메뉴 목록에서 가격을 확인해 등록했습니다. 재료와 채식 유형은 별도로 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/3IgjxM/%EB%AA%A9%EB%A1%9C%EC%A0%95%EC%9B%90",
+      "checkedAt": "2026-10-17"
+    }
   }
 ]

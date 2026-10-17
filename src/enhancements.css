@@ -7,3 +7,11 @@
 @media(max-width:680px){.source-banner{margin:0 12px;padding:16px;display:block}.source-banner>a{display:inline-block;margin-top:10px}.source-banner b{font-size:14px}.place-list{max-height:380px}.menu-results{grid-template-columns:1fr}.menu-content{padding:17px}.map-legend{font-size:10px;bottom:25px}}
 
 .menu-content .price-source{padding:10px 12px;border-radius:8px;background:#eff3e9;font-size:11px;line-height:1.8}.price-source a{font-weight:600;text-decoration:underline;text-underline-offset:3px}
+.price-range{display:block;min-width:0;margin:0 0 12px;color:#43573f;font-size:12px;font-weight:700}
+.price-range>div{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:6px;margin-top:8px}
+.price-range input{width:100%;min-width:0;height:39px;padding:0 8px;border:1px solid #e1e2d7;background:#fffef9;color:#43573f;font-size:12px}
+.price-range i{font-style:normal;color:#7b8375}
+.price-range>div{grid-template-columns:minmax(0,1fr) auto minmax(0,1fr)}
+.price-value{display:flex;align-items:center;min-width:0;height:39px;border:1px solid #e1e2d7;background:#fffef9}
+.price-range .price-value input{height:37px;padding:0 6px;border:0;background:transparent;font-variant-numeric:tabular-nums}
+.price-value small{padding-right:7px;color:#7b8375;font-size:11px}

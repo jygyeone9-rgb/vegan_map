@@ -89,9 +89,9 @@ assert.equal(restaurants.length, source.restaurantCount, 'Restaurant count diffe
 assert.equal(menus.filter(m => m.verification.sourceId === source.id).length, source.menuCount, 'Documented menu count differs from source manifest');
 assert.equal(new Set(restaurants.map(r => r.verification.recordNumber)).size, source.restaurantCount, 'Each PDF record must occur once');
 assert.ok(restaurants.every(r => menus.some(m => m.restaurantId === r.id)), 'Each restaurant needs at least one menu');
-assert.equal(read('closed-restaurants').length, 18, 'Confirmed closed locations must be recorded');
-assert.equal(activeRestaurants.length, 282, 'Public catalog must exclude confirmed closed locations');
-assert.equal(activeMenus.length, 818, 'Public catalog must exclude menus from closed locations');
+assert.equal(read('closed-restaurants').length, 19, 'Confirmed closed locations must be recorded');
+assert.equal(activeRestaurants.length, 281, 'Public catalog must exclude confirmed closed locations');
+assert.equal(activeMenus.length, 815, 'Public catalog must exclude menus from closed locations');
 assert.equal(source.surveyMonth, '2025-10');
 assert.match(source.sha256, /^[a-f0-9]{64}$/);
 console.log(`Data valid: ${restaurants.length} restaurants, ${menus.length} menus, ${interviews.length} interviews`);
@@ -116,7 +116,7 @@ for (const update of updates) {
   assert.ok(Object.keys(update).every(k => ['id','price','priceVerification','descriptionUpdate','photoReferenceUrl','photoReferenceLabel'].includes(k)), 'Enrichment cannot override ingredient or photo consent evidence');
 }
 const pricedLocationIds = new Set(updates.map(u => u.priceVerification.restaurantId));
-assert.equal(pricedLocationIds.size, 238, 'Price enrichment must cover 238 active locations');
-assert.equal(updates.length, 312, 'Price enrichment must contain 312 menu prices');
-assert.equal(activeRestaurants.filter(r => !pricedLocationIds.has(r.id)).length, 44, 'Unpriced locations must be reduced to half or fewer of the original 89');
+assert.equal(pricedLocationIds.size, 247, 'Price enrichment must cover 247 active locations');
+assert.equal(updates.length, 323, 'Price enrichment must contain 323 menu prices');
+assert.equal(activeRestaurants.filter(r => !pricedLocationIds.has(r.id)).length, 34, 'Remaining unpriced locations must match the reviewed catalog');
 console.log(`Validated ${activeRestaurants.length} active restaurants, ${activeMenus.length} active menus, ${updates.length} price enrichments across ${pricedLocationIds.size} locations; ${activeRestaurants.length - pricedLocationIds.size} remain without prices`);

@@ -15,6 +15,17 @@ test('diet and price must match the same menu', () => {
   assert.equal(search({diet:'vegan',price:'10000'},items).length,0);
   assert.equal(search({diet:'ovo',price:'10000'},items).length,1);
 });
+
+test('price range filters use inclusive bounds and apply to one menu', () => {
+  const items = [{...menu,id:'cheap',price:8000},{...menu,id:'mid',price:12000},{...menu,id:'high',price:18000}];
+  assert.equal(search({priceMin:'8000',priceMax:'12000'},items).flatMap(r=>r.menus).length,2);
+  assert.equal(search({priceMin:'12000',priceMax:'12000'},items).flatMap(r=>r.menus).length,1);
+  assert.equal(search({priceMin:'13000',priceMax:'17000'},items).length,0);
+  assert.equal(search({priceMin:'15000',priceMax:'10000'},items).length,0);
+  assert.equal(search({diet:'vegan',priceMin:'10000',priceMax:'13000'},items).flatMap(r=>r.menus).length,1);
+  assert.equal(search({priceMin:'10000'},[{...menu,price:null}]).length,0);
+  assert.equal(search({priceMin:'10000'},[{...menu,priceVerification:{qualifier:'from'}}]).length,0);
+});
 test('pending, unavailable and unknown-price menus cannot match unsafe filters', () => {
   assert.equal(search({diet:'vegan'},[{...menu,verification:{...verified,status:'pending'}}]).length,0);
   assert.equal(search({diet:'vegan'},[{...menu,verification:{...verified,sourceUrl:''}}]).length,0);
