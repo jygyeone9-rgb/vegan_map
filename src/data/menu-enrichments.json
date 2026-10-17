@@ -7144,5 +7144,159 @@
       "sourceUrl": "https://polle.com/place/3IgjxM/%EB%AA%A9%EB%A1%9C%EC%A0%95%EC%9B%90",
       "checkedAt": "2026-10-17"
     }
+  },
+  {
+    "id": "seoul-246-m02",
+    "price": 4500,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=d8w36JQStS7w",
+      "sourceName": "다이닝코드 메뉴 정보",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "매장 메뉴 정보에 동일 메뉴명과 가격이 기재되어 있음 · 방문 시 변동 여부 확인 권장",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-246",
+      "restaurantName": "네모네모디저트 본점",
+      "sourceAddress": "서울 관악구 낙성대로3길 33-14",
+      "publishedMenuName": "스윗오트밀라떼"
+    },
+    "descriptionUpdate": {
+      "text": "가격 출처에 기재된 메뉴명과 가격을 연결했습니다. 실제 제공 여부와 가격은 방문 전 확인해 주세요.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=d8w36JQStS7w",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-246-m03",
+    "price": 4500,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=d8w36JQStS7w",
+      "sourceName": "다이닝코드 메뉴 정보",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "매장 메뉴 정보에 동일 메뉴명과 가격이 기재되어 있음 · 방문 시 변동 여부 확인 권장",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-246",
+      "restaurantName": "네모네모디저트 본점",
+      "sourceAddress": "서울 관악구 낙성대로3길 33-14",
+      "publishedMenuName": "수제 패션후르츠 에이드"
+    },
+    "descriptionUpdate": {
+      "text": "가격 출처에 기재된 메뉴명과 가격을 연결했습니다. 실제 제공 여부와 가격은 방문 전 확인해 주세요.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=d8w36JQStS7w",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-261-m01",
+    "price": 6000,
+    "priceVerification": {
+      "sourceUrl": "https://www.daangn.com/kr/local-profile/%EA%B3%B5%EC%A0%95%EB%AC%B4%EC%97%AD%EC%9C%A0%EA%B8%B0%EB%86%8D%EC%B9%B4%ED%8E%98ka-gi47rjaqjwpt/",
+      "sourceName": "공정무역유기농카페KA 메뉴 정보",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "매장 판매자 메뉴 정보에서 유기농카카오라떼 6,000원부터로 확인 · 옵션 가격은 매장 확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "from",
+      "restaurantId": "seoul-261",
+      "restaurantName": "KA",
+      "sourceAddress": "서울 성북구 월곡로14길 24",
+      "publishedMenuName": "유기농카카오라떼"
+    },
+    "descriptionUpdate": {
+      "text": "가격 출처에 기재된 메뉴명과 가격을 연결했습니다. 실제 제공 여부와 가격은 방문 전 확인해 주세요.",
+      "sourceUrl": "https://www.daangn.com/kr/local-profile/%EA%B3%B5%EC%A0%95%EB%AC%B4%EC%97%AD%EC%9C%A0%EA%B8%B0%EB%86%8D%EC%B9%B4%ED%8E%98ka-gi47rjaqjwpt/",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-261-m02",
+    "price": 6000,
+    "priceVerification": {
+      "sourceUrl": "https://www.daangn.com/kr/local-profile/%EA%B3%B5%EC%A0%95%EB%AC%B4%EC%97%AD%EC%9C%A0%EA%B8%B0%EB%86%8D%EC%B9%B4%ED%8E%98ka-gi47rjaqjwpt/",
+      "sourceName": "공정무역유기농카페KA 메뉴 정보",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "바나나·오디·딸기 스무디 6,000원부터 · 재료 및 계절 판매 여부 확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "from",
+      "restaurantId": "seoul-261",
+      "restaurantName": "KA",
+      "sourceAddress": "서울 성북구 월곡로14길 24",
+      "publishedMenuName": "바나나스무디(or 오디, 딸기)"
+    },
+    "descriptionUpdate": {
+      "text": "가격 출처에 기재된 메뉴명과 가격을 연결했습니다. 실제 제공 여부와 가격은 방문 전 확인해 주세요.",
+      "sourceUrl": "https://www.daangn.com/kr/local-profile/%EA%B3%B5%EC%A0%95%EB%AC%B4%EC%97%AD%EC%9C%A0%EA%B8%B0%EB%86%8D%EC%B9%B4%ED%8E%98ka-gi47rjaqjwpt/",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-212-m01",
+    "price": 35000,
+    "priceVerification": {
+      "sourceUrl": "https://www.tabling.co.kr/place/677cce4566de5f06988296a1",
+      "sourceName": "테이블링 등록 메뉴",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "천년식향의 지점명·주소 일치 메뉴 등록가 · 영업 여부가 다른 디렉터리와 엇갈려 방문 전 확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-212",
+      "restaurantName": "천년식향(밀레니얼 다이닝)",
+      "sourceAddress": "서울 서초구 효령로 316-1",
+      "publishedMenuName": "Sex & Steak"
+    },
+    "descriptionUpdate": {
+      "text": "가격 출처에 기재된 메뉴명과 가격을 연결했습니다. 실제 제공 여부와 가격은 방문 전 확인해 주세요.",
+      "sourceUrl": "https://www.tabling.co.kr/place/677cce4566de5f06988296a1",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-212-m03",
+    "price": 150000,
+    "priceVerification": {
+      "sourceUrl": "https://www.tabling.co.kr/place/677cce4566de5f06988296a1",
+      "sourceName": "테이블링 등록 메뉴",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "1인 코스 등록가 · 영업 여부가 다른 디렉터리와 엇갈려 방문 전 확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-212",
+      "restaurantName": "천년식향(밀레니얼 다이닝)",
+      "sourceAddress": "서울 서초구 효령로 316-1",
+      "publishedMenuName": "Luxury of Vegetable : Spoil Your Self (1人)"
+    },
+    "descriptionUpdate": {
+      "text": "가격 출처에 기재된 메뉴명과 가격을 연결했습니다. 실제 제공 여부와 가격은 방문 전 확인해 주세요.",
+      "sourceUrl": "https://www.tabling.co.kr/place/677cce4566de5f06988296a1",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-180-m02",
+    "price": 19000,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=zSXf6aUIm0eG",
+      "sourceName": "다이닝코드 메뉴 정보",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "도산 지점 상세 페이지에 동일 메뉴와 가격 기재 · 지점 영업 상태는 별도 디렉터리 표기가 엇갈려 방문 전 확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-180",
+      "restaurantName": "몽크스부처(도산)",
+      "sourceAddress": "서울 강남구 언주로168길 19 지하1층",
+      "publishedMenuName": "블랙 레몬 파스타"
+    },
+    "descriptionUpdate": {
+      "text": "가격 출처에 기재된 메뉴명과 가격을 연결했습니다. 지점 영업 여부와 가격은 방문 전 확인해 주세요.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=zSXf6aUIm0eG",
+      "checkedAt": "2026-10-17"
+    }
   }
 ]

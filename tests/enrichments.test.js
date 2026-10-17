@@ -33,12 +33,12 @@ test('price-only discovery returns priced restaurants and menus, excluding close
   const original = read('menus'), updates = read('menu-enrichments');
   const enriched = enrichMenus(original, updates);
   const rows = searchCatalog(read('restaurants'), enriched, [], {...defaults, pricedOnly:true});
-  assert.equal(rows.length, 247);
-  assert.equal(rows.flatMap(r => r.menus).length, 323);
+  assert.equal(rows.length, 251);
+  assert.equal(rows.flatMap(r => r.menus).length, 330);
   assert.ok(rows.every(r => r.menus.every(m => m.priceVerification.restaurantId === r.restaurant.id)));
   assert.equal(searchCatalog(read('restaurants'), enriched, [], {...defaults, query:'목로정원', pricedOnly:true}).length, 1);
   const activeIds = new Set(read('closed-restaurants').map(r => r.restaurantId));
-  assert.equal(read('restaurants').filter(r => !activeIds.has(r.id) && !rows.some(row => row.restaurant.id === r.id)).length, 34);
+  assert.equal(read('restaurants').filter(r => !activeIds.has(r.id) && !rows.some(row => row.restaurant.id === r.id)).length, 30);
   const lowerBound = enriched.find(m => m.priceVerification?.qualifier === 'from');
   assert.equal(menuMatches(lowerBound, {...defaults,price:'20000'}), false);
   assert.equal(menuMatches(lowerBound, {...defaults,pricedOnly:true}), true);

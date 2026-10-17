@@ -97,6 +97,7 @@ assert.match(source.sha256, /^[a-f0-9]{64}$/);
 console.log(`Data valid: ${restaurants.length} restaurants, ${menus.length} menus, ${interviews.length} interviews`);
 
 const updates = read('menu-enrichments');
+const stationCatalog = read('subway-stations');
 ids(updates);
 for (const update of updates) {
   assert.ok(activeMenus.some(m => m.id === update.id), 'Enrichment must reference an active menu');
@@ -116,7 +117,11 @@ for (const update of updates) {
   assert.ok(Object.keys(update).every(k => ['id','price','priceVerification','descriptionUpdate','photoReferenceUrl','photoReferenceLabel'].includes(k)), 'Enrichment cannot override ingredient or photo consent evidence');
 }
 const pricedLocationIds = new Set(updates.map(u => u.priceVerification.restaurantId));
-assert.equal(pricedLocationIds.size, 247, 'Price enrichment must cover 247 active locations');
-assert.equal(updates.length, 323, 'Price enrichment must contain 323 menu prices');
-assert.equal(activeRestaurants.filter(r => !pricedLocationIds.has(r.id)).length, 34, 'Remaining unpriced locations must match the reviewed catalog');
-console.log(`Validated ${activeRestaurants.length} active restaurants, ${activeMenus.length} active menus, ${updates.length} price enrichments across ${pricedLocationIds.size} locations; ${activeRestaurants.length - pricedLocationIds.size} remain without prices`);
+assert.equal(pricedLocationIds.size, 251, 'Price enrichment must cover 251 active locations');
+assert.equal(updates.length, 330, 'Price enrichment must contain 330 menu prices');
+assert.equal(activeRestaurants.filter(r => !pricedLocationIds.has(r.id)).length, 30, 'Remaining unpriced locations must match the reviewed catalog');
+assert.equal(stationCatalog.stations.length, 450, 'Station coordinates must be populated from the downloaded official catalog');
+assert.ok(activeRestaurants.every(r => r.stations.length > 0 && r.stationDetails.length >= r.stations.length && r.stationDetails.every(s => r.stations.includes(s.name))), 'Every active restaurant needs a nearby station assignment');
+assert.ok(activeRestaurants.every(r => new Set(r.stations).size === r.stations.length), 'A restaurant station list must not contain duplicate station names');
+assert.ok(activeRestaurants.every(r => r.stationDetails.every(s => s.distanceMeters <= 2200)), 'Nearby station matches must be limited to 2.2 km');
+console.log(`Validated ${activeRestaurants.length} active restaurants, ${activeMenus.length} active menus, ${updates.length} price enrichments across ${pricedLocationIds.size} locations; ${activeRestaurants.length - pricedLocationIds.size} remain without prices; ${stationCatalog.stations.length} station coordinates loaded`);

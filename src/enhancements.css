@@ -15,3 +15,4 @@
 .price-value{display:flex;align-items:center;min-width:0;height:39px;border:1px solid #e1e2d7;background:#fffef9}
 .price-range .price-value input{height:37px;padding:0 6px;border:0;background:transparent;font-variant-numeric:tabular-nums}
 .price-value small{padding-right:7px;color:#7b8375;font-size:11px}
+.station-note{display:block;margin-top:4px;color:#75806f;font-size:10px;line-height:1.5}
