@@ -1,4 +1,4 @@
-# 가격 보강: 50곳 / 69개 메뉴
+# 가격 보강: 60곳 / 79개 메뉴
 
 2026-10-17 웹 페이지 조회 기준. 기존 10곳 / 20개 메뉴에 20곳 / 20개 메뉴를 추가했다. 업체 직접 확인을 뜻하지 않으며, 플랫폼 메뉴의 최종 갱신일은 확인되지 않았다.
 
@@ -66,7 +66,7 @@
 
 ## 추가 보강: 10곳 / 10개 메뉴
 
-2026-10-17 조회 기준. 총 가격 자료는 50곳 / 69개 메뉴가 되었다. 가격 조회는 해당 지점의 공개 메뉴와 게시 가격을 연결했으며, 재료나 채식 유형을 새로 검증한 것은 아니다.
+2026-10-17 조회 기준. 총 가격 자료는 60곳 / 79개 메뉴가 되었다. 가격 조회는 해당 지점의 공개 메뉴와 게시 가격을 연결했으며, 재료나 채식 유형을 새로 검증한 것은 아니다.
 
 - 사라바나 바반 / Plain Dosa: 14,000원 — [뽈레](https://polle.com/place/1M0ER3/%EC%82%AC%EB%9D%BC%EB%B0%94%EB%82%98%20%EB%B0%94%EB%B0%98)
 - 하루한톨 / 비건플레인 쌀식빵: 4,600원 — [뽈레](https://polle.com/place/1T6KSH/%ED%95%98%EB%A3%A8%ED%95%9C%ED%86%A8)
@@ -78,6 +78,23 @@
 - 살롱드비건 / 비건핫도그: 6,700원 — [REDTABLE](https://benepia.redtable.global/ko/store/1054393)
 - 마루 자연식 김밥 / 떡볶이: 8,000원 — [뽈레](https://polle.com/place/13pIY5/%EB%A7%88%EB%A3%A8%20%EC%9E%90%EC%97%B0%EC%8B%9D%20%EA%B9%80%EB%B0%A5)
 - 비건키친 / 아보카도 포케: 12,000원 — [서울 공식 관광정보](https://korean.visitseoul.net/citycenter/VeganKitchen/KOP4uv0kz)
+
+## 추가 보강: 10곳 / 10개 메뉴
+
+2026-10-17 조회 기준. 총 가격 자료는 60곳 / 79개 메뉴가 되었다. 메뉴명과 가격이 함께 공개된 자료를 지점별로 연결했다. 외부 플랫폼 등록가는 현재 매장가와 다를 수 있으며, 재료와 채식 유형을 새로 검증한 것은 아니다.
+
+- 꽃밥에피다 북촌 / (비건) 우엉잡채 나물비빔밥 한상: 18,800원 — [안녕AI 지역 콘텐츠](https://www.annyeong.ai.kr/CONTENTS/view/5520916)
+- 산촌 / 비빔밥: 18,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=JtndD0NkYklt)
+- 구르카 인도레스토랑 / 난: 3,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=mprhLIyxJuUa)
+- 넬보스코 남촌빵집 / 두유소금빵: 2,500원 — [고소미 지역 메뉴 모음](https://g17.gosomi.kr/1948)
+- 목멱산방 / 산방 비빔밥: 10,000원 — [목멱산방 공식 메뉴](https://www.mokmyeoksanbang.com/menu/)
+- 어쩌다농부 충무로점 / 뭉게두부텃밭: 10,800원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=1RXgAcCSDJBu)
+- 오베흐트 / 티라미수 글레이즈드: 3,300원 — [테이블링](https://www.tabling.co.kr/place/677ccf0166de5f069883bd6b)
+- 죠티인도레스토랑 / 비건 케이티 롤: 6,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=vnOkXE1ZnaQ7)
+- 플루프 / 후무스 사라다(비건): 9,500원 — [뽈레](https://polle.com/place/3lKYTE/%ED%94%8C%EB%A3%A8%ED%94%84)
+- 비건네이처 / 비건 에멘탈 감자치즈 쌀 베이글: 5,900원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=s7u9qccBo0Oq)
+
+이번 추가분도 원자료의 채식 분류, 재료 확인 상태, 사진 동의를 변경하지 않는다.
 
 ## 대조 및 제외 사항
 
@@ -97,5 +114,5 @@
 
 ## 다음 갱신 방법
 
-가격 변경은 menu-enrichments.json에서 해당 메뉴만 갱신하고 출처·조회일·지점·원문 메뉴명을 함께 기록한다. npm test와 npm run build로 데이터·가격 검색을 검증한다. 가격 자료가 있는 메뉴만 필터로 현재 50곳을 찾아볼 수 있다.
+가격 변경은 menu-enrichments.json에서 해당 메뉴만 갱신하고 출처·조회일·지점·원문 메뉴명을 함께 기록한다. npm test와 npm run build로 데이터·가격 검색을 검증한다. 가격 자료가 있는 메뉴만 필터로 현재 60곳을 찾아볼 수 있다.
 
