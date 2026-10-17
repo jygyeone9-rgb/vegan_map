@@ -918,5 +918,424 @@
       "sourceUrl": "https://www.diningcode.com/profile.php?rid=k2gHnwRPkEUq",
       "checkedAt": "2026-10-17"
     }
+  },
+  {
+    "id": "seoul-003-m01",
+    "price": 59000,
+    "priceVerification": {
+      "sourceUrl": "https://shopcon.kr/view.php?id=91470",
+      "sourceName": "샵콘맵",
+      "sourceKind": "platform",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "qualifier": "exact",
+      "restaurantId": "seoul-003",
+      "restaurantName": "꽃밥에피다",
+      "sourceAddress": "서울특별시 종로구 인사동16길 3-6",
+      "publishedMenuName": "비건 풀코스",
+      "note": "외부 메뉴 페이지 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요"
+    },
+    "descriptionUpdate": {
+      "text": "외부 메뉴 페이지에 해당 메뉴명과 가격이 등록되어 있습니다. 현재 판매 여부와 재료는 방문 전에 매장에 확인해 주세요.",
+      "sourceUrl": "https://shopcon.kr/view.php?id=91470",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-013-m01",
+    "price": 4500,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/3IKYjz/%EB%8B%AC%EB%83%A5",
+      "sourceName": "뽈레",
+      "sourceKind": "platform",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "qualifier": "exact",
+      "restaurantId": "seoul-013",
+      "restaurantName": "비건카페 달냥",
+      "sourceAddress": "서울특별시 종로구 혜화로 45 2층 비건카페 달냥",
+      "publishedMenuName": "두유아이스크림",
+      "note": "외부 메뉴 페이지 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요"
+    },
+    "descriptionUpdate": {
+      "text": "외부 메뉴 페이지에 해당 메뉴명과 가격이 등록되어 있습니다. 현재 판매 여부와 재료는 방문 전에 매장에 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/3IKYjz/%EB%8B%AC%EB%83%A5",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-013-m02",
+    "price": 12500,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/3IKYjz/%EB%8B%AC%EB%83%A5",
+      "sourceName": "뽈레",
+      "sourceKind": "platform",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "qualifier": "exact",
+      "restaurantId": "seoul-013",
+      "restaurantName": "비건카페 달냥",
+      "sourceAddress": "서울특별시 종로구 혜화로 45 2층 비건카페 달냥",
+      "publishedMenuName": "타이그린커리",
+      "note": "외부 메뉴 페이지 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요"
+    },
+    "descriptionUpdate": {
+      "text": "외부 메뉴 페이지에 해당 메뉴명과 가격이 등록되어 있습니다. 현재 판매 여부와 재료는 방문 전에 매장에 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/3IKYjz/%EB%8B%AC%EB%83%A5",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-013-m03",
+    "price": 12500,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/3IKYjz/%EB%8B%AC%EB%83%A5",
+      "sourceName": "뽈레",
+      "sourceKind": "platform",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "qualifier": "exact",
+      "restaurantId": "seoul-013",
+      "restaurantName": "비건카페 달냥",
+      "sourceAddress": "서울특별시 종로구 혜화로 45 2층 비건카페 달냥",
+      "publishedMenuName": "콩까스와 양배추샐러드 (밥포함)",
+      "note": "외부 메뉴 페이지 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요"
+    },
+    "descriptionUpdate": {
+      "text": "외부 메뉴 페이지에 해당 메뉴명과 가격이 등록되어 있습니다. 현재 판매 여부와 재료는 방문 전에 매장에 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/3IKYjz/%EB%8B%AC%EB%83%A5",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-020-m01",
+    "price": 14000,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/5BJ2P0/%EC%98%A4%EC%84%B8%EA%B3%84%ED%96%A5",
+      "sourceName": "뽈레",
+      "sourceKind": "platform",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "qualifier": "exact",
+      "restaurantId": "seoul-020",
+      "restaurantName": "오세계향",
+      "sourceAddress": "서울특별시 종로구 인사동12길 14-5",
+      "publishedMenuName": "매실탕수채",
+      "note": "외부 메뉴 페이지 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요"
+    },
+    "descriptionUpdate": {
+      "text": "외부 메뉴 페이지에 해당 메뉴명과 가격이 등록되어 있습니다. 현재 판매 여부와 재료는 방문 전에 매장에 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/5BJ2P0/%EC%98%A4%EC%84%B8%EA%B3%84%ED%96%A5",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-020-m02",
+    "price": 24000,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/5BJ2P0/%EC%98%A4%EC%84%B8%EA%B3%84%ED%96%A5",
+      "sourceName": "뽈레",
+      "sourceKind": "platform",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "qualifier": "exact",
+      "restaurantId": "seoul-020",
+      "restaurantName": "오세계향",
+      "sourceAddress": "서울특별시 종로구 인사동12길 14-5",
+      "publishedMenuName": "표고버섯말이",
+      "note": "외부 메뉴 페이지 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요"
+    },
+    "descriptionUpdate": {
+      "text": "외부 메뉴 페이지에 해당 메뉴명과 가격이 등록되어 있습니다. 현재 판매 여부와 재료는 방문 전에 매장에 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/5BJ2P0/%EC%98%A4%EC%84%B8%EA%B3%84%ED%96%A5",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-020-m03",
+    "price": 12000,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/5BJ2P0/%EC%98%A4%EC%84%B8%EA%B3%84%ED%96%A5",
+      "sourceName": "뽈레",
+      "sourceKind": "platform",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "qualifier": "exact",
+      "restaurantId": "seoul-020",
+      "restaurantName": "오세계향",
+      "sourceAddress": "서울특별시 종로구 인사동12길 14-5",
+      "publishedMenuName": "양념치킨S",
+      "note": "외부 메뉴 페이지 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요"
+    },
+    "descriptionUpdate": {
+      "text": "외부 메뉴 페이지에 해당 메뉴명과 가격이 등록되어 있습니다. 현재 판매 여부와 재료는 방문 전에 매장에 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/5BJ2P0/%EC%98%A4%EC%84%B8%EA%B3%84%ED%96%A5",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-042-m01",
+    "price": 12000,
+    "priceVerification": {
+      "sourceUrl": "https://www.tabling.co.kr/place/677cd67766de5f069891070b",
+      "sourceName": "테이블링",
+      "sourceKind": "platform",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "qualifier": "exact",
+      "restaurantId": "seoul-042",
+      "restaurantName": "비비스베지",
+      "sourceAddress": "서울특별시 용산구 회나무로13가길 42 . 1층",
+      "publishedMenuName": "Chick’n Sandwich",
+      "note": "외부 메뉴 페이지 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요"
+    },
+    "descriptionUpdate": {
+      "text": "외부 메뉴 페이지에 해당 메뉴명과 가격이 등록되어 있습니다. 현재 판매 여부와 재료는 방문 전에 매장에 확인해 주세요.",
+      "sourceUrl": "https://www.tabling.co.kr/place/677cd67766de5f069891070b",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-042-m02",
+    "price": 8500,
+    "priceVerification": {
+      "sourceUrl": "https://www.tabling.co.kr/place/677cd67766de5f069891070b",
+      "sourceName": "테이블링",
+      "sourceKind": "platform",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "qualifier": "exact",
+      "restaurantId": "seoul-042",
+      "restaurantName": "비비스베지",
+      "sourceAddress": "서울특별시 용산구 회나무로13가길 42 . 1층",
+      "publishedMenuName": "Crème Fraîche Cake",
+      "note": "외부 메뉴 페이지 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요"
+    },
+    "descriptionUpdate": {
+      "text": "외부 메뉴 페이지에 해당 메뉴명과 가격이 등록되어 있습니다. 현재 판매 여부와 재료는 방문 전에 매장에 확인해 주세요.",
+      "sourceUrl": "https://www.tabling.co.kr/place/677cd67766de5f069891070b",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-042-m03",
+    "price": 14000,
+    "priceVerification": {
+      "sourceUrl": "https://www.tabling.co.kr/place/677cd67766de5f069891070b",
+      "sourceName": "테이블링",
+      "sourceKind": "platform",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "qualifier": "exact",
+      "restaurantId": "seoul-042",
+      "restaurantName": "비비스베지",
+      "sourceAddress": "서울특별시 용산구 회나무로13가길 42 . 1층",
+      "publishedMenuName": "Lemongrass Banh Mi",
+      "note": "외부 메뉴 페이지 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요"
+    },
+    "descriptionUpdate": {
+      "text": "외부 메뉴 페이지에 해당 메뉴명과 가격이 등록되어 있습니다. 현재 판매 여부와 재료는 방문 전에 매장에 확인해 주세요.",
+      "sourceUrl": "https://www.tabling.co.kr/place/677cd67766de5f069891070b",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-071-m01",
+    "price": 14000,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/4K1INP/%EC%A7%80%EA%B8%88%20%EC%97%AC%EA%B8%B0%EA%B0%80%20%EB%A7%A8%EC%95%9E",
+      "sourceName": "뽈레",
+      "sourceKind": "platform",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "qualifier": "exact",
+      "restaurantId": "seoul-071",
+      "restaurantName": "지금 여기가 맨 앞",
+      "sourceAddress": "서울 중구 을지로20길 16 3층",
+      "publishedMenuName": "나물 듬뿍 파스타",
+      "note": "외부 메뉴 페이지 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요"
+    },
+    "descriptionUpdate": {
+      "text": "외부 메뉴 페이지에 해당 메뉴명과 가격이 등록되어 있습니다. 현재 판매 여부와 재료는 방문 전에 매장에 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/4K1INP/%EC%A7%80%EA%B8%88%20%EC%97%AC%EA%B8%B0%EA%B0%80%20%EB%A7%A8%EC%95%9E",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-071-m02",
+    "price": 21000,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/4K1INP/%EC%A7%80%EA%B8%88%20%EC%97%AC%EA%B8%B0%EA%B0%80%20%EB%A7%A8%EC%95%9E",
+      "sourceName": "뽈레",
+      "sourceKind": "platform",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "qualifier": "exact",
+      "restaurantId": "seoul-071",
+      "restaurantName": "지금 여기가 맨 앞",
+      "sourceAddress": "서울 중구 을지로20길 16 3층",
+      "publishedMenuName": "맨 앞 뇨끼",
+      "note": "외부 메뉴 페이지 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요"
+    },
+    "descriptionUpdate": {
+      "text": "외부 메뉴 페이지에 해당 메뉴명과 가격이 등록되어 있습니다. 현재 판매 여부와 재료는 방문 전에 매장에 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/4K1INP/%EC%A7%80%EA%B8%88%20%EC%97%AC%EA%B8%B0%EA%B0%80%20%EB%A7%A8%EC%95%9E",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-071-m03",
+    "price": 18000,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/4K1INP/%EC%A7%80%EA%B8%88%20%EC%97%AC%EA%B8%B0%EA%B0%80%20%EB%A7%A8%EC%95%9E",
+      "sourceName": "뽈레",
+      "sourceKind": "platform",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "qualifier": "exact",
+      "restaurantId": "seoul-071",
+      "restaurantName": "지금 여기가 맨 앞",
+      "sourceAddress": "서울 중구 을지로20길 16 3층",
+      "publishedMenuName": "바질 크림 리조또",
+      "note": "외부 메뉴 페이지 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요"
+    },
+    "descriptionUpdate": {
+      "text": "외부 메뉴 페이지에 해당 메뉴명과 가격이 등록되어 있습니다. 현재 판매 여부와 재료는 방문 전에 매장에 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/4K1INP/%EC%A7%80%EA%B8%88%20%EC%97%AC%EA%B8%B0%EA%B0%80%20%EB%A7%A8%EC%95%9E",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-092-m03",
+    "price": 14000,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=GN3V2mRhCmgd",
+      "sourceName": "다이닝코드",
+      "sourceKind": "platform",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "qualifier": "exact",
+      "restaurantId": "seoul-092",
+      "restaurantName": "베지스",
+      "sourceAddress": "서울특별시 서대문구 홍연길 87 1층(연희동)",
+      "publishedMenuName": "부추페스토파스타와 고사리 나물",
+      "note": "외부 메뉴 페이지 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요"
+    },
+    "descriptionUpdate": {
+      "text": "외부 메뉴 페이지에 해당 메뉴명과 가격이 등록되어 있습니다. 현재 판매 여부와 재료는 방문 전에 매장에 확인해 주세요.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=GN3V2mRhCmgd",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-097-m01",
+    "price": 13000,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/4WIpX8/%EC%97%84%EB%A7%88%EC%8B%9D%ED%83%81",
+      "sourceName": "뽈레",
+      "sourceKind": "platform",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "qualifier": "exact",
+      "restaurantId": "seoul-097",
+      "restaurantName": "엄마식탁",
+      "sourceAddress": "서울특별시 서대문구 연희맛로 17-21 엄마식탁",
+      "publishedMenuName": "비건 생채비빔밥",
+      "note": "외부 메뉴 페이지 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요"
+    },
+    "descriptionUpdate": {
+      "text": "외부 메뉴 페이지에 해당 메뉴명과 가격이 등록되어 있습니다. 현재 판매 여부와 재료는 방문 전에 매장에 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/4WIpX8/%EC%97%84%EB%A7%88%EC%8B%9D%ED%83%81",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-097-m03",
+    "price": 15000,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/4WIpX8/%EC%97%84%EB%A7%88%EC%8B%9D%ED%83%81",
+      "sourceName": "뽈레",
+      "sourceKind": "platform",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "qualifier": "exact",
+      "restaurantId": "seoul-097",
+      "restaurantName": "엄마식탁",
+      "sourceAddress": "서울특별시 서대문구 연희맛로 17-21 엄마식탁",
+      "publishedMenuName": "비건 우엉덮밥",
+      "note": "외부 메뉴 페이지 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요"
+    },
+    "descriptionUpdate": {
+      "text": "외부 메뉴 페이지에 해당 메뉴명과 가격이 등록되어 있습니다. 현재 판매 여부와 재료는 방문 전에 매장에 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/4WIpX8/%EC%97%84%EB%A7%88%EC%8B%9D%ED%83%81",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-117-m01",
+    "price": 7800,
+    "priceVerification": {
+      "sourceUrl": "https://www.daangn.com/kr/local-profile/%EB%B9%84%EA%B1%B4%EB%8B%A4%EC%9B%80-%EC%A0%9C%EA%B3%BC%EC%A0%90-572t6zvvwwmq/",
+      "sourceName": "당근 업체 프로필",
+      "sourceKind": "platform",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "qualifier": "exact",
+      "restaurantId": "seoul-117",
+      "restaurantName": "비건다움 제과점",
+      "sourceAddress": "서울특별시 마포구 성암로 28 Agate 상가 104호",
+      "publishedMenuName": "비티(비건 티라미수)",
+      "note": "외부 메뉴 페이지 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요"
+    },
+    "descriptionUpdate": {
+      "text": "외부 메뉴 페이지에 해당 메뉴명과 가격이 등록되어 있습니다. 현재 판매 여부와 재료는 방문 전에 매장에 확인해 주세요.",
+      "sourceUrl": "https://www.daangn.com/kr/local-profile/%EB%B9%84%EA%B1%B4%EB%8B%A4%EC%9B%80-%EC%A0%9C%EA%B3%BC%EC%A0%90-572t6zvvwwmq/",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-028-m01",
+    "price": 6500,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=y6nVdA8bKtMg",
+      "sourceName": "다이닝코드",
+      "sourceKind": "platform",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "qualifier": "exact",
+      "restaurantId": "seoul-028",
+      "restaurantName": "국민빵집 용산 용리단길",
+      "sourceAddress": "서울특별시 용산구 한강대로62다길 27 1층",
+      "publishedMenuName": "무화과 가득",
+      "note": "외부 메뉴 페이지 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요"
+    },
+    "descriptionUpdate": {
+      "text": "외부 메뉴 페이지에 해당 메뉴명과 가격이 등록되어 있습니다. 현재 판매 여부와 재료는 방문 전에 매장에 확인해 주세요.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=y6nVdA8bKtMg",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-118-m02",
+    "price": 8500,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/4dme7G/%EB%B9%84%EB%B0%A5",
+      "sourceName": "뽈레",
+      "sourceKind": "platform",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "qualifier": "exact",
+      "restaurantId": "seoul-118",
+      "restaurantName": "비밥",
+      "sourceAddress": "서울특별시 마포구 홍익로2길 43 1층 4호",
+      "publishedMenuName": "두부(비건)비빔밥",
+      "note": "외부 메뉴 페이지 등록가 · 현장 판매 여부·가격·구성은 매장 재확인 필요"
+    },
+    "descriptionUpdate": {
+      "text": "외부 메뉴 페이지에 해당 메뉴명과 가격이 등록되어 있습니다. 현재 판매 여부와 재료는 방문 전에 매장에 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/4dme7G/%EB%B9%84%EB%B0%A5",
+      "checkedAt": "2026-10-17"
+    }
   }
 ]
+

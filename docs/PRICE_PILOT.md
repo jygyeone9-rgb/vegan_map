@@ -49,6 +49,21 @@
 - 비건마마 / 마마 아사이볼: 11,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=ccc18oLd3Mky)
 - 러빙헛리얼러브 / 비건김밥: 5,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=k2gHnwRPkEUq)
 
+## 추가 보강: 10곳 / 19개 메뉴
+
+- 꽃밥에피다 / 비건 풀코스: 59,000원 — [샵콘맵](https://shopcon.kr/view.php?id=91470)
+- 비건카페 달냥 / 두유아이스크림: 4,500원, 타이그린커리: 12,500원, 콩까스와 양배추샐러드: 12,500원 — [뽈레](https://polle.com/place/3IKYjz/%EB%8B%AC%EB%83%A5)
+- 오세계향 / 매실탕수채: 14,000원, 표고버섯말이: 24,000원, 양념치킨S: 12,000원 — [뽈레](https://polle.com/place/5BJ2P0/%EC%98%A4%EC%84%B8%EA%B3%84%ED%96%A5)
+- 비비스베지 / Chick’n Sandwich: 12,000원, Crème Fraîche Cake: 8,500원, Lemongrass Banh Mi: 14,000원 — [테이블링](https://www.tabling.co.kr/place/677cd67766de5f069891070b)
+- 지금 여기가 맨 앞 / 나물 듬뿍 파스타: 14,000원, 맨 앞 뇨끼: 21,000원, 바질 크림 리조또: 18,000원 — [뽈레](https://polle.com/place/4K1INP/%EC%A7%80%EA%B8%88%20%EC%97%AC%EA%B8%B0%EA%B0%80%20%EB%A7%A8%EC%95%9E)
+- 베지스 / 부추페스토파스타와 고사리 나물: 14,000원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=GN3V2mRhCmgd)
+- 엄마식탁 / 비건 생채비빔밥: 13,000원, 비건 우엉덮밥: 15,000원 — [뽈레](https://polle.com/place/4WIpX8/%EC%97%84%EB%A7%88%EC%8B%9D%ED%83%81)
+- 비건다움 제과점 / 비건 티라미수: 7,800원 — [당근 업체 프로필](https://www.daangn.com/kr/local-profile/%EB%B9%84%EA%B1%B4%EB%8B%A4%EC%9B%80-%EC%A0%9C%EA%B3%BC%EC%A0%90-572t6zvvwwmq/)
+- 국민빵집 용산 용리단길 / 무화과 가득: 6,500원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=y6nVdA8bKtMg)
+- 비밥 / 두부(비건)비빔밥: 8,500원 — [뽈레](https://polle.com/place/4dme7G/%EB%B9%84%EB%B0%A5)
+
+이번 추가분도 원자료의 채식 분류와 재료 확인 상태를 변경하지 않는다. 플랫폼 가격은 등록 시점과 지점·구성에 따라 현장가와 다를 수 있다.
+
 ## 대조 및 제외 사항
 
 - 채육식당 전농점과 칙피스 성수점은 지점명·주소가 일치하는 뽈레 페이지에 폐점으로 표시되어 공개 지도와 메뉴에서 제외했다. 원자료는 보존하고, 확인 근거와 날짜를 closed-restaurants.json에 남겼다.
@@ -67,4 +82,5 @@
 
 ## 다음 갱신 방법
 
-가격 변경은 menu-enrichments.json에서 해당 메뉴만 갱신하고 출처·조회일·지점·원문 메뉴명을 함께 기록한다. npm test와 npm run build로 데이터·가격 검색을 검증한다. 가격 자료 있는 메뉴만 필터로 10곳을 찾아볼 수 있다.
+가격 변경은 menu-enrichments.json에서 해당 메뉴만 갱신하고 출처·조회일·지점·원문 메뉴명을 함께 기록한다. npm test와 npm run build로 데이터·가격 검색을 검증한다. 가격 자료가 있는 메뉴만 필터로 현재 40곳을 찾아볼 수 있다.
+
