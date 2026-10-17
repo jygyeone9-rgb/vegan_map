@@ -16,7 +16,7 @@ export function isDocumented(menu) {
 }
 export function isVendorListed(menu) {
   const v = menu.verification;
-  return v?.status === 'listed' && menu.documentedDietType in dietLabels &&
+  return v?.status === 'listed' && Object.hasOwn(dietLabels, menu.documentedDietType) &&
     menu.sourceTag === 'V' && !!safeUrl(v.sourceUrl);
 }
 export function getDietTypes(menu) {
