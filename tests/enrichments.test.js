@@ -29,12 +29,12 @@ test('enrichment cannot overwrite dietary evidence or photo permission', () => {
   assert.equal(result.photoConsent, base.photoConsent);
 });
 
-test('price-only discovery returns seventy-eight restaurants and one hundred thirty-four matched menus, excluding closed locations', () => {
+test('price-only discovery returns seventy-nine restaurants and one hundred thirty-five matched menus, excluding closed locations', () => {
   const original = read('menus'), updates = read('menu-enrichments');
   const enriched = enrichMenus(original, updates);
   const rows = searchCatalog(read('restaurants'), enriched, [], {...defaults, pricedOnly:true});
-  assert.equal(rows.length, 78);
-  assert.equal(rows.flatMap(r => r.menus).length, 134);
+  assert.equal(rows.length, 79);
+  assert.equal(rows.flatMap(r => r.menus).length, 135);
   assert.ok(rows.every(r => r.menus.every(m => m.priceVerification.restaurantId === r.restaurant.id)));
   assert.equal(searchCatalog(read('restaurants'), enriched, [], {...defaults, query:'목로정원', pricedOnly:true}).length, 0);
   const lowerBound = enriched.find(m => m.priceVerification?.qualifier === 'from');

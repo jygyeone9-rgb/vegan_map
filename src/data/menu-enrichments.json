@@ -2986,5 +2986,27 @@
       "sourceUrl": "https://www.siksinhot.com/P/1718172",
       "checkedAt": "2026-10-17"
     }
+  },
+  {
+    "id": "seoul-025-m01",
+    "price": 12900,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/35xYmy/%ED%83%AD%EC%83%B5%EB%B0%94",
+      "sourceName": "뽈레",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "삼일빌딩점 주소와 공개 메뉴명이 일치하는 등록가 · 비건 여부는 확인하지 않았으며 현장 가격 확인 필요",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-025",
+      "restaurantName": "탭샵바 청계천삼일빌딩",
+      "sourceAddress": "서울 종로구 청계천로 85 삼일빌딩 지하1층",
+      "publishedMenuName": "그릴드 알배추"
+    },
+    "descriptionUpdate": {
+      "text": "공개 메뉴 자료에서 확인한 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/35xYmy/%ED%83%AD%EC%83%B5%EB%B0%94",
+      "checkedAt": "2026-10-17"
+    }
   }
 ]
