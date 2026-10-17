@@ -3426,8 +3426,7 @@
       "sourceUrl": "https://www.gangnamfinds.com/en/place/reubejiwang-senteopildeugonggan",
       "checkedAt": "2026-10-17"
     }
-  }
-,
+  },
   {
     "id": "seoul-203-m01",
     "price": 14000,
@@ -3493,8 +3492,7 @@
       "sourceUrl": "https://www.diningcode.com/profile.php?rid=cpgWbv3eMUL8",
       "checkedAt": "2026-10-17"
     }
-  }
-,
+  },
   {
     "id": "seoul-203-m02",
     "price": 19000,
@@ -3558,6 +3556,314 @@
     "descriptionUpdate": {
       "text": "공개 메뉴 자료에서 확인한 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
       "sourceUrl": "https://www.diningcode.com/profile.php?rid=NbSCVyHOAaIr",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-001-m02",
+    "price": 21000,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=bYUERUS8owGA",
+      "sourceName": "다이닝코드",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "공개 메뉴 자료에 등록된 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-001",
+      "restaurantName": "7.8 2호점",
+      "sourceAddress": "서울특별시 종로구 율곡로6길 27-5",
+      "publishedMenuName": "바질감자전"
+    },
+    "descriptionUpdate": {
+      "text": "공개 메뉴 자료에서 확인한 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=bYUERUS8owGA",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-018-m01",
+    "price": 3800,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=Un5LhB3oWP4m",
+      "sourceName": "다이닝코드",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "공개 메뉴 자료에 등록된 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-018",
+      "restaurantName": "앞으로의빵집",
+      "sourceAddress": "서울특별시 종로구 삼일대로32가길 29-1",
+      "publishedMenuName": "비건쌀소금빵"
+    },
+    "descriptionUpdate": {
+      "text": "공개 메뉴 자료에서 확인한 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=Un5LhB3oWP4m",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-026-m01",
+    "price": 17000,
+    "priceVerification": {
+      "sourceUrl": "https://autoreserve.com/ko/restaurants/wyc8AGFo6FghuV9L5s9t",
+      "sourceName": "AutoReserve",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "1인 뷔페 공개 등록가입니다. 일자별 메뉴 구성과 재료는 달라질 수 있어 방문 전 확인이 필요합니다.",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-026",
+      "restaurantName": "한과채",
+      "sourceAddress": "서울특별시 종로구 인사동10길 13",
+      "publishedMenuName": "채식뷔페"
+    },
+    "descriptionUpdate": {
+      "text": "공개 등록 자료의 1인 가격입니다. 메뉴 구성과 현재 가격은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://autoreserve.com/ko/restaurants/wyc8AGFo6FghuV9L5s9t",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-038-m02",
+    "price": 12000,
+    "priceVerification": {
+      "sourceUrl": "https://www.tabling.co.kr/place/677cd03766de5f069885a9c0",
+      "sourceName": "테이블링",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "공개 플랫폼 메뉴에 등록된 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-038",
+      "restaurantName": "바비",
+      "sourceAddress": "서울특별시 용산구 만리재로 180-1 3층, 4층",
+      "publishedMenuName": "베지볼"
+    },
+    "descriptionUpdate": {
+      "text": "공개 플랫폼 메뉴 자료에서 확인한 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://www.tabling.co.kr/place/677cd03766de5f069885a9c0",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-047-m01",
+    "price": 10000,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=pAdMkoh9MSZG",
+      "sourceName": "다이닝코드",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "서울역점 리뷰의 메뉴명 및 10,000원 언급을 기록한 공개 플랫폼 가격입니다. 후기 기재가 기준이므로 현재 판매가와 메뉴 구성은 매장에 확인해 주세요.",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-047",
+      "restaurantName": "조선보울 서울역점",
+      "sourceAddress": "서울특별시 용산구 후암로 101 1층, 조선보울(CHOSUNBOWL)",
+      "publishedMenuName": "두부면 비건 샐러드 보울(For Vegan)"
+    },
+    "descriptionUpdate": {
+      "text": "서울역점 후기에서 확인한 공개 가격 기록입니다. 현재 가격과 판매 여부는 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=pAdMkoh9MSZG",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-048-m01",
+    "price": 21000,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/3xkhpM/%EC%B9%B4%EB%AC%B4%ED%94%8C%EB%9D%BC%EC%A3%BC",
+      "sourceName": "뽈레",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "공개 플랫폼 메뉴에 등록된 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-048",
+      "restaurantName": "카무플라주",
+      "sourceAddress": "서울특별시 용산구 이태원로26길 19, 2층",
+      "publishedMenuName": "KungpaoChicken"
+    },
+    "descriptionUpdate": {
+      "text": "공개 플랫폼 메뉴 자료에서 확인한 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/3xkhpM/%EC%B9%B4%EB%AC%B4%ED%94%8C%EB%9D%BC%EC%A3%BC",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-083-m01",
+    "price": 11000,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=evqCQD50CE5z",
+      "sourceName": "다이닝코드",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "공개 플랫폼에 등록된 오늘의 밥상 가격입니다. 일자별 메뉴 구성과 현재 영업 여부는 방문 전에 확인해 주세요.",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-083",
+      "restaurantName": "전환마을부엌 밥풀꽃",
+      "sourceAddress": "서울특별시 은평구 연서로15길 8, 1층",
+      "publishedMenuName": "오늘의 밥상"
+    },
+    "descriptionUpdate": {
+      "text": "공개 플랫폼에 등록된 오늘의 밥상 가격입니다. 메뉴 구성과 현재 판매 여부는 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=evqCQD50CE5z",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-113-m03",
+    "price": 5200,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/4yjIxh/%EB%B0%80%EB%9E%91%EC%8A%A4",
+      "sourceName": "뽈레",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "말차쇼콜라 맛의 비건 쌀컵케이크에 게시된 가격입니다. 맛과 구성에 따라 가격이 다를 수 있습니다.",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-113",
+      "restaurantName": "밀랑스",
+      "sourceAddress": "서울특별시 마포구 대흥로28길 5",
+      "publishedMenuName": "비건 쌀컵케이크 말차쇼콜라"
+    },
+    "descriptionUpdate": {
+      "text": "말차쇼콜라 맛에 게시된 가격입니다. 다른 맛의 가격은 다를 수 있어 주문 전에 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/4yjIxh/%EB%B0%80%EB%9E%91%EC%8A%A4",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-128-m03",
+    "price": 13900,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=DFcX7kG0FYBK",
+      "sourceName": "다이닝코드",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "공개 메뉴 자료에 등록된 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-128",
+      "restaurantName": "아날로그가든",
+      "sourceAddress": "서울 마포구 동교로 145 1층 아날로그가든",
+      "publishedMenuName": "팔라펠 플레이트"
+    },
+    "descriptionUpdate": {
+      "text": "공개 메뉴 자료에서 확인한 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=DFcX7kG0FYBK",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-141-m01",
+    "price": 14000,
+    "priceVerification": {
+      "sourceUrl": "https://stage-kr.visitseoul.net/restaurants/CAMEL%E2%80%99SKITCHEN/KOPduew8t",
+      "sourceName": "Visit Seoul",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "공개 관광 안내 메뉴에 등록된 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-141",
+      "restaurantName": "카멜스 키친",
+      "sourceAddress": "서울특별시 마포구 포은로 52-1, 2호",
+      "publishedMenuName": "두부플라워후라이드정식"
+    },
+    "descriptionUpdate": {
+      "text": "공개 관광 안내 자료에 등록된 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://stage-kr.visitseoul.net/restaurants/CAMEL%E2%80%99SKITCHEN/KOPduew8t",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-143-m01",
+    "price": 17000,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/5yUgVO/%ED%81%B4%EB%A1%9C%EB%B2%A8%EB%A6%AC",
+      "sourceName": "뽈레",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "공개 플랫폼 메뉴에 등록된 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-143",
+      "restaurantName": "클로벨리",
+      "sourceAddress": "서울특별시 마포구 망원로 67 2층",
+      "publishedMenuName": "팔라펠 보울(비건 샐러드)"
+    },
+    "descriptionUpdate": {
+      "text": "공개 플랫폼 메뉴 자료에서 확인한 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/5yUgVO/%ED%81%B4%EB%A1%9C%EB%B2%A8%EB%A6%AC",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-197-m02",
+    "price": 10000,
+    "priceVerification": {
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=NO4SwbBqNHzN",
+      "sourceName": "다이닝코드",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "공개 메뉴 자료에 등록된 가격입니다. 메뉴 선택과 구성에 따라 실제 가격이 달라질 수 있습니다.",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-197",
+      "restaurantName": "칙피스 신사점",
+      "sourceAddress": "서울특별시 강남구 강남대로152길 69",
+      "publishedMenuName": "오리지날 허무스"
+    },
+    "descriptionUpdate": {
+      "text": "공개 메뉴 자료에서 확인한 가격입니다. 메뉴 구성과 현재 가격은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=NO4SwbBqNHzN",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-260-m01",
+    "price": 13000,
+    "priceVerification": {
+      "sourceUrl": "https://www.tabling.co.kr/place/677cc6f966de5f069873d1a0",
+      "sourceName": "테이블링",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "공개 플랫폼 메뉴에 등록된 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-260",
+      "restaurantName": "제일콩집",
+      "sourceAddress": "서울특별시 노원구 동일로174길 37-8",
+      "publishedMenuName": "진콩국수"
+    },
+    "descriptionUpdate": {
+      "text": "공개 플랫폼 메뉴 자료에서 확인한 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://www.tabling.co.kr/place/677cc6f966de5f069873d1a0",
+      "checkedAt": "2026-10-17"
+    }
+  },
+  {
+    "id": "seoul-280-m01",
+    "price": 16000,
+    "priceVerification": {
+      "sourceUrl": "https://polle.com/place/4rCcsg/%EB%A1%9C%EC%BB%AC%EB%A6%BF",
+      "sourceName": "뽈레",
+      "checkedAt": "2026-10-17",
+      "channel": "store",
+      "note": "공개 플랫폼에 게시된 메뉴 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceKind": "platform",
+      "qualifier": "exact",
+      "restaurantId": "seoul-280",
+      "restaurantName": "로컬릿",
+      "sourceAddress": "서울특별시 성동구 한림말길 33, 2층",
+      "publishedMenuName": "채소테린 플레이트"
+    },
+    "descriptionUpdate": {
+      "text": "공개 플랫폼에 게시된 메뉴 가격입니다. 현재 판매 여부와 가격은 방문 전에 확인해 주세요.",
+      "sourceUrl": "https://polle.com/place/4rCcsg/%EB%A1%9C%EC%BB%AC%EB%A6%BF",
       "checkedAt": "2026-10-17"
     }
   }

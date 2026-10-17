@@ -29,12 +29,12 @@ test('enrichment cannot overwrite dietary evidence or photo permission', () => {
   assert.equal(result.photoConsent, base.photoConsent);
 });
 
-test('price-only discovery returns eighty-six restaurants and one hundred sixty matched menus, excluding closed locations', () => {
+test('price-only discovery returns one hundred restaurants and one hundred seventy-four matched menus, excluding closed locations', () => {
   const original = read('menus'), updates = read('menu-enrichments');
   const enriched = enrichMenus(original, updates);
   const rows = searchCatalog(read('restaurants'), enriched, [], {...defaults, pricedOnly:true});
-  assert.equal(rows.length, 86);
-  assert.equal(rows.flatMap(r => r.menus).length, 160);
+  assert.equal(rows.length, 100);
+  assert.equal(rows.flatMap(r => r.menus).length, 174);
   assert.ok(rows.every(r => r.menus.every(m => m.priceVerification.restaurantId === r.restaurant.id)));
   assert.equal(searchCatalog(read('restaurants'), enriched, [], {...defaults, query:'목로정원', pricedOnly:true}).length, 0);
   const lowerBound = enriched.find(m => m.priceVerification?.qualifier === 'from');
@@ -43,4 +43,3 @@ test('price-only discovery returns eighty-six restaurants and one hundred sixty 
   assert.equal(menuMatches(original[0], {...defaults,pricedOnly:true}), false);
   assert.ok(!updates.some(u => u.id.startsWith('seoul-275-') || u.id.startsWith('seoul-293-')));
 });
-
