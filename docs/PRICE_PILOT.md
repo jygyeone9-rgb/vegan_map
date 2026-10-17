@@ -1,4 +1,4 @@
-# 가격 보강: 67곳 / 95개 메뉴
+# 가격 보강: 71곳 / 105개 메뉴
 
 2026-10-17 웹 페이지 조회 기준. 기존 10곳 / 20개 메뉴에 20곳 / 20개 메뉴를 추가했다. 업체 직접 확인을 뜻하지 않으며, 플랫폼 메뉴의 최종 갱신일은 확인되지 않았다.
 
@@ -114,7 +114,7 @@
 
 ## 다음 갱신 방법
 
-가격 변경은 menu-enrichments.json에서 해당 메뉴만 갱신하고 출처·조회일·지점·원문 메뉴명을 함께 기록한다. npm test와 npm run build로 데이터·가격 검색을 검증한다. 가격 자료가 있는 메뉴만 필터로 현재 67곳을 찾아볼 수 있다.
+가격 변경은 menu-enrichments.json에서 해당 메뉴만 갱신하고 출처·조회일·지점·원문 메뉴명을 함께 기록한다. npm test와 npm run build로 데이터·가격 검색을 검증한다. 가격 자료가 있는 메뉴만 필터로 현재 71곳을 찾아볼 수 있다.
 
 ## 추가 보강: 4곳 / 12개 메뉴
 
@@ -144,4 +144,21 @@
 - 모닐이네하우스 / 쌀 베이글(비건): 3,600원 — [빵그리의 오븐](https://develop.bbanggree.com/main/stores/8)
 - 닥터로빈 한남점 / 단호박콩크림스프: 9,900원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=y2EZBSwegZkw)
 
-현재 공개 가격 자료는 67곳의 95개 메뉴다. 가격 추가는 기존 재료 검증 상태나 채식 유형을 바꾸지 않는다.
+당시 공개 가격 자료는 67곳의 95개 메뉴였다. 가격 추가는 기존 재료 검증 상태나 채식 유형을 바꾸지 않는다.
+
+## 추가 보강: 4곳 / 10개 메뉴
+
+2026-10-17 조회 기준. 메뉴명과 지점이 대조되는 공개 가격을 추가했다. ‘부터’로 등록된 가격은 시작가로 구분해 저장했다.
+
+- 애쉬빌 베이커리 카페 / 피스타치오 케이크 (2026 리뉴얼): 8,900원 — [뽈레](https://polle.com/place/3rlPgm/%EC%95%A0%EC%89%AC%EB%B9%8C%20%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EC%B9%B4%ED%8E%98)
+- 애쉬빌 베이커리 카페 / 초코 케이크 (2025 리뉴얼): 8,600원 — [뽈레](https://polle.com/place/3rlPgm/%EC%95%A0%EC%89%AC%EB%B9%8C%20%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EC%B9%B4%ED%8E%98)
+- 애쉬빌 베이커리 카페 / 버섯 & 양파 샌드위치: 8,300원 — [뽈레](https://polle.com/place/3rlPgm/%EC%95%A0%EC%89%AC%EB%B9%8C%20%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EC%B9%B4%ED%8E%98)
+- 고사리 익스프레스 / 고사리 클래식: 11,000원 — [테이블링](https://www.tabling.co.kr/place/677cd71166de5f0698921e46)
+- 고사리 익스프레스 / 고사리 들깨 비빔면: 18,000원 — [테이블링](https://www.tabling.co.kr/place/677cd71166de5f0698921e46)
+- 고사리 익스프레스 / 고사리 누들 떡볶이: 25,000원 — [테이블링](https://www.tabling.co.kr/place/677cd71166de5f0698921e46)
+- 블루서울 / 비건 라자냐: 18,000원부터 — [당근](https://www.daangn.com/kr/local-profile/%EB%B8%94%EB%A3%A8%EC%84%9C%EC%9A%B8-2su8ihbuot7f/)
+- 블루서울 / 그릭레몬 팔라펠: 16,000원부터 — [당근](https://www.daangn.com/kr/local-profile/%EB%B8%94%EB%A3%A8%EC%84%9C%EC%9A%B8-2su8ihbuot7f/)
+- 블루서울 / 알리오 올리오: 16,000원부터 — [당근](https://www.daangn.com/kr/local-profile/%EB%B8%94%EB%A3%A8%EC%84%9C%EC%9A%B8-2su8ihbuot7f/)
+- SOUPER 광화문점 / 그릴드 베지 리코타 샌드위치: 12,500원 — [다이닝코드](https://www.diningcode.com/profile.php?rid=J5DnfWia9s1K)
+
+현재 공개 가격 자료는 71곳의 105개 메뉴다. 가격 자료는 등록가이며 현장가와 현재 판매를 보증하지 않는다.
